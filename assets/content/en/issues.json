@@ -1,0 +1,655 @@
+[
+  {
+    "issue_id": "salary_not_paid",
+    "icon": "currency_rupee",
+    "titles": {
+      "en": "Salary Not Paid",
+      "hi": "वेतन नहीं मिला"
+    },
+    "questions": [
+      {
+        "question_id": "employment_type",
+        "text": {
+          "en": "What type of employment do you have?",
+          "hi": "आपकी नौकरी किस प्रकार की है?"
+        },
+        "options": [
+          {
+            "option_id": "formal",
+            "label": { "en": "Formal (with appointment letter)", "hi": "औपचारिक (नियुक्ति पत्र के साथ)" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "informal",
+            "label": { "en": "Informal (no written contract)", "hi": "अनौपचारिक (कोई लिखित अनुबंध नहीं)" },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "duration",
+        "text": {
+          "en": "How long has your salary been pending?",
+          "hi": "आपका वेतन कितने समय से लंबित है?"
+        },
+        "options": [
+          {
+            "option_id": "less_than_month",
+            "label": { "en": "Less than 1 month", "hi": "1 महीने से कम" },
+            "next_question_index": 2
+          },
+          {
+            "option_id": "one_to_three",
+            "label": { "en": "1–3 months", "hi": "1–3 महीने" },
+            "next_question_index": 2
+          },
+          {
+            "option_id": "more_than_three",
+            "label": { "en": "More than 3 months", "hi": "3 महीने से अधिक" },
+            "next_question_index": 2
+          }
+        ]
+      },
+      {
+        "question_id": "employer_response",
+        "text": {
+          "en": "Has your employer responded to your complaints?",
+          "hi": "क्या आपके नियोक्ता ने आपकी शिकायतों का जवाब दिया है?"
+        },
+        "options": [
+          {
+            "option_id": "yes_responded",
+            "label": { "en": "Yes, but no action taken", "hi": "हाँ, लेकिन कोई कार्रवाई नहीं हुई" },
+            "next_question_index": null
+          },
+          {
+            "option_id": "no_response",
+            "label": { "en": "No response at all", "hi": "कोई जवाब नहीं" },
+            "next_question_index": null
+          },
+          {
+            "option_id": "threatened",
+            "label": { "en": "Threatened or harassed me", "hi": "मुझे धमकाया या परेशान किया" },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "Every worker in India has the right to be paid for their work. The law requires employers to pay wages on time — usually within 7 to 10 days after the pay period ends. If your employer doesn't pay you, you can file a complaint with the Labour Commissioner's office. You don't need a lawyer for this.",
+        "hi": "भारत में हर कामगार को अपने काम के लिए भुगतान पाने का अधिकार है। कानून के अनुसार नियोक्ता को समय पर वेतन देना होता है — आमतौर पर वेतन अवधि समाप्त होने के 7 से 10 दिनों के भीतर। यदि आपका नियोक्ता आपको भुगतान नहीं करता है, तो आप श्रम आयुक्त कार्यालय में शिकायत दर्ज कर सकते हैं। इसके लिए आपको वकील की आवश्यकता नहीं है।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "\"Only permanent employees can complain.\"",
+            "hi": "\"केवल स्थायी कर्मचारी शिकायत कर सकते हैं।\""
+          },
+          "fact": {
+            "en": "All workers — temporary, contract, or permanent — have the right to be paid for work done.",
+            "hi": "सभी कामगार — अस्थायी, अनुबंध, या स्थायी — को किए गए काम के लिए भुगतान पाने का अधिकार है।"
+          }
+        },
+        {
+          "myth": {
+            "en": "\"You need a lawyer to file a complaint.\"",
+            "hi": "\"शिकायत दर्ज करने के लिए वकील चाहिए।\""
+          },
+          "fact": {
+            "en": "You can file a complaint directly with the Labour Commissioner's office without a lawyer.",
+            "hi": "आप बिना वकील के सीधे श्रम आयुक्त कार्यालय में शिकायत दर्ज कर सकते हैं।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "Payment of Wages Act",
+        "Minimum Wages Act",
+        "Code on Wages, 2019"
+      ],
+      "timeline": {
+        "en": "Labour complaints are usually heard within 30–90 days. Resolution can take 3–6 months depending on the case.",
+        "hi": "श्रम शिकायतों की सुनवाई आमतौर पर 30–90 दिनों के भीतर होती है। समाधान में मामले के आधार पर 3–6 महीने लग सकते हैं।"
+      }
+    },
+    "action_steps": [
+      {
+        "title": { "en": "Collect evidence", "hi": "सबूत इकट्ठा करें" },
+        "description": {
+          "en": "Gather your appointment letter, salary slips, bank statements, and any messages from your employer about payment.",
+          "hi": "अपना नियुक्ति पत्र, वेतन पर्ची, बैंक स्टेटमेंट, और भुगतान के बारे में नियोक्ता के कोई संदेश इकट्ठा करें।"
+        }
+      },
+      {
+        "title": { "en": "Send a written notice", "hi": "लिखित नोटिस भेजें" },
+        "description": {
+          "en": "Write a formal letter or email to your employer asking for your pending salary. Keep a copy for your records.",
+          "hi": "अपने नियोक्ता को लंबित वेतन माँगते हुए एक औपचारिक पत्र या ईमेल लिखें। अपने रिकॉर्ड के लिए एक प्रति रखें।"
+        }
+      },
+      {
+        "title": { "en": "File a complaint", "hi": "शिकायत दर्ज करें" },
+        "description": {
+          "en": "Visit or write to your nearest Labour Commissioner's office. You can also file a complaint on the SHRAM Suvidha Portal (labour.gov.in).",
+          "hi": "अपने निकटतम श्रम आयुक्त कार्यालय में जाएँ या लिखें। आप श्रम सुविधा पोर्टल (labour.gov.in) पर भी शिकायत दर्ज कर सकते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Follow up", "hi": "फॉलो अप करें" },
+        "description": {
+          "en": "Keep your complaint reference number. Follow up regularly. The office will call both parties for a hearing.",
+          "hi": "अपना शिकायत संदर्भ नंबर रखें। नियमित रूप से फॉलो अप करें। कार्यालय दोनों पक्षों को सुनवाई के लिए बुलाएगा।"
+        }
+      }
+    ]
+  },
+  {
+    "issue_id": "landlord_dispute",
+    "icon": "home",
+    "titles": {
+      "en": "Landlord Dispute",
+      "hi": "मकान मालिक का विवाद"
+    },
+    "questions": [
+      {
+        "question_id": "dispute_type",
+        "text": {
+          "en": "What is the main issue with your landlord?",
+          "hi": "आपके मकान मालिक के साथ मुख्य समस्या क्या है?"
+        },
+        "options": [
+          {
+            "option_id": "illegal_eviction",
+            "label": { "en": "Trying to evict me illegally", "hi": "गैरकानूनी तरीके से बेदखल करने की कोशिश" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "security_deposit",
+            "label": { "en": "Not returning security deposit", "hi": "सुरक्षा जमा वापस नहीं कर रहा" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "rent_increase",
+            "label": { "en": "Unfair rent increase", "hi": "अनुचित किराया वृद्धि" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "basic_amenities",
+            "label": { "en": "Not providing basic amenities", "hi": "बुनियादी सुविधाएं नहीं दे रहा" },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "agreement_exists",
+        "text": {
+          "en": "Do you have a written rental agreement?",
+          "hi": "क्या आपके पास लिखित किराया समझौता है?"
+        },
+        "options": [
+          {
+            "option_id": "yes_agreement",
+            "label": { "en": "Yes, I have a rental agreement", "hi": "हाँ, मेरे पास किराया समझौता है" },
+            "next_question_index": null
+          },
+          {
+            "option_id": "no_agreement",
+            "label": { "en": "No written agreement", "hi": "कोई लिखित समझौता नहीं" },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "Tenants in India have legal protections even without a written agreement. A landlord cannot forcibly evict you — they must follow a legal process through the courts. Rent control laws in most states limit how much rent can be increased. Your security deposit must be returned when you vacate, minus any legitimate deductions for damage.",
+        "hi": "भारत में किरायेदारों को बिना लिखित समझौते के भी कानूनी सुरक्षा प्राप्त है। मकान मालिक आपको जबरन बेदखल नहीं कर सकता — उसे अदालत के माध्यम से कानूनी प्रक्रिया का पालन करना होगा। अधिकांश राज्यों में किराया नियंत्रण कानून किराया वृद्धि को सीमित करते हैं। जब आप मकान खाली करते हैं तो आपकी सुरक्षा जमा वापस की जानी चाहिए, नुकसान के लिए वैध कटौती को छोड़कर।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "\"The landlord can lock you out anytime.\"",
+            "hi": "\"मकान मालिक कभी भी आपको बाहर निकाल सकता है।\""
+          },
+          "fact": {
+            "en": "A landlord must get a court order to evict a tenant. Locking out a tenant is illegal.",
+            "hi": "किरायेदार को बेदखल करने के लिए मकान मालिक को अदालती आदेश लेना होगा। किरायेदार को बाहर बंद करना गैरकानूनी है।"
+          }
+        },
+        {
+          "myth": {
+            "en": "\"Without a written agreement, you have no rights.\"",
+            "hi": "\"बिना लिखित समझौते के आपके कोई अधिकार नहीं हैं।\""
+          },
+          "fact": {
+            "en": "Even oral agreements are recognized. Rent receipts, bank transfers, and utility bills can prove tenancy.",
+            "hi": "मौखिक समझौते भी मान्य होते हैं। किराया रसीदें, बैंक ट्रांसफर, और बिजली-पानी के बिल किरायेदारी साबित कर सकते हैं।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "Rent Control Act (state-specific)",
+        "Transfer of Property Act",
+        "Model Tenancy Act, 2021"
+      ],
+      "timeline": {
+        "en": "Rent disputes through courts can take 6 months to 2 years. Mediation through rent authorities may be faster (1–3 months).",
+        "hi": "अदालत के माध्यम से किराया विवादों में 6 महीने से 2 साल लग सकते हैं। किराया प्राधिकरण के माध्यम से मध्यस्थता तेज़ हो सकती है (1–3 महीने)।"
+      }
+    },
+    "action_steps": [
+      {
+        "title": { "en": "Document everything", "hi": "सब कुछ दस्तावेज़ करें" },
+        "description": {
+          "en": "Keep copies of your rental agreement, rent receipts, bank transfers, and any messages or notices from your landlord.",
+          "hi": "अपने किराया समझौते, किराये की रसीदें, बैंक ट्रांसफर, और मकान मालिक से कोई संदेश या नोटिस की प्रतियाँ रखें।"
+        }
+      },
+      {
+        "title": { "en": "Send a written notice", "hi": "लिखित नोटिस भेजें" },
+        "description": {
+          "en": "Send a formal notice to your landlord stating your grievance. Use registered post or email so you have proof.",
+          "hi": "अपने मकान मालिक को अपनी शिकायत बताते हुए औपचारिक नोटिस भेजें। रजिस्टर्ड डाक या ईमेल का उपयोग करें ताकि आपके पास प्रमाण हो।"
+        }
+      },
+      {
+        "title": { "en": "Approach rent authority", "hi": "किराया प्राधिकरण से संपर्क करें" },
+        "description": {
+          "en": "Visit your local Rent Controller or Rent Authority office to file a complaint. Carry your documents.",
+          "hi": "शिकायत दर्ज करने के लिए अपने स्थानीय किराया नियंत्रक या किराया प्राधिकरण कार्यालय में जाएँ। अपने दस्तावेज़ साथ ले जाएँ।"
+        }
+      },
+      {
+        "title": { "en": "File a police complaint if threatened", "hi": "धमकी मिलने पर पुलिस शिकायत दर्ज करें" },
+        "description": {
+          "en": "If your landlord threatens you, cuts off water/electricity, or tries to forcibly enter, file an FIR at your nearest police station.",
+          "hi": "यदि आपका मकान मालिक आपको धमकाता है, पानी/बिजली काटता है, या जबरन प्रवेश करने की कोशिश करता है, तो अपने नज़दीकी पुलिस स्टेशन में FIR दर्ज करें।"
+        }
+      }
+    ]
+  },
+  {
+    "issue_id": "online_fraud",
+    "icon": "security",
+    "titles": {
+      "en": "Online Fraud",
+      "hi": "ऑनलाइन धोखाधड़ी"
+    },
+    "questions": [
+      {
+        "question_id": "fraud_type",
+        "text": {
+          "en": "What type of online fraud happened?",
+          "hi": "किस प्रकार की ऑनलाइन धोखाधड़ी हुई?"
+        },
+        "options": [
+          {
+            "option_id": "banking_fraud",
+            "label": { "en": "Unauthorized bank/UPI transaction", "hi": "अनधिकृत बैंक/UPI लेनदेन" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "shopping_fraud",
+            "label": { "en": "Online shopping scam", "hi": "ऑनलाइन शॉपिंग घोटाला" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "phishing",
+            "label": { "en": "Phishing / fake website", "hi": "फ़िशिंग / नकली वेबसाइट" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "social_media",
+            "label": { "en": "Social media scam", "hi": "सोशल मीडिया घोटाला" },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "money_lost",
+        "text": {
+          "en": "Did you lose money?",
+          "hi": "क्या आपका पैसा गया?"
+        },
+        "options": [
+          {
+            "option_id": "yes_money",
+            "label": { "en": "Yes, money was taken from my account", "hi": "हाँ, मेरे खाते से पैसा निकला" },
+            "next_question_index": null
+          },
+          {
+            "option_id": "no_money",
+            "label": { "en": "No financial loss yet", "hi": "अभी तक कोई आर्थिक नुकसान नहीं" },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "If you've been a victim of online fraud, you have legal options. India has strong cyber crime laws that protect victims. The most important thing is to report the fraud quickly — the sooner you report, the better the chance of recovering your money. You can report online fraud on the national cybercrime portal without visiting a police station.",
+        "hi": "यदि आप ऑनलाइन धोखाधड़ी के शिकार हुए हैं, तो आपके पास कानूनी विकल्प हैं। भारत में मजबूत साइबर अपराध कानून हैं जो पीड़ितों की रक्षा करते हैं। सबसे महत्वपूर्ण बात यह है कि धोखाधड़ी की जल्द से जल्द रिपोर्ट करें — जितनी जल्दी रिपोर्ट करेंगे, पैसे वापस मिलने की संभावना उतनी बेहतर होगी। आप पुलिस स्टेशन जाए बिना राष्ट्रीय साइबर अपराध पोर्टल पर ऑनलाइन धोखाधड़ी की रिपोर्ट कर सकते हैं।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "\"Police won't take online fraud seriously.\"",
+            "hi": "\"पुलिस ऑनलाइन धोखाधड़ी को गंभीरता से नहीं लेगी।\""
+          },
+          "fact": {
+            "en": "Cyber crime cells are active in every state. You can also file complaints online at cybercrime.gov.in.",
+            "hi": "हर राज्य में साइबर अपराध सेल सक्रिय हैं। आप cybercrime.gov.in पर ऑनलाइन शिकायत भी दर्ज कर सकते हैं।"
+          }
+        },
+        {
+          "myth": {
+            "en": "\"If I shared my OTP, I can't complain.\"",
+            "hi": "\"अगर मैंने OTP शेयर किया, तो मैं शिकायत नहीं कर सकता।\""
+          },
+          "fact": {
+            "en": "You can still file a complaint. Sharing OTP under deception is recognized as fraud by law.",
+            "hi": "आप फिर भी शिकायत दर्ज कर सकते हैं। धोखे से OTP शेयर कराना कानून द्वारा धोखाधड़ी माना जाता है।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "Information Technology Act",
+        "Indian Penal Code (Cheating provisions)",
+        "RBI Guidelines on Unauthorized Transactions"
+      ],
+      "timeline": {
+        "en": "Report within 3 days for the best chance of a refund from your bank. Cyber crime investigations typically take 1–6 months.",
+        "hi": "अपने बैंक से रिफंड की सबसे अच्छी संभावना के लिए 3 दिनों के भीतर रिपोर्ट करें। साइबर अपराध जांच में आमतौर पर 1–6 महीने लगते हैं।"
+      }
+    },
+    "action_steps": [
+      {
+        "title": { "en": "Report to your bank immediately", "hi": "तुरंत अपने बैंक को रिपोर्ट करें" },
+        "description": {
+          "en": "Call your bank's customer care and report the unauthorized transaction. Ask them to block your card/account. Note the complaint reference number.",
+          "hi": "अपने बैंक की कस्टमर केयर पर कॉल करें और अनधिकृत लेनदेन की रिपोर्ट करें। उनसे अपना कार्ड/खाता ब्लॉक करने को कहें। शिकायत संदर्भ नंबर नोट करें।"
+        }
+      },
+      {
+        "title": { "en": "File complaint on cybercrime.gov.in", "hi": "cybercrime.gov.in पर शिकायत दर्ज करें" },
+        "description": {
+          "en": "Visit the National Cyber Crime Reporting Portal (cybercrime.gov.in). Select 'Financial Fraud' and fill in the details. You'll get a complaint number.",
+          "hi": "राष्ट्रीय साइबर अपराध रिपोर्टिंग पोर्टल (cybercrime.gov.in) पर जाएँ। 'वित्तीय धोखाधड़ी' चुनें और विवरण भरें। आपको शिकायत नंबर मिलेगा।"
+        }
+      },
+      {
+        "title": { "en": "Call 1930 (Cyber Crime Helpline)", "hi": "1930 पर कॉल करें (साइबर अपराध हेल्पलाइन)" },
+        "description": {
+          "en": "Call the national cyber crime helpline 1930. They can help freeze the fraudster's account and speed up the process.",
+          "hi": "राष्ट्रीय साइबर अपराध हेल्पलाइन 1930 पर कॉल करें। वे धोखेबाज़ का खाता फ्रीज़ करने और प्रक्रिया तेज़ करने में मदद कर सकते हैं।"
+        }
+      },
+      {
+        "title": { "en": "Save all evidence", "hi": "सभी सबूत सहेजें" },
+        "description": {
+          "en": "Take screenshots of transaction messages, emails, fake websites, and chat conversations. Do not delete anything.",
+          "hi": "लेनदेन संदेशों, ईमेल, नकली वेबसाइटों और चैट वार्तालापों के स्क्रीनशॉट लें। कुछ भी न हटाएँ।"
+        }
+      }
+    ]
+  },
+  {
+    "issue_id": "consumer_complaint",
+    "icon": "receipt_long",
+    "titles": {
+      "en": "Consumer Complaint",
+      "hi": "उपभोक्ता शिकायत"
+    },
+    "questions": [
+      {
+        "question_id": "complaint_type",
+        "text": {
+          "en": "What is your consumer complaint about?",
+          "hi": "आपकी उपभोक्ता शिकायत किस बारे में है?"
+        },
+        "options": [
+          {
+            "option_id": "defective_product",
+            "label": { "en": "Defective product", "hi": "दोषपूर्ण उत्पाद" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "poor_service",
+            "label": { "en": "Poor service", "hi": "खराब सेवा" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "overcharging",
+            "label": { "en": "Overcharging / hidden fees", "hi": "अत्यधिक शुल्क / छिपे शुल्क" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "false_advertising",
+            "label": { "en": "False advertising", "hi": "झूठा विज्ञापन" },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "amount_involved",
+        "text": {
+          "en": "What is the approximate amount involved?",
+          "hi": "शामिल राशि लगभग कितनी है?"
+        },
+        "options": [
+          {
+            "option_id": "under_1_lakh",
+            "label": { "en": "Under ₹1 lakh", "hi": "₹1 लाख से कम" },
+            "next_question_index": null
+          },
+          {
+            "option_id": "1_to_10_lakh",
+            "label": { "en": "₹1 lakh – ₹10 lakh", "hi": "₹1 लाख – ₹10 लाख" },
+            "next_question_index": null
+          },
+          {
+            "option_id": "above_10_lakh",
+            "label": { "en": "Above ₹10 lakh", "hi": "₹10 लाख से ऊपर" },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "As a consumer in India, you have the right to be protected against defective goods, unfair trade practices, and misleading advertisements. Consumer courts are designed to be simple and quick. You can file a complaint yourself — a lawyer is not required. Cases under ₹5 lakh have no court fee.",
+        "hi": "भारत में एक उपभोक्ता के रूप में, आपको दोषपूर्ण सामान, अनुचित व्यापार प्रथाओं और भ्रामक विज्ञापनों से संरक्षित होने का अधिकार है। उपभोक्ता अदालतें सरल और त्वरित होने के लिए बनाई गई हैं। आप स्वयं शिकायत दर्ज कर सकते हैं — वकील आवश्यक नहीं है। ₹5 लाख से कम के मामलों में कोई कोर्ट फीस नहीं है।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "\"Consumer courts are only for big cases.\"",
+            "hi": "\"उपभोक्ता अदालतें केवल बड़े मामलों के लिए हैं।\""
+          },
+          "fact": {
+            "en": "You can file a complaint for any amount. Consumer courts handle complaints from a few hundred to crores of rupees.",
+            "hi": "आप किसी भी राशि के लिए शिकायत दर्ज कर सकते हैं। उपभोक्ता अदालतें कुछ सौ से लेकर करोड़ों रुपये तक की शिकायतें सुनती हैं।"
+          }
+        },
+        {
+          "myth": {
+            "en": "\"You must have the original bill.\"",
+            "hi": "\"आपके पास मूल बिल होना चाहिए।\""
+          },
+          "fact": {
+            "en": "Digital receipts, bank statements, and even screenshots of online orders are accepted as proof.",
+            "hi": "डिजिटल रसीदें, बैंक स्टेटमेंट, और ऑनलाइन ऑर्डर के स्क्रीनशॉट भी प्रमाण के रूप में स्वीकार किए जाते हैं।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "Consumer Protection Act, 2019",
+        "E-Commerce Rules, 2020"
+      ],
+      "timeline": {
+        "en": "Consumer courts must resolve complaints within 3–5 months. E-filing on consumerhelpline.gov.in is available 24/7.",
+        "hi": "उपभोक्ता अदालतों को 3–5 महीने के भीतर शिकायतों का समाधान करना होता है। consumerhelpline.gov.in पर ई-फाइलिंग 24/7 उपलब्ध है।"
+      }
+    },
+    "action_steps": [
+      {
+        "title": { "en": "Contact the seller first", "hi": "पहले विक्रेता से संपर्क करें" },
+        "description": {
+          "en": "Write to the seller or company with your complaint. Give them 15 days to respond. Keep a copy of your communication.",
+          "hi": "विक्रेता या कंपनी को अपनी शिकायत लिखें। उन्हें जवाब देने के लिए 15 दिन दें। अपने संवाद की प्रति रखें।"
+        }
+      },
+      {
+        "title": { "en": "Call 1800-11-4000", "hi": "1800-11-4000 पर कॉल करें" },
+        "description": {
+          "en": "Call the National Consumer Helpline (toll-free). They can mediate with the company on your behalf.",
+          "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन (टोल-फ्री) पर कॉल करें। वे आपकी ओर से कंपनी के साथ मध्यस्थता कर सकते हैं।"
+        }
+      },
+      {
+        "title": { "en": "File on consumer helpline portal", "hi": "उपभोक्ता हेल्पलाइन पोर्टल पर दर्ज करें" },
+        "description": {
+          "en": "Register your complaint at consumerhelpline.gov.in or through the UMANG app. Upload your bills and evidence.",
+          "hi": "consumerhelpline.gov.in पर या UMANG ऐप के माध्यम से अपनी शिकायत दर्ज करें। अपने बिल और सबूत अपलोड करें।"
+        }
+      },
+      {
+        "title": { "en": "File in consumer court", "hi": "उपभोक्ता अदालत में दर्ज करें" },
+        "description": {
+          "en": "If the company doesn't resolve your issue, file a case in the District Consumer Forum. You can do this online at edaakhil.nic.in.",
+          "hi": "यदि कंपनी आपकी समस्या का समाधान नहीं करती, तो जिला उपभोक्ता फोरम में मामला दर्ज करें। आप यह edaakhil.nic.in पर ऑनलाइन कर सकते हैं।"
+        }
+      }
+    ]
+  },
+  {
+    "issue_id": "police_issue",
+    "icon": "local_police",
+    "titles": {
+      "en": "Police Issue",
+      "hi": "पुलिस संबंधित समस्या"
+    },
+    "questions": [
+      {
+        "question_id": "police_issue_type",
+        "text": {
+          "en": "What is your issue with the police?",
+          "hi": "पुलिस के साथ आपकी क्या समस्या है?"
+        },
+        "options": [
+          {
+            "option_id": "fir_refused",
+            "label": { "en": "Police refused to file my FIR", "hi": "पुलिस ने मेरी FIR दर्ज करने से मना किया" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "illegal_detention",
+            "label": { "en": "Illegal detention / arrest", "hi": "गैरकानूनी हिरासत / गिरफ्तारी" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "harassment",
+            "label": { "en": "Police harassment", "hi": "पुलिस उत्पीड़न" },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "no_action",
+            "label": { "en": "FIR filed but no action taken", "hi": "FIR दर्ज लेकिन कोई कार्रवाई नहीं" },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "urgency",
+        "text": {
+          "en": "How urgent is the situation?",
+          "hi": "स्थिति कितनी अत्यावश्यक है?"
+        },
+        "options": [
+          {
+            "option_id": "someone_detained",
+            "label": { "en": "Someone is currently detained", "hi": "कोई वर्तमान में हिरासत में है" },
+            "next_question_index": null
+          },
+          {
+            "option_id": "ongoing_threat",
+            "label": { "en": "There is an ongoing threat", "hi": "लगातार खतरा बना हुआ है" },
+            "next_question_index": null
+          },
+          {
+            "option_id": "past_incident",
+            "label": { "en": "This is about a past incident", "hi": "यह पिछली घटना के बारे में है" },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "You have important rights when dealing with the police. The police MUST register your FIR — refusing is a punishable offense. If arrested, you must be told the reason. You have the right to make a phone call. You cannot be detained for more than 24 hours without being produced before a magistrate. You can file a complaint against police misconduct.",
+        "hi": "पुलिस से निपटते समय आपके महत्वपूर्ण अधिकार हैं। पुलिस को आपकी FIR दर्ज करनी ही होगी — मना करना दंडनीय अपराध है। गिरफ्तार होने पर आपको कारण बताया जाना चाहिए। आपको फोन कॉल करने का अधिकार है। आपको मजिस्ट्रेट के सामने पेश किए बिना 24 घंटे से अधिक हिरासत में नहीं रखा जा सकता। आप पुलिस दुर्व्यवहार के खिलाफ शिकायत दर्ज कर सकते हैं।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "\"Police can arrest you without giving a reason.\"",
+            "hi": "\"पुलिस बिना कारण बताए गिरफ्तार कर सकती है।\""
+          },
+          "fact": {
+            "en": "The police must inform you of the grounds of arrest and your right to bail.",
+            "hi": "पुलिस को आपको गिरफ्तारी के आधार और ज़मानत के आपके अधिकार की जानकारी देनी होगी।"
+          }
+        },
+        {
+          "myth": {
+            "en": "\"You can't complain against the police.\"",
+            "hi": "\"आप पुलिस के खिलाफ शिकायत नहीं कर सकते।\""
+          },
+          "fact": {
+            "en": "You can complain to the Superintendent of Police, State Human Rights Commission, or a court.",
+            "hi": "आप पुलिस अधीक्षक, राज्य मानवाधिकार आयोग, या अदालत में शिकायत कर सकते हैं।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "Code of Criminal Procedure",
+        "Indian Penal Code",
+        "Protection of Human Rights Act"
+      ],
+      "timeline": {
+        "en": "An FIR must be registered immediately. A person must be produced before a magistrate within 24 hours of arrest. Complaints against police are typically investigated within 30–60 days.",
+        "hi": "FIR तुरंत दर्ज होनी चाहिए। गिरफ्तारी के 24 घंटे के भीतर व्यक्ति को मजिस्ट्रेट के सामने पेश किया जाना चाहिए। पुलिस के खिलाफ शिकायतों की जांच आमतौर पर 30–60 दिनों में होती है।"
+      }
+    },
+    "action_steps": [
+      {
+        "title": { "en": "Know your rights", "hi": "अपने अधिकार जानें" },
+        "description": {
+          "en": "If arrested: ask for the reason, demand to call a family member, and do not sign anything you don't understand.",
+          "hi": "यदि गिरफ्तार हों: कारण पूछें, परिवार के सदस्य को कॉल करने की माँग करें, और जो समझ न आए उस पर हस्ताक्षर न करें।"
+        }
+      },
+      {
+        "title": { "en": "File FIR or Zero FIR", "hi": "FIR या ज़ीरो FIR दर्ज करें" },
+        "description": {
+          "en": "You can file a 'Zero FIR' at any police station regardless of where the incident happened. The police must accept it.",
+          "hi": "आप घटना कहीं भी हुई हो, किसी भी पुलिस स्टेशन में 'ज़ीरो FIR' दर्ज कर सकते हैं। पुलिस को इसे स्वीकार करना होगा।"
+        }
+      },
+      {
+        "title": { "en": "Send complaint to senior officer", "hi": "वरिष्ठ अधिकारी को शिकायत भेजें" },
+        "description": {
+          "en": "If police refuse to register your FIR, send a written complaint to the Superintendent of Police (SP) by post or email.",
+          "hi": "यदि पुलिस FIR दर्ज करने से मना करती है, तो डाक या ईमेल द्वारा पुलिस अधीक्षक (SP) को लिखित शिकायत भेजें।"
+        }
+      },
+      {
+        "title": { "en": "Approach the magistrate", "hi": "मजिस्ट्रेट से संपर्क करें" },
+        "description": {
+          "en": "If the SP also doesn't help, you can approach the local Judicial Magistrate directly to order FIR registration.",
+          "hi": "यदि SP भी मदद नहीं करता, तो आप FIR दर्ज करने का आदेश देने के लिए सीधे स्थानीय न्यायिक मजिस्ट्रेट से संपर्क कर सकते हैं।"
+        }
+      }
+    ]
+  }
+]

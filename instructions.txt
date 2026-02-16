@@ -1,0 +1,132 @@
+You are a senior Flutter engineer building a production-quality, socially impactful mobile application called “Know Your Rights”.
+
+GOAL:
+Build a Flutter mobile app (Android-first) that provides plain-language legal awareness for Indian users. The app explains basic legal rights and step-by-step actions for common real-life situations. This is NOT a lawyer consultation app and must NOT provide legal advice.
+
+CORE PRINCIPLES:
+- Simplicity over complexity
+- Offline-first design
+- Plain language (12th-grade readable)
+- No heavy backend in MVP
+- Scalable content-driven architecture
+- Ethical, privacy-first implementation
+
+TECH STACK:
+- Flutter (latest stable)
+- Dart
+- State management: Riverpod
+- Local storage: Hive
+- Localization: Flutter intl
+- Content source: local JSON files (initially)
+- Platform: Android (iOS later)
+
+ARCHITECTURE REQUIREMENTS:
+Use a clean, modular architecture:
+- presentation/
+- application/
+- domain/
+- data/
+
+Follow separation of concerns strictly.
+No business logic inside UI widgets.
+
+APP FLOW:
+1. Language Selection Screen
+   - English, Hindi (others later)
+   - Persist language choice locally
+
+2. Home Screen (“What happened?”)
+   - Large, accessible buttons for issues:
+     - Salary not paid
+     - Landlord dispute
+     - Online fraud
+     - Consumer complaint
+     - Police issue
+   - No text input in MVP
+
+3. Issue Flow Screen
+   - Step-by-step decision flow using predefined questions
+   - Each question has selectable options only
+   - Progress indicator (Step 1 / Step 2 / Step 3)
+
+4. Rights Explanation Screen
+   - Plain-language explanation of:
+     - What the law says
+     - Common myths (clearly marked)
+     - Typical timelines
+   - Avoid legal jargon
+
+5. Action Steps Screen
+   - Clear numbered steps:
+     - What to do first
+     - What documents to collect
+     - Where to approach (generic, not city-specific)
+   - End with a disclaimer:
+     “This is general legal awareness, not legal advice.”
+
+CONTENT STRUCTURE:
+All legal content must come from JSON files.
+Design a scalable JSON schema that supports:
+- issue_id
+- localized titles
+- questions with options
+- explanations
+- myths
+- applicable laws (names only, no sections)
+- action steps
+
+Example (conceptual):
+{
+  "issue_id": "salary_not_paid",
+  "questions": [...],
+  "content": {...}
+}
+
+LOCALIZATION:
+- Use intl properly
+- No hardcoded strings in widgets
+- Language files must be easy to extend
+
+UI REQUIREMENTS:
+- Clean, minimal UI
+- High contrast
+- Large tap targets
+- No ads
+- No login required
+- No personal data collection
+
+STATE MANAGEMENT:
+- Use Riverpod for:
+  - App language
+  - Current issue flow
+  - User progress in decision tree
+  - Bookmarked issues (optional)
+
+NON-GOALS (IMPORTANT):
+- Do NOT add lawyer chat
+- Do NOT generate legal advice
+- Do NOT use AI for legal interpretation
+- Do NOT add payment or authentication in MVP
+
+DELIVERABLE EXPECTATIONS:
+- Scaffold the project properly
+- Suggest folder structure
+- Create models for issues, questions, and steps
+- Build reusable UI components
+- Write clean, readable Dart code with comments explaining intent (not obvious syntax)
+
+DEVELOPMENT STYLE:
+- Think before coding
+- Explain architectural decisions briefly
+- Prefer maintainability over cleverness
+- Assume this app may scale to millions of users
+
+Start by:
+1. Proposing the folder structure
+2. Defining core models
+3. Implementing language selection
+4. Loading and parsing JSON content
+5. Building the home screen
+
+Ask clarifying questions ONLY if absolutely necessary.
+Otherwise, make reasonable assumptions and proceed.

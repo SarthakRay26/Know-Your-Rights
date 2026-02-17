@@ -1,0 +1,107 @@
+You are a senior Flutter engineer building a chat-based user interface for a legal awareness app called “Know Your Rights”.
+
+CONTEXT:
+- Backend is already deployed and documented.
+- Backend endpoint: POST /api/classify
+- Input: free-text problem description
+- Output: { issue_id, confidence, fallback }
+- Backend performs ONLY classification (no advice).
+
+GOAL:
+Build a clean, accessible, chat-style interface where users can describe their problem in natural language and be guided safely into the correct legal awareness flow.
+
+IMPORTANT PRINCIPLES:
+- This is NOT a chatbot that gives answers.
+- This is a guided intake + routing interface.
+- AI output must NEVER be shown directly.
+- User trust and control are critical.
+
+TECH STACK:
+- Flutter
+- Dart
+- State management: Riverpod
+- HTTP client: Dio (or http)
+- Existing legal flows are stored locally as JSON
+- App already supports manual issue selection
+
+CHAT UX FLOW:
+1. App starts with a system message:
+   “Describe what happened. You can write in simple words.”
+
+2. User types a message and sends it.
+   - Message appears immediately in chat (optimistic UI).
+   - Show a typing/loading indicator from system.
+
+3. App calls backend /api/classify with the user text.
+
+4. Handle response:
+   a) If fallback == true OR confidence < threshold:
+      - System message:
+        “I couldn’t clearly understand the issue.”
+      - Show buttons:
+        - Choose from list
+        - Try rephrasing
+
+   b) If classification succeeds:
+      - System message:
+        “This seems related to: <human readable issue name>”
+      - Ask for confirmation:
+        - “Yes, that’s correct”
+        - “No, choose a different issue”
+
+5. If user confirms:
+   - Exit chat mode
+   - Navigate to existing decision-tree / rights flow for that issue_id
+
+6. If user rejects:
+   - Navigate to manual issue selection screen
+
+CHAT UI REQUIREMENTS:
+- Message bubbles (user on right, system on left)
+- Clear visual difference between user and system
+- System messages must be calm, neutral, and non-legal
+- No long paragraphs
+- Support multiline input
+- Disable send button while waiting for backend
+
+STATE MANAGEMENT:
+Use Riverpod to manage:
+- List of chat messages
+- Loading / typing state
+- Classification result
+- Confidence threshold
+- Navigation decision
+
+DATA MODELS:
+Define:
+- ChatMessage { id, text, sender, timestamp }
+- Sender enum: user | system
+
+ERROR HANDLING:
+- If API fails or times out:
+  - Add system message:
+    “Something went wrong. You can choose the issue manually.”
+- Never show stack traces or raw errors
+- App must always allow user to proceed manually
+
+NON-GOALS (DO NOT IMPLEMENT):
+- No AI-generated replies
+- No legal explanations in chat
+- No conversation memory beyond this intake
+- No user authentication
+- No storing chat history permanently
+
+CODE QUALITY REQUIREMENTS:
+- Separate UI, state, and services
+- No API calls directly in widgets
+- Clean, readable Dart
+- Comments explaining intent (not syntax)
+
+START BY:
+1. Designing the chat screen UI
+2. Creating chat state provider
+3. Implementing message send flow
+4. Integrating backend classification service
+5. Implementing confirmation logic and navigation
+
+Make reasonable assumptions and proceed without asking questions unless absolutely necessary.

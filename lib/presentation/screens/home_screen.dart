@@ -44,6 +44,14 @@ class HomeScreen extends ConsumerWidget {
           data: (issues) => _IssueGrid(issues: issues, locale: locale),
         ),
       ),
+      // FAB to launch chat-based problem description
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () {
+          Navigator.of(context).pushNamed('/chat');
+        },
+        icon: const Icon(Icons.chat_rounded),
+        label: Text(AppStrings.get(locale, 'describe_problem')),
+      ),
     );
   }
 }

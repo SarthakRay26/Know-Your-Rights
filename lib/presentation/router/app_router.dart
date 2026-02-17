@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/issue.dart';
 import '../screens/action_steps_screen.dart';
+import '../screens/chat_screen.dart';
 import '../screens/home_screen.dart';
 import '../screens/issue_flow_screen.dart';
 import '../screens/language_selection_screen.dart';
@@ -21,6 +22,12 @@ class AppRouter {
       case '/home':
         return MaterialPageRoute(
           builder: (_) => const HomeScreen(),
+          settings: settings,
+        );
+
+      case '/chat':
+        return MaterialPageRoute(
+          builder: (_) => const ChatScreen(),
           settings: settings,
         );
 

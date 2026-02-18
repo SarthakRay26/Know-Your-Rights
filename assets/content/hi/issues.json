@@ -4,24 +4,26 @@
     "icon": "currency_rupee",
     "titles": {
       "en": "Salary Not Paid",
-      "hi": "वेतन नहीं मिला"
+      "hi": "वेतन नहीं मिला",
+      "bn": "বেতন পাওয়া যায়নি"
     },
     "questions": [
       {
         "question_id": "employment_type",
         "text": {
           "en": "What type of employment do you have?",
-          "hi": "आपकी नौकरी किस प्रकार की है?"
+          "hi": "आपकी नौकरी किस प्रकार की है?",
+          "bn": "আপনার চাকরি কোন ধরনের?"
         },
         "options": [
           {
             "option_id": "formal",
-            "label": { "en": "Formal (with appointment letter)", "hi": "औपचारिक (नियुक्ति पत्र के साथ)" },
+            "label": { "en": "Formal (with appointment letter)", "hi": "औपचारिक (नियुक्ति पत्र के साथ)", "bn": "আনুষ্ঠানিক (নিয়োগপত্র সহ)" },
             "next_question_index": 1
           },
           {
             "option_id": "informal",
-            "label": { "en": "Informal (no written contract)", "hi": "अनौपचारिक (कोई लिखित अनुबंध नहीं)" },
+            "label": { "en": "Informal (no written contract)", "hi": "अनौपचारिक (कोई लिखित अनुबंध नहीं)", "bn": "অনানুষ্ঠানিক (কোনো লিখিত চুক্তি নেই)" },
             "next_question_index": 1
           }
         ]
@@ -30,22 +32,23 @@
         "question_id": "duration",
         "text": {
           "en": "How long has your salary been pending?",
-          "hi": "आपका वेतन कितने समय से लंबित है?"
+          "hi": "आपका वेतन कितने समय से लंबित है?",
+          "bn": "আপনার বেতন কতদিন ধরে বকেয়া আছে?"
         },
         "options": [
           {
             "option_id": "less_than_month",
-            "label": { "en": "Less than 1 month", "hi": "1 महीने से कम" },
+            "label": { "en": "Less than 1 month", "hi": "1 महीने से कम", "bn": "১ মাসের কম" },
             "next_question_index": 2
           },
           {
             "option_id": "one_to_three",
-            "label": { "en": "1–3 months", "hi": "1–3 महीने" },
+            "label": { "en": "1–3 months", "hi": "1–3 महीने", "bn": "১–৩ মাস" },
             "next_question_index": 2
           },
           {
             "option_id": "more_than_three",
-            "label": { "en": "More than 3 months", "hi": "3 महीने से अधिक" },
+            "label": { "en": "More than 3 months", "hi": "3 महीने से अधिक", "bn": "৩ মাসের বেশি" },
             "next_question_index": 2
           }
         ]
@@ -54,22 +57,23 @@
         "question_id": "employer_response",
         "text": {
           "en": "Has your employer responded to your complaints?",
-          "hi": "क्या आपके नियोक्ता ने आपकी शिकायतों का जवाब दिया है?"
+          "hi": "क्या आपके नियोक्ता ने आपकी शिकायतों का जवाब दिया है?",
+          "bn": "আপনার নিয়োগকর্তা কি আপনার অভিযোগের উত্তর দিয়েছেন?"
         },
         "options": [
           {
             "option_id": "yes_responded",
-            "label": { "en": "Yes, but no action taken", "hi": "हाँ, लेकिन कोई कार्रवाई नहीं हुई" },
+            "label": { "en": "Yes, but no action taken", "hi": "हाँ, लेकिन कोई कार्रवाई नहीं हुई", "bn": "হ্যাঁ, কিন্তু কোনো পদক্ষেপ নেওয়া হয়নি" },
             "next_question_index": null
           },
           {
             "option_id": "no_response",
-            "label": { "en": "No response at all", "hi": "कोई जवाब नहीं" },
+            "label": { "en": "No response at all", "hi": "कोई जवाब नहीं", "bn": "কোনো উত্তর নেই" },
             "next_question_index": null
           },
           {
             "option_id": "threatened",
-            "label": { "en": "Threatened or harassed me", "hi": "मुझे धमकाया या परेशान किया" },
+            "label": { "en": "Threatened or harassed me", "hi": "मुझे धमकाया या परेशान किया", "bn": "আমাকে ধমক দিয়েছে বা হয়রানি করেছে" },
             "next_question_index": null
           }
         ]
@@ -78,27 +82,32 @@
     "content": {
       "explanation": {
         "en": "Every worker in India has the right to be paid for their work. The law requires employers to pay wages on time — usually within 7 to 10 days after the pay period ends. If your employer doesn't pay you, you can file a complaint with the Labour Commissioner's office. You don't need a lawyer for this.",
-        "hi": "भारत में हर कामगार को अपने काम के लिए भुगतान पाने का अधिकार है। कानून के अनुसार नियोक्ता को समय पर वेतन देना होता है — आमतौर पर वेतन अवधि समाप्त होने के 7 से 10 दिनों के भीतर। यदि आपका नियोक्ता आपको भुगतान नहीं करता है, तो आप श्रम आयुक्त कार्यालय में शिकायत दर्ज कर सकते हैं। इसके लिए आपको वकील की आवश्यकता नहीं है।"
+        "hi": "भारत में हर कामगार को अपने काम के लिए भुगतान पाने का अधिकार है। कानून के अनुसार नियोक्ता को समय पर वेतन देना होता है — आमतौर पर वेतन अवधि समाप्त होने के 7 से 10 दिनों के भीतर। यदि आपका नियोक्ता आपको भुगतान नहीं करता है, तो आप श्रम आयुक्त कार्यालय में शिकायत दर्ज कर सकते हैं। इसके लिए आपको वकील की आवश्यकता नहीं है।",
+        "bn": "ভারতে প্রতিটি শ্রমিকের তাদের কাজের জন্য বেতন পাওয়ার অধিকার আছে। আইন অনুযায়ী নিয়োগকর্তাকে সময়মতো বেতন দিতে হবে — সাধারণত বেতনকাল শেষ হওয়ার ৭ থেকে ১০ দিনের মধ্যে। যদি আপনার নিয়োগকর্তা আপনাকে বেতন না দেন, তাহলে আপনি শ্রম কমিশনারের কার্যালয়ে অভিযোগ দায়ের করতে পারেন। এর জন্য আপনার উকিলের প্রয়োজন নেই।"
       },
       "myths": [
         {
           "myth": {
             "en": "\"Only permanent employees can complain.\"",
-            "hi": "\"केवल स्थायी कर्मचारी शिकायत कर सकते हैं।\""
+            "hi": "\"केवल स्थायी कर्मचारी शिकायत कर सकते हैं।\"",
+            "bn": "\"শুধুমাত্র স্থায়ী কর্মচারীরাই অভিযোগ করতে পারেন।\""
           },
           "fact": {
             "en": "All workers — temporary, contract, or permanent — have the right to be paid for work done.",
-            "hi": "सभी कामगार — अस्थायी, अनुबंध, या स्थायी — को किए गए काम के लिए भुगतान पाने का अधिकार है।"
+            "hi": "सभी कामगार — अस्थायी, अनुबंध, या स्थायी — को किए गए काम के लिए भुगतान पाने का अधिकार है।",
+            "bn": "সকল শ্রমিক — অস্থায়ী, চুক্তিভিত্তিক, বা স্থায়ী — সকলেরই কাজের জন্য বেতন পাওয়ার অধিকার আছে।"
           }
         },
         {
           "myth": {
             "en": "\"You need a lawyer to file a complaint.\"",
-            "hi": "\"शिकायत दर्ज करने के लिए वकील चाहिए।\""
+            "hi": "\"शिकायत दर्ज करने के लिए वकील चाहिए।\"",
+            "bn": "\"অভিযোগ করতে উকিল লাগে।\""
           },
           "fact": {
             "en": "You can file a complaint directly with the Labour Commissioner's office without a lawyer.",
-            "hi": "आप बिना वकील के सीधे श्रम आयुक्त कार्यालय में शिकायत दर्ज कर सकते हैं।"
+            "hi": "आप बिना वकील के सीधे श्रम आयुक्त कार्यालय में शिकायत दर्ज कर सकते हैं।",
+            "bn": "আপনি উকিল ছাড়াই সরাসরি শ্রম কমিশনারের কার্যালয়ে অভিযোগ করতে পারেন।"
           }
         }
       ],
@@ -109,36 +118,41 @@
       ],
       "timeline": {
         "en": "Labour complaints are usually heard within 30–90 days. Resolution can take 3–6 months depending on the case.",
-        "hi": "श्रम शिकायतों की सुनवाई आमतौर पर 30–90 दिनों के भीतर होती है। समाधान में मामले के आधार पर 3–6 महीने लग सकते हैं।"
+        "hi": "श्रम शिकायतों की सुनवाई आमतौर पर 30–90 दिनों के भीतर होती है। समाधान में मामले के आधार पर 3–6 महीने लग सकते हैं।",
+        "bn": "শ্রম অভিযোগের শুনানি সাধারণত ৩০–৯০ দিনের মধ্যে হয়। মামলার উপর নির্ভর করে সমাধানে ৩–৬ মাস লাগতে পারে।"
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Collect evidence", "hi": "सबूत इकट्ठा करें" },
+        "title": { "en": "Collect evidence", "hi": "सबूत इकट्ठा करें", "bn": "প্রমাণ সংগ্রহ করুন" },
         "description": {
           "en": "Gather your appointment letter, salary slips, bank statements, and any messages from your employer about payment.",
-          "hi": "अपना नियुक्ति पत्र, वेतन पर्ची, बैंक स्टेटमेंट, और भुगतान के बारे में नियोक्ता के कोई संदेश इकट्ठा करें।"
+          "hi": "अपना नियुक्ति पत्र, वेतन पर्ची, बैंक स्टेटमेंट, और भुगतान के बारे में नियोक्ता के कोई संदेश इकट्ठा करें।",
+          "bn": "আপনার নিয়োগপত্র, বেতন স্লিপ, ব্যাংক স্টেটমেন্ট, এবং নিয়োগকর্তার পেমেন্ট সম্পর্কিত যেকোনো মেসেজ সংগ্রহ করুন।"
         }
       },
       {
-        "title": { "en": "Send a written notice", "hi": "लिखित नोटिस भेजें" },
+        "title": { "en": "Send a written notice", "hi": "लिखित नोटिस भेजें", "bn": "লিখিত নোটিশ পাঠান" },
         "description": {
           "en": "Write a formal letter or email to your employer asking for your pending salary. Keep a copy for your records.",
-          "hi": "अपने नियोक्ता को लंबित वेतन माँगते हुए एक औपचारिक पत्र या ईमेल लिखें। अपने रिकॉर्ड के लिए एक प्रति रखें।"
+          "hi": "अपने नियोक्ता को लंबित वेतन माँगते हुए एक औपचारिक पत्र या ईमेल लिखें। अपने रिकॉर्ड के लिए एक प्रति रखें।",
+          "bn": "আপনার নিয়োগকর্তাকে বকেয়া বেতন চেয়ে একটি আনুষ্ঠানিক চিঠি বা ইমেইল লিখুন। আপনার রেকর্ডের জন্য একটি কপি রাখুন।"
         }
       },
       {
-        "title": { "en": "File a complaint", "hi": "शिकायत दर्ज करें" },
+        "title": { "en": "File a complaint", "hi": "शिकायत दर्ज करें", "bn": "অভিযোগ দায়ের করুন" },
         "description": {
           "en": "Visit or write to your nearest Labour Commissioner's office. You can also file a complaint on the SHRAM Suvidha Portal (labour.gov.in).",
-          "hi": "अपने निकटतम श्रम आयुक्त कार्यालय में जाएँ या लिखें। आप श्रम सुविधा पोर्टल (labour.gov.in) पर भी शिकायत दर्ज कर सकते हैं।"
+          "hi": "अपने निकटतम श्रम आयुक्त कार्यालय में जाएँ या लिखें। आप श्रम सुविधा पोर्टल (labour.gov.in) पर भी शिकायत दर्ज कर सकते हैं।",
+          "bn": "আপনার নিকটতম শ্রম কমিশনারের কার্যালয়ে যান বা লিখুন। আপনি শ্রম সুবিধা পোর্টালে (labour.gov.in) অভিযোগ করতে পারেন।"
         }
       },
       {
-        "title": { "en": "Follow up", "hi": "फॉलो अप करें" },
+        "title": { "en": "Follow up", "hi": "फॉलो अप करें", "bn": "ফলো-আপ করুন" },
         "description": {
           "en": "Keep your complaint reference number. Follow up regularly. The office will call both parties for a hearing.",
-          "hi": "अपना शिकायत संदर्भ नंबर रखें। नियमित रूप से फॉलो अप करें। कार्यालय दोनों पक्षों को सुनवाई के लिए बुलाएगा।"
+          "hi": "अपना शिकायत संदर्भ नंबर रखें। नियमित रूप से फॉलो अप करें। कार्यालय दोनों पक्षों को सुनवाई के लिए बुलाएगा।",
+          "bn": "আপনার অভিযোগ রেফারেন্স নম্বর রাখুন। নিয়মিত ফলো-আপ করুন। কার্যালয় উভয় পক্ষকে শুনানির জন্য ডাকবে।"
         }
       }
     ]
@@ -148,34 +162,36 @@
     "icon": "home",
     "titles": {
       "en": "Landlord Dispute",
-      "hi": "मकान मालिक का विवाद"
+      "hi": "मकान मालिक का विवाद",
+      "bn": "বাড়িওয়ালার সাথে বিরোধ"
     },
     "questions": [
       {
         "question_id": "dispute_type",
         "text": {
           "en": "What is the main issue with your landlord?",
-          "hi": "आपके मकान मालिक के साथ मुख्य समस्या क्या है?"
+          "hi": "आपके मकान मालिक के साथ मुख्य समस्या क्या है?",
+          "bn": "আপনার বাড়িওয়ালার সাথে প্রধান সমস্যা কী?"
         },
         "options": [
           {
             "option_id": "illegal_eviction",
-            "label": { "en": "Trying to evict me illegally", "hi": "गैरकानूनी तरीके से बेदखल करने की कोशिश" },
+            "label": { "en": "Trying to evict me illegally", "hi": "गैरकानूनी तरीके से बेदखल करने की कोशिश", "bn": "আমাকে অবৈধভাবে উচ্ছেদ করার চেষ্টা করছে" },
             "next_question_index": 1
           },
           {
             "option_id": "security_deposit",
-            "label": { "en": "Not returning security deposit", "hi": "सुरक्षा जमा वापस नहीं कर रहा" },
+            "label": { "en": "Not returning security deposit", "hi": "सुरक्षा जमा वापस नहीं कर रहा", "bn": "জামানতের টাকা ফেরত দিচ্ছে না" },
             "next_question_index": 1
           },
           {
             "option_id": "rent_increase",
-            "label": { "en": "Unfair rent increase", "hi": "अनुचित किराया वृद्धि" },
+            "label": { "en": "Unfair rent increase", "hi": "अनुचित किराया वृद्धि", "bn": "অন্যায় ভাড়া বৃদ্ধি" },
             "next_question_index": 1
           },
           {
             "option_id": "basic_amenities",
-            "label": { "en": "Not providing basic amenities", "hi": "बुनियादी सुविधाएं नहीं दे रहा" },
+            "label": { "en": "Not providing basic amenities", "hi": "बुनियादी सुविधाएं नहीं दे रहा", "bn": "মৌলিক সুবিধা দিচ্ছে না" },
             "next_question_index": 1
           }
         ]
@@ -184,17 +200,18 @@
         "question_id": "agreement_exists",
         "text": {
           "en": "Do you have a written rental agreement?",
-          "hi": "क्या आपके पास लिखित किराया समझौता है?"
+          "hi": "क्या आपके पास लिखित किराया समझौता है?",
+          "bn": "আপনার কি লিখিত ভাড়া চুক্তি আছে?"
         },
         "options": [
           {
             "option_id": "yes_agreement",
-            "label": { "en": "Yes, I have a rental agreement", "hi": "हाँ, मेरे पास किराया समझौता है" },
+            "label": { "en": "Yes, I have a rental agreement", "hi": "हाँ, मेरे पास किराया समझौता है", "bn": "হ্যাঁ, আমার ভাড়া চুক্তি আছে" },
             "next_question_index": null
           },
           {
             "option_id": "no_agreement",
-            "label": { "en": "No written agreement", "hi": "कोई लिखित समझौता नहीं" },
+            "label": { "en": "No written agreement", "hi": "कोई लिखित समझौता नहीं", "bn": "কোনো লিখিত চুক্তি নেই" },
             "next_question_index": null
           }
         ]
@@ -203,27 +220,32 @@
     "content": {
       "explanation": {
         "en": "Tenants in India have legal protections even without a written agreement. A landlord cannot forcibly evict you — they must follow a legal process through the courts. Rent control laws in most states limit how much rent can be increased. Your security deposit must be returned when you vacate, minus any legitimate deductions for damage.",
-        "hi": "भारत में किरायेदारों को बिना लिखित समझौते के भी कानूनी सुरक्षा प्राप्त है। मकान मालिक आपको जबरन बेदखल नहीं कर सकता — उसे अदालत के माध्यम से कानूनी प्रक्रिया का पालन करना होगा। अधिकांश राज्यों में किराया नियंत्रण कानून किराया वृद्धि को सीमित करते हैं। जब आप मकान खाली करते हैं तो आपकी सुरक्षा जमा वापस की जानी चाहिए, नुकसान के लिए वैध कटौती को छोड़कर।"
+        "hi": "भारत में किरायेदारों को बिना लिखित समझौते के भी कानूनी सुरक्षा प्राप्त है। मकान मालिक आपको जबरन बेदखल नहीं कर सकता — उसे अदालत के माध्यम से कानूनी प्रक्रिया का पालन करना होगा। अधिकांश राज्यों में किराया नियंत्रण कानून किराया वृद्धि को सीमित करते हैं। जब आप मकान खाली करते हैं तो आपकी सुरक्षा जमा वापस की जानी चाहिए, नुकसान के लिए वैध कटौती को छोड़कर।",
+        "bn": "ভারতে ভাড়াটেদের লিখিত চুক্তি ছাড়াই আইনি সুরক্ষা আছে। বাড়িওয়ালা জোর করে আপনাকে উচ্ছেদ করতে পারেন না — তাকে আদালতের মাধ্যমে বৈধ প্রক্রিয়া অনুসরণ করতে হবে। বেশিরভাগ রাজ্যে ভাড়া নিয়ন্ত্রণ আইন ভাড়া বৃদ্ধি সীমিত করে। বাড়ি ছাড়ার সময় আপনার জামানত ফেরত দেওয়া উচিত, ক্ষতির জন্য বৈধ কর্তন বাদ দিয়ে।"
       },
       "myths": [
         {
           "myth": {
             "en": "\"The landlord can lock you out anytime.\"",
-            "hi": "\"मकान मालिक कभी भी आपको बाहर निकाल सकता है।\""
+            "hi": "\"मकान मालिक कभी भी आपको बाहर निकाल सकता है।\"",
+            "bn": "\"বাড়িওয়ালা যেকোনো সময় আপনাকে তালা মেরে বের করে দিতে পারে।\""
           },
           "fact": {
             "en": "A landlord must get a court order to evict a tenant. Locking out a tenant is illegal.",
-            "hi": "किरायेदार को बेदखल करने के लिए मकान मालिक को अदालती आदेश लेना होगा। किरायेदार को बाहर बंद करना गैरकानूनी है।"
+            "hi": "किरायेदार को बेदखल करने के लिए मकान मालिक को अदालती आदेश लेना होगा। किरायेदार को बाहर बंद करना गैरकानूनी है।",
+            "bn": "ভাড়াটেকে উচ্ছেদ করতে বাড়িওয়ালাকে আদালতের আদেশ নিতে হবে। ভাড়াটেকে তালা মেরে বের করে দেওয়া বেআইনি।"
           }
         },
         {
           "myth": {
             "en": "\"Without a written agreement, you have no rights.\"",
-            "hi": "\"बिना लिखित समझौते के आपके कोई अधिकार नहीं हैं।\""
+            "hi": "\"बिना लिखित समझौते के आपके कोई अधिकार नहीं हैं।\"",
+            "bn": "\"লিখিত চুক্তি ছাড়া আপনার কোনো অধিকার নেই।\""
           },
           "fact": {
             "en": "Even oral agreements are recognized. Rent receipts, bank transfers, and utility bills can prove tenancy.",
-            "hi": "मौखिक समझौते भी मान्य होते हैं। किराया रसीदें, बैंक ट्रांसफर, और बिजली-पानी के बिल किरायेदारी साबित कर सकते हैं।"
+            "hi": "मौखिक समझौते भी मान्य होते हैं। किराया रसीदें, बैंक ट्रांसफर, और बिजली-पानी के बिल किरायेदारी साबित कर सकते हैं।",
+            "bn": "মৌখিক চুক্তিও মান্য। ভাড়া রসিদ, ব্যাংক ট্রান্সফার, এবং বিদ্যুৎ-জলের বিল ভাড়াটে প্রমাণ করতে পারে।"
           }
         }
       ],
@@ -234,36 +256,41 @@
       ],
       "timeline": {
         "en": "Rent disputes through courts can take 6 months to 2 years. Mediation through rent authorities may be faster (1–3 months).",
-        "hi": "अदालत के माध्यम से किराया विवादों में 6 महीने से 2 साल लग सकते हैं। किराया प्राधिकरण के माध्यम से मध्यस्थता तेज़ हो सकती है (1–3 महीने)।"
+        "hi": "अदालत के माध्यम से किराया विवादों में 6 महीने से 2 साल लग सकते हैं। किराया प्राधिकरण के माध्यम से मध्यस्थता तेज़ हो सकती है (1–3 महीने)।",
+        "bn": "আদালতের মাধ্যমে ভাড়া বিরোধে ৬ মাস থেকে ২ বছর লাগতে পারে। ভাড়া কর্তৃপক্ষের মাধ্যমে মধ্যস্থতা দ্রুত হতে পারে (১–৩ মাস)।"
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Document everything", "hi": "सब कुछ दस्तावेज़ करें" },
+        "title": { "en": "Document everything", "hi": "सब कुछ दस्तावेज़ करें", "bn": "সবকিছু ডকুমেন্ট করুন" },
         "description": {
           "en": "Keep copies of your rental agreement, rent receipts, bank transfers, and any messages or notices from your landlord.",
-          "hi": "अपने किराया समझौते, किराये की रसीदें, बैंक ट्रांसफर, और मकान मालिक से कोई संदेश या नोटिस की प्रतियाँ रखें।"
+          "hi": "अपने किराया समझौते, किराये की रसीदें, बैंक ट्रांसफर, और मकान मालिक से कोई संदेश या नोटिस की प्रतियाँ रखें।",
+          "bn": "আপনার ভাড়া চুক্তি, ভাড়া রসিদ, ব্যাংক ট্রান্সফার, এবং বাড়িওয়ালার কাছ থেকে কোনো বার্তা বা নোটিশের কপি রাখুন।"
         }
       },
       {
-        "title": { "en": "Send a written notice", "hi": "लिखित नोटिस भेजें" },
+        "title": { "en": "Send a written notice", "hi": "लिखित नोटिस भेजें", "bn": "লিখিত নোটিশ পাঠান" },
         "description": {
           "en": "Send a formal notice to your landlord stating your grievance. Use registered post or email so you have proof.",
-          "hi": "अपने मकान मालिक को अपनी शिकायत बताते हुए औपचारिक नोटिस भेजें। रजिस्टर्ड डाक या ईमेल का उपयोग करें ताकि आपके पास प्रमाण हो।"
+          "hi": "अपने मकान मालिक को अपनी शिकायत बताते हुए औपचारिक नोटिस भेजें। रजिस्टर्ड डाक या ईमेल का उपयोग करें ताकि आपके पास प्रमाण हो।",
+          "bn": "আপনার বাড়িওয়ালাকে আপনার অভিযোগ জানিয়ে আনুষ্ঠানিক নোটিশ পাঠান। প্রমাণ রাখতে রেজিস্টার্ড ডাক বা ইমেল ব্যবহার করুন।"
         }
       },
       {
-        "title": { "en": "Approach rent authority", "hi": "किराया प्राधिकरण से संपर्क करें" },
+        "title": { "en": "Approach rent authority", "hi": "किराया प्राधिकरण से संपर्क करें", "bn": "ভাড়া কর্তৃপক্ষে যোগাযোগ করুন" },
         "description": {
           "en": "Visit your local Rent Controller or Rent Authority office to file a complaint. Carry your documents.",
-          "hi": "शिकायत दर्ज करने के लिए अपने स्थानीय किराया नियंत्रक या किराया प्राधिकरण कार्यालय में जाएँ। अपने दस्तावेज़ साथ ले जाएँ।"
+          "hi": "शिकायत दर्ज करने के लिए अपने स्थानीय किराया नियंत्रक या किराया प्राधिकरण कार्यालय में जाएँ। अपने दस्तावेज़ साथ ले जाएँ।",
+          "bn": "অভিযোগ দায়ের করতে আপনার স্থানীয় ভাড়া নিয়ন্ত্রক বা ভাড়া কর্তৃপক্ষ অফিসে যান। আপনার দলিল সাথে নিন।"
         }
       },
       {
-        "title": { "en": "File a police complaint if threatened", "hi": "धमकी मिलने पर पुलिस शिकायत दर्ज करें" },
+        "title": { "en": "File a police complaint if threatened", "hi": "धमकी मिलने पर पुलिस शिकायत दर्ज करें", "bn": "ধমকি পেলে পুলিশে অভিযোগ করুন" },
         "description": {
           "en": "If your landlord threatens you, cuts off water/electricity, or tries to forcibly enter, file an FIR at your nearest police station.",
-          "hi": "यदि आपका मकान मालिक आपको धमकाता है, पानी/बिजली काटता है, या जबरन प्रवेश करने की कोशिश करता है, तो अपने नज़दीकी पुलिस स्टेशन में FIR दर्ज करें।"
+          "hi": "यदि आपका मकान मालिक आपको धमकाता है, पानी/बिजली काटता है, या जबरन प्रवेश करने की कोशिश करता है, तो अपने नज़दीकी पुलिस स्टेशन में FIR दर्ज करें।",
+          "bn": "যদি আপনার বাড়িওয়ালা আপনাকে ধমক দেন, জল/বিদ্যুৎ জল বন্ধ করেন, বা জোর করে প্রবেশ করতে চান, তাহলে আপনার নিকটতম থানায় FIR করুন।"
         }
       }
     ]
@@ -273,34 +300,36 @@
     "icon": "security",
     "titles": {
       "en": "Online Fraud",
-      "hi": "ऑनलाइन धोखाधड़ी"
+      "hi": "ऑनलाइन धोखाधড়ी",
+      "bn": "অনলাইন প্রতারণা"
     },
     "questions": [
       {
         "question_id": "fraud_type",
         "text": {
           "en": "What type of online fraud happened?",
-          "hi": "किस प्रकार की ऑनलाइन धोखाधड़ी हुई?"
+          "hi": "किस प्रकार की ऑनलाइन धोखाधড়ी हुई?",
+          "bn": "কোন ধরনের অনলাইন প্রতারণা হয়েছে?"
         },
         "options": [
           {
             "option_id": "banking_fraud",
-            "label": { "en": "Unauthorized bank/UPI transaction", "hi": "अनधिकृत बैंक/UPI लेनदेन" },
+            "label": { "en": "Unauthorized bank/UPI transaction", "hi": "अनधिकृत बैंक/UPI लेनदेन", "bn": "অনধিকৃত ব্যাংক/UPI লেনদেন" },
             "next_question_index": 1
           },
           {
             "option_id": "shopping_fraud",
-            "label": { "en": "Online shopping scam", "hi": "ऑनलाइन शॉपिंग घोटाला" },
+            "label": { "en": "Online shopping scam", "hi": "ऑनलाइन शॉपिंग घोटाला", "bn": "অনলাইন শপিং কেলেঙ্কারি" },
             "next_question_index": 1
           },
           {
             "option_id": "phishing",
-            "label": { "en": "Phishing / fake website", "hi": "फ़िशिंग / नकली वेबसाइट" },
+            "label": { "en": "Phishing / fake website", "hi": "फ़िशिंग / नकली वेबसाइट", "bn": "ফিশিং / ভুয়া ওয়েবসাইট" },
             "next_question_index": 1
           },
           {
             "option_id": "social_media",
-            "label": { "en": "Social media scam", "hi": "सोशल मीडिया घोटाला" },
+            "label": { "en": "Social media scam", "hi": "सोशल मीडिया घोटाला", "bn": "সোশ্যাল মিডিয়া কেলেঙ্কারি" },
             "next_question_index": 1
           }
         ]
@@ -309,17 +338,18 @@
         "question_id": "money_lost",
         "text": {
           "en": "Did you lose money?",
-          "hi": "क्या आपका पैसा गया?"
+          "hi": "क्या आपका पैसा गया?",
+          "bn": "আপনি কি টাকা হারিয়েছেন?"
         },
         "options": [
           {
             "option_id": "yes_money",
-            "label": { "en": "Yes, money was taken from my account", "hi": "हाँ, मेरे खाते से पैसा निकला" },
+            "label": { "en": "Yes, money was taken from my account", "hi": "हाँ, मेरे खाते से पैसा निकला", "bn": "হ্যাঁ, আমার অ্যাকাউন্ট থেকে টাকা কেটে নেওয়া হয়েছে" },
             "next_question_index": null
           },
           {
             "option_id": "no_money",
-            "label": { "en": "No financial loss yet", "hi": "अभी तक कोई आर्थिक नुकसान नहीं" },
+            "label": { "en": "No financial loss yet", "hi": "अभी तक कोई आर्थिक नुकसान नहीं", "bn": "এখনও কোনো আর্থিক ক্ষতি হয়নি" },
             "next_question_index": null
           }
         ]
@@ -328,27 +358,32 @@
     "content": {
       "explanation": {
         "en": "If you've been a victim of online fraud, you have legal options. India has strong cyber crime laws that protect victims. The most important thing is to report the fraud quickly — the sooner you report, the better the chance of recovering your money. You can report online fraud on the national cybercrime portal without visiting a police station.",
-        "hi": "यदि आप ऑनलाइन धोखाधड़ी के शिकार हुए हैं, तो आपके पास कानूनी विकल्प हैं। भारत में मजबूत साइबर अपराध कानून हैं जो पीड़ितों की रक्षा करते हैं। सबसे महत्वपूर्ण बात यह है कि धोखाधड़ी की जल्द से जल्द रिपोर्ट करें — जितनी जल्दी रिपोर्ट करेंगे, पैसे वापस मिलने की संभावना उतनी बेहतर होगी। आप पुलिस स्टेशन जाए बिना राष्ट्रीय साइबर अपराध पोर्टल पर ऑनलाइन धोखाधड़ी की रिपोर्ट कर सकते हैं।"
+        "hi": "यदि आप ऑनलाइन धोखाधড়ी के शिकार हुए हैं, तो आपके पास कानूनी विकल्प हैं। भारत में मजबूत साइबर अपराध कानून हैं जो पीड़ितों की रक्षा करते हैं। सबसे महत्वपूर्ण बात यह है कि धोखाधড়ी की जल्द से जल्द रिपोर्ट करें — जितनी जल्दी रिपोर्ट करेंगे, पैसे वापस मिलने की संभावना उतनी बेहतर होगी। आप पुलिस स्टेशन जाए बिना राष्ट्रीय साइबर अपराध पोर्टल पर ऑनलाइन धोखाधড়ी की रिपोर्ट कर सकते हैं।",
+        "bn": "আপনি যদি অনলাইন প্রতারণার শিকার হন, তাহলে আপনার আইনি বিকল্প আছে। ভারতে শক্তিশালী সাইবার ক্রাইম আইন আছে যা ভুক্তভোগীদের রক্ষা করে। সবচেয়ে গুরুত্বপূর্ণ হল দ্রুত রিপোর্ট করা — যত তাড়াতাড়ি রিপোর্ট করবেন, টাকা ফেরত পাওয়ার সম্ভাবনা তত বেশি। আপনি থানায় না গিয়ে জাতীয় সাইবার ক্রাইম পোর্টালে অনলাইন প্রতারণা রিপোর্ট করতে পারেন।"
       },
       "myths": [
         {
           "myth": {
             "en": "\"Police won't take online fraud seriously.\"",
-            "hi": "\"पुलिस ऑनलाइन धोखाधड़ी को गंभीरता से नहीं लेगी।\""
+            "hi": "\"पुलिस ऑनलाइन धोखाधড়ी को गंभीरता से नहीं लेगी।\"",
+            "bn": "\"পুলিশ অনলাইন প্রতারণা গুরুত্ব দেবে না।\""
           },
           "fact": {
             "en": "Cyber crime cells are active in every state. You can also file complaints online at cybercrime.gov.in.",
-            "hi": "हर राज्य में साइबर अपराध सेल सक्रिय हैं। आप cybercrime.gov.in पर ऑनलाइन शिकायत भी दर्ज कर सकते हैं।"
+            "hi": "हर राज्य में साइबर अपराध सेल सक्रिय हैं। आप cybercrime.gov.in पर ऑनलाइन शिकायत भी दर्ज कर सकते हैं।",
+            "bn": "প্রতিটি রাজ্যে সাইবার ক্রাইম সেল সক্রিয়। আপনি cybercrime.gov.in-এ অনলাইনে অভিযোগও করতে পারেন।"
           }
         },
         {
           "myth": {
             "en": "\"If I shared my OTP, I can't complain.\"",
-            "hi": "\"अगर मैंने OTP शेयर किया, तो मैं शिकायत नहीं कर सकता।\""
+            "hi": "\"अगर मैंने OTP शेयर किया, तो मैं शिकायत नहीं कर सकता।\"",
+            "bn": "\"আমি যদি OTP শেয়ার করে থাকি, তাহলে অভিযোগ করতে পারব না।\""
           },
           "fact": {
             "en": "You can still file a complaint. Sharing OTP under deception is recognized as fraud by law.",
-            "hi": "आप फिर भी शिकायत दर्ज कर सकते हैं। धोखे से OTP शेयर कराना कानून द्वारा धोखाधड़ी माना जाता है।"
+            "hi": "आप फिर भी शिकायत दर्ज कर सकते हैं। धोखे से OTP शेयर कराना कानून द्वारा धोखाधড়ी माना जाता है।",
+            "bn": "আপনি তবুও অভিযোগ করতে পারেন। প্রতারণার মাধ্যমে OTP শেয়ার করানো আইনত জালিয়াতি হিসেবে স্বীকৃত।"
           }
         }
       ],
@@ -359,36 +394,41 @@
       ],
       "timeline": {
         "en": "Report within 3 days for the best chance of a refund from your bank. Cyber crime investigations typically take 1–6 months.",
-        "hi": "अपने बैंक से रिफंड की सबसे अच्छी संभावना के लिए 3 दिनों के भीतर रिपोर्ट करें। साइबर अपराध जांच में आमतौर पर 1–6 महीने लगते हैं।"
+        "hi": "अपने बैंक से रिफंड की सबसे अच्छी संभावना के लिए 3 दिनों के भीतर रिपोर्ट करें। साइबर अपराध जांच में आमतौर पर 1–6 महीने लगते हैं।",
+        "bn": "ব্যাংক থেকে রিফান্ড পাওয়ার সেরা সম্ভাবনার জন্য ৩ দিনের মধ্যে রিপোর্ট করুন। সাইবার ক্রাইম তদন্তে সাধারণত ১–৬ মাস লাগে।"
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Report to your bank immediately", "hi": "तुरंत अपने बैंक को रिपोर्ट करें" },
+        "title": { "en": "Report to your bank immediately", "hi": "तुरंत अपने बैंक को रिपोर्ट करें", "bn": "অবিলম্বে আপনার ব্যাংকে রিপোর্ট করুন" },
         "description": {
           "en": "Call your bank's customer care and report the unauthorized transaction. Ask them to block your card/account. Note the complaint reference number.",
-          "hi": "अपने बैंक की कस्टमर केयर पर कॉल करें और अनधिकृत लेनदेन की रिपोर्ट करें। उनसे अपना कार्ड/खाता ब्लॉक करने को कहें। शिकायत संदर्भ नंबर नोट करें।"
+          "hi": "अपने बैंक की कस्टमर केयर पर कॉल करें और अनधिकृत लेनदेन की रिपोर्ट करें। उनसे अपना कार्ड/खाता ब्लॉक करने को कहें। शिकायत संदर्भ नंबर नोट करें।",
+          "bn": "আপনার ব্যাংকের কাস্টমার কেয়ারে কল করুন এবং অনধিকৃত লেনদেন রিপোর্ট করুন। কার্ড/অ্যাকাউন্ট ব্লক করতে বলুন। অভিযোগের রেফারেন্স নম্বর নোট করুন।"
         }
       },
       {
-        "title": { "en": "File complaint on cybercrime.gov.in", "hi": "cybercrime.gov.in पर शिकायत दर्ज करें" },
+        "title": { "en": "File complaint on cybercrime.gov.in", "hi": "cybercrime.gov.in पर शिकायत दर्ज करें", "bn": "cybercrime.gov.in-এ অভিযোগ করুন" },
         "description": {
           "en": "Visit the National Cyber Crime Reporting Portal (cybercrime.gov.in). Select 'Financial Fraud' and fill in the details. You'll get a complaint number.",
-          "hi": "राष्ट्रीय साइबर अपराध रिपोर्टिंग पोर्टल (cybercrime.gov.in) पर जाएँ। 'वित्तीय धोखाधड़ी' चुनें और विवरण भरें। आपको शिकायत नंबर मिलेगा।"
+          "hi": "राष्ट्रीय साइबर अपराध रिपोर्टिंग पोर्टल (cybercrime.gov.in) पर जाएँ। 'वित्तीय धोखाधড়ी' चुनें और विवरण भरें। आपको शिकायत नंबर मिलेगा।",
+          "bn": "জাতীয় সাইবার ক্রাইম রিপোর্টিং পোর্টালে (cybercrime.gov.in) যান। 'আর্থিক জালিয়াতি' নির্বাচন করুন এবং বিবরণ পূরণ করুন। আপনি অভিযোগ নম্বর পাবেন।"
         }
       },
       {
-        "title": { "en": "Call 1930 (Cyber Crime Helpline)", "hi": "1930 पर कॉल करें (साइबर अपराध हेल्पलाइन)" },
+        "title": { "en": "Call 1930 (Cyber Crime Helpline)", "hi": "1930 पर कॉल करें (साइबर अपराध हेल्पलाइन)", "bn": "1930-এ কল করুন (সাইবার ক্রাইম হেল্পলাইন)" },
         "description": {
           "en": "Call the national cyber crime helpline 1930. They can help freeze the fraudster's account and speed up the process.",
-          "hi": "राष्ट्रीय साइबर अपराध हेल्पलाइन 1930 पर कॉल करें। वे धोखेबाज़ का खाता फ्रीज़ करने और प्रक्रिया तेज़ करने में मदद कर सकते हैं।"
+          "hi": "राष्ट्रीय साइबर अपराध हेल्पलाइन 1930 पर कॉल करें। वे धोखेबाज़ का खाता फ्रीज़ करने और प्रक्रिया तेज़ करने में मदद कर सकते हैं।",
+          "bn": "জাতীয় সাইবার ক্রাইম হেল্পলাইন 1930-এ কল করুন। তারা প্রতারকের অ্যাকাউন্ট ফ্রিজ করতে এবং প্রক্রিয়া দ্রুত করতে সাহায্য করতে পারে।"
         }
       },
       {
-        "title": { "en": "Save all evidence", "hi": "सभी सबूत सहेजें" },
+        "title": { "en": "Save all evidence", "hi": "सभी सबूत सहेजें", "bn": "সব প্রমাণ সংরক্ষণ করুন" },
         "description": {
           "en": "Take screenshots of transaction messages, emails, fake websites, and chat conversations. Do not delete anything.",
-          "hi": "लेनदेन संदेशों, ईमेल, नकली वेबसाइटों और चैट वार्तालापों के स्क्रीनशॉट लें। कुछ भी न हटाएँ।"
+          "hi": "लेनदेन संदेशों, ईमेल, नकली वेबसाइटों और चैट वार्तालापों के स्क्रीनशॉट लें। कुछ भी न हटाएँ।",
+          "bn": "লেনদেনের বার্তা, ইমেল, ভুয়া ওয়েবসাইট এবং চ্যাট কথোপকথনের স্ক্রিনশট নিন। কিছু মুছে ফেলবেন না।"
         }
       }
     ]
@@ -398,34 +438,36 @@
     "icon": "receipt_long",
     "titles": {
       "en": "Consumer Complaint",
-      "hi": "उपभोक्ता शिकायत"
+      "hi": "उपभोक्ता शिकायत",
+      "bn": "ভোক্তা অভিযোগ"
     },
     "questions": [
       {
         "question_id": "complaint_type",
         "text": {
           "en": "What is your consumer complaint about?",
-          "hi": "आपकी उपभोक्ता शिकायत किस बारे में है?"
+          "hi": "आपकी उपभोक्ता शिकायत किस बारे में है?",
+          "bn": "আপনার ভোক্তা অভিযোগ কিসের বিষয়ে?"
         },
         "options": [
           {
             "option_id": "defective_product",
-            "label": { "en": "Defective product", "hi": "दोषपूर्ण उत्पाद" },
+            "label": { "en": "Defective product", "hi": "दोषपूर्ण उत्पाद", "bn": "ত্রুটিপূর্ণ পণ্য" },
             "next_question_index": 1
           },
           {
             "option_id": "poor_service",
-            "label": { "en": "Poor service", "hi": "खराब सेवा" },
+            "label": { "en": "Poor service", "hi": "खराब सेवा", "bn": "খারাপ পরিষেবা" },
             "next_question_index": 1
           },
           {
             "option_id": "overcharging",
-            "label": { "en": "Overcharging / hidden fees", "hi": "अत्यधिक शुल्क / छिपे शुल्क" },
+            "label": { "en": "Overcharging / hidden fees", "hi": "अत्यधिक शुल्क / छिपे शुल्क", "bn": "অতিরিক্ত চার্জ / লুকানো ফি" },
             "next_question_index": 1
           },
           {
             "option_id": "false_advertising",
-            "label": { "en": "False advertising", "hi": "झूठा विज्ञापन" },
+            "label": { "en": "False advertising", "hi": "झूठा विज्ञापन", "bn": "মিথ্যা বিজ্ঞাপন" },
             "next_question_index": 1
           }
         ]
@@ -434,22 +476,23 @@
         "question_id": "amount_involved",
         "text": {
           "en": "What is the approximate amount involved?",
-          "hi": "शामिल राशि लगभग कितनी है?"
+          "hi": "शामिल राशि लगभग कितनी है?",
+          "bn": "প্রায় কত টাকা জড়িত?"
         },
         "options": [
           {
             "option_id": "under_1_lakh",
-            "label": { "en": "Under ₹1 lakh", "hi": "₹1 लाख से कम" },
+            "label": { "en": "Under ₹1 lakh", "hi": "₹1 लाख से कम", "bn": "₹১ লক্ষের কম" },
             "next_question_index": null
           },
           {
             "option_id": "1_to_10_lakh",
-            "label": { "en": "₹1 lakh – ₹10 lakh", "hi": "₹1 लाख – ₹10 लाख" },
+            "label": { "en": "₹1 lakh – ₹10 lakh", "hi": "₹1 लाख – ₹10 लाख", "bn": "₹১ লক্ষ – ₹১০ লক্ষ" },
             "next_question_index": null
           },
           {
             "option_id": "above_10_lakh",
-            "label": { "en": "Above ₹10 lakh", "hi": "₹10 लाख से ऊपर" },
+            "label": { "en": "Above ₹10 lakh", "hi": "₹10 लाख से ऊपर", "bn": "₹১০ লক্ষের বেশি" },
             "next_question_index": null
           }
         ]
@@ -458,27 +501,32 @@
     "content": {
       "explanation": {
         "en": "As a consumer in India, you have the right to be protected against defective goods, unfair trade practices, and misleading advertisements. Consumer courts are designed to be simple and quick. You can file a complaint yourself — a lawyer is not required. Cases under ₹5 lakh have no court fee.",
-        "hi": "भारत में एक उपभोक्ता के रूप में, आपको दोषपूर्ण सामान, अनुचित व्यापार प्रथाओं और भ्रामक विज्ञापनों से संरक्षित होने का अधिकार है। उपभोक्ता अदालतें सरल और त्वरित होने के लिए बनाई गई हैं। आप स्वयं शिकायत दर्ज कर सकते हैं — वकील आवश्यक नहीं है। ₹5 लाख से कम के मामलों में कोई कोर्ट फीस नहीं है।"
+        "hi": "भारत में एक उपभोक्ता के रूप में, आपको दोषपूर्ण सामान, अनुचित व्यापार प्रथाओं और भ्रामक विज्ञापनों से संरक्षित होने का अधिकार है। उपभोक्ता अदालतें सरल और त्वरित होने के लिए बनाई गई हैं। आप स्वयं शिकायत दर्ज कर सकते हैं — वकील आवश्यक नहीं है। ₹5 लाख से कम के मामलों में कोई कोर्ट फीस नहीं है।",
+        "bn": "ভারতে একজন ভোক্তা হিসেবে, আপনার ত্রুটিপূর্ণ পণ্য, অন্যায় বাণিজ্য প্রথা এবং বিভ্রান্তিকর বিজ্ঞাপন থেকে সুরক্ষিত হওয়ার অধিকার আছে। ভোক্তা আদালত সহজ এবং দ্রুত হওয়ার জন্য তৈরি। আপনি নিজেই অভিযোগ করতে পারেন — উকিলের প্রয়োজন নেই। ₹৫ লক্ষের কম মামলায় কোর্ট ফি নেই।"
       },
       "myths": [
         {
           "myth": {
             "en": "\"Consumer courts are only for big cases.\"",
-            "hi": "\"उपभोक्ता अदालतें केवल बड़े मामलों के लिए हैं।\""
+            "hi": "\"उपभोक्ता अदालतें केवल बড়े मामलों के लिए हैं।\"",
+            "bn": "\"ভোক্তা আদালত শুধু বড় মামলার জন্য।\""
           },
           "fact": {
             "en": "You can file a complaint for any amount. Consumer courts handle complaints from a few hundred to crores of rupees.",
-            "hi": "आप किसी भी राशि के लिए शिकायत दर्ज कर सकते हैं। उपभोक्ता अदालतें कुछ सौ से लेकर करोड़ों रुपये तक की शिकायतें सुनती हैं।"
+            "hi": "आप किसी भी राशि के लिए शिकायत दर्ज कर सकते हैं। उपभोक्ता अदालतें कुछ सौ से लेकर करोড়ों रुपये तक की शिकायतें सुनती हैं।",
+            "bn": "আপনি যেকোনো পরিমাণের জন্য অভিযোগ করতে পারেন। ভোক্তা আদালত কয়েকশো থেকে কোটি টাকা পর্যন্ত অভিযোগ নিষ্পত্তি করে।"
           }
         },
         {
           "myth": {
             "en": "\"You must have the original bill.\"",
-            "hi": "\"आपके पास मूल बिल होना चाहिए।\""
+            "hi": "\"आपके पास मूल बिल होना चाहिए।\"",
+            "bn": "\"আপনার কাছে মূল বিল থাকতে হবে।\""
           },
           "fact": {
             "en": "Digital receipts, bank statements, and even screenshots of online orders are accepted as proof.",
-            "hi": "डिजिटल रसीदें, बैंक स्टेटमेंट, और ऑनलाइन ऑर्डर के स्क्रीनशॉट भी प्रमाण के रूप में स्वीकार किए जाते हैं।"
+            "hi": "डिजिटल रसीदें, बैंक स्टेटमेंट, और ऑनलाइन ऑर्डर के स्क्रीनशॉट भी प्रमाण के रूप में स्वीकार किए जाते हैं।",
+            "bn": "ডিজিটাল রসিদ, ব্যাংক স্টেটমেন্ট, এমনকি অনলাইন অর্ডারের স্ক্রিনশটও প্রমাণ হিসেবে গৃহীত।"
           }
         }
       ],
@@ -488,36 +536,41 @@
       ],
       "timeline": {
         "en": "Consumer courts must resolve complaints within 3–5 months. E-filing on consumerhelpline.gov.in is available 24/7.",
-        "hi": "उपभोक्ता अदालतों को 3–5 महीने के भीतर शिकायतों का समाधान करना होता है। consumerhelpline.gov.in पर ई-फाइलिंग 24/7 उपलब्ध है।"
+        "hi": "उपभोक्ता अदालतों को 3–5 महीने के भीतर शिकायतों का समाधान करना होता है। consumerhelpline.gov.in पर ई-फाइलिंग 24/7 उपलब्ध है।",
+        "bn": "ভোক্তা আদালতকে ৩–৫ মাসের মধ্যে অভিযোগ নিষ্পত্তি করতে হবে। consumerhelpline.gov.in-এ ই-ফাইলিং ২৪/৭ উপলব্ধ।"
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Contact the seller first", "hi": "पहले विक्रेता से संपर्क करें" },
+        "title": { "en": "Contact the seller first", "hi": "पहले विक्रेता से संपर्क करें", "bn": "প্রথমে বিক্রেতার সাথে যোগাযোগ করুন" },
         "description": {
           "en": "Write to the seller or company with your complaint. Give them 15 days to respond. Keep a copy of your communication.",
-          "hi": "विक्रेता या कंपनी को अपनी शिकायत लिखें। उन्हें जवाब देने के लिए 15 दिन दें। अपने संवाद की प्रति रखें।"
+          "hi": "विक्रेता या कंपनी को अपनी शिकायत लिखें। उन्हें जवाब देने के लिए 15 दिन दें। अपने संवाद की प्रति रखें।",
+          "bn": "বিক্রেতা বা কোম্পানিকে আপনার অভিযোগ লিখুন। তাদের উত্তর দেওয়ার জন্য ১৫ দিন দিন। আপনার যোগাযোগের কপি রাখুন।"
         }
       },
       {
-        "title": { "en": "Call 1800-11-4000", "hi": "1800-11-4000 पर कॉल करें" },
+        "title": { "en": "Call 1800-11-4000", "hi": "1800-11-4000 पर कॉल करें", "bn": "1800-11-4000-এ কল করুন" },
         "description": {
           "en": "Call the National Consumer Helpline (toll-free). They can mediate with the company on your behalf.",
-          "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन (टोल-फ्री) पर कॉल करें। वे आपकी ओर से कंपनी के साथ मध्यस्थता कर सकते हैं।"
+          "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन (टोल-फ्री) पर कॉल करें। वे आपकी ओर से कंपनी के साथ मध्यस्थता कर सकते हैं।",
+          "bn": "জাতীয় ভোক্তা হেল্পলাইনে (টোল-ফ্রি) কল করুন। তারা আপনার পক্ষে কোম্পানির সাথে মধ্যস্থতা করতে পারে।"
         }
       },
       {
-        "title": { "en": "File on consumer helpline portal", "hi": "उपभोक्ता हेल्पलाइन पोर्टल पर दर्ज करें" },
+        "title": { "en": "File on consumer helpline portal", "hi": "उपभोक्ता हेल्पलाइन पोर्टल पर दर्ज करें", "bn": "ভোক্তা হেল্পলাইন পোর্টালে ফাইল করুন" },
         "description": {
           "en": "Register your complaint at consumerhelpline.gov.in or through the UMANG app. Upload your bills and evidence.",
-          "hi": "consumerhelpline.gov.in पर या UMANG ऐप के माध्यम से अपनी शिकायत दर्ज करें। अपने बिल और सबूत अपलोड करें।"
+          "hi": "consumerhelpline.gov.in पर या UMANG ऐप के माध्यम से अपनी शिकायत दर्ज करें। अपने बिल और सबूत अपलोड करें।",
+          "bn": "consumerhelpline.gov.in-এ বা UMANG অ্যাপের মাধ্যমে আপনার অভিযোগ নিবন্ধন করুন। আপনার বিল এবং প্রমাণ আপলোড করুন।"
         }
       },
       {
-        "title": { "en": "File in consumer court", "hi": "उपभोक्ता अदालत में दर्ज करें" },
+        "title": { "en": "File in consumer court", "hi": "उपभोक्ता अदालत में दर्ज करें", "bn": "ভোক্তা আদালতে ফাইল করুন" },
         "description": {
           "en": "If the company doesn't resolve your issue, file a case in the District Consumer Forum. You can do this online at edaakhil.nic.in.",
-          "hi": "यदि कंपनी आपकी समस्या का समाधान नहीं करती, तो जिला उपभोक्ता फोरम में मामला दर्ज करें। आप यह edaakhil.nic.in पर ऑनलाइन कर सकते हैं।"
+          "hi": "यदि कंपनी आपकी समस्या का समाधान नहीं करती, तो जिला उपभोक्ता फोरम में मामला दर्ज करें। आप यह edaakhil.nic.in पर ऑनलाइन कर सकते हैं।",
+          "bn": "কোম্পানি আপনার সমস্যা সমাধান না করলে, জেলা ভোক্তা ফোরামে মামলা দায়ের করুন। আপনি edaakhil.nic.in-এ অনলাইনে করতে পারেন।"
         }
       }
     ]
@@ -527,34 +580,36 @@
     "icon": "local_police",
     "titles": {
       "en": "Police Issue",
-      "hi": "पुलिस संबंधित समस्या"
+      "hi": "पुलिस संबंधित समस्या",
+      "bn": "পুলিশ সংক্রান্ত সমস্যা"
     },
     "questions": [
       {
         "question_id": "police_issue_type",
         "text": {
           "en": "What is your issue with the police?",
-          "hi": "पुलिस के साथ आपकी क्या समस्या है?"
+          "hi": "पुलिस के साथ आपकी क्या समस्या है?",
+          "bn": "পুলিশের সাথে আপনার কী সমস্যা?"
         },
         "options": [
           {
             "option_id": "fir_refused",
-            "label": { "en": "Police refused to file my FIR", "hi": "पुलिस ने मेरी FIR दर्ज करने से मना किया" },
+            "label": { "en": "Police refused to file my FIR", "hi": "पुलिस ने मेरी FIR दर्ज करने से मना किया", "bn": "পুলিশ আমার FIR করতে প্রত্যাখ্যান করেছে" },
             "next_question_index": 1
           },
           {
             "option_id": "illegal_detention",
-            "label": { "en": "Illegal detention / arrest", "hi": "गैरकानूनी हिरासत / गिरफ्तारी" },
+            "label": { "en": "Illegal detention / arrest", "hi": "गैरकानूनी हिरासत / गिरफ्तारी", "bn": "বেআইনি আটক / গ্রেপ্তার" },
             "next_question_index": 1
           },
           {
             "option_id": "harassment",
-            "label": { "en": "Police harassment", "hi": "पुलिस उत्पीड़न" },
+            "label": { "en": "Police harassment", "hi": "पुलिस उत्पीড়न", "bn": "পুলিশ হয়রানি" },
             "next_question_index": 1
           },
           {
             "option_id": "no_action",
-            "label": { "en": "FIR filed but no action taken", "hi": "FIR दर्ज लेकिन कोई कार्रवाई नहीं" },
+            "label": { "en": "FIR filed but no action taken", "hi": "FIR दर्ज लेकिन कोई कार्रवाई नहीं", "bn": "FIR হয়েছে কিন্তু কোনো পদক্ষেপ নেওয়া হয়নি" },
             "next_question_index": 1
           }
         ]
@@ -563,22 +618,23 @@
         "question_id": "urgency",
         "text": {
           "en": "How urgent is the situation?",
-          "hi": "स्थिति कितनी अत्यावश्यक है?"
+          "hi": "स्थिति कितनी अत्यावश्यक है?",
+          "bn": "পরিস্থিতি কতটা জরুরি?"
         },
         "options": [
           {
             "option_id": "someone_detained",
-            "label": { "en": "Someone is currently detained", "hi": "कोई वर्तमान में हिरासत में है" },
+            "label": { "en": "Someone is currently detained", "hi": "कोई वर्तमान में हिरासत में है", "bn": "কেউ এই মুহূর্তে আটক আছে" },
             "next_question_index": null
           },
           {
             "option_id": "ongoing_threat",
-            "label": { "en": "There is an ongoing threat", "hi": "लगातार खतरा बना हुआ है" },
+            "label": { "en": "There is an ongoing threat", "hi": "लगातार खतरा बना हुआ है", "bn": "চলমান হুমকি আছে" },
             "next_question_index": null
           },
           {
             "option_id": "past_incident",
-            "label": { "en": "This is about a past incident", "hi": "यह पिछली घटना के बारे में है" },
+            "label": { "en": "This is about a past incident", "hi": "यह पिछली घटना के बारे में है", "bn": "এটি অতীতের ঘটনা সম্পর্কে" },
             "next_question_index": null
           }
         ]
@@ -587,27 +643,32 @@
     "content": {
       "explanation": {
         "en": "You have important rights when dealing with the police. The police MUST register your FIR — refusing is a punishable offense. If arrested, you must be told the reason. You have the right to make a phone call. You cannot be detained for more than 24 hours without being produced before a magistrate. You can file a complaint against police misconduct.",
-        "hi": "पुलिस से निपटते समय आपके महत्वपूर्ण अधिकार हैं। पुलिस को आपकी FIR दर्ज करनी ही होगी — मना करना दंडनीय अपराध है। गिरफ्तार होने पर आपको कारण बताया जाना चाहिए। आपको फोन कॉल करने का अधिकार है। आपको मजिस्ट्रेट के सामने पेश किए बिना 24 घंटे से अधिक हिरासत में नहीं रखा जा सकता। आप पुलिस दुर्व्यवहार के खिलाफ शिकायत दर्ज कर सकते हैं।"
+        "hi": "पुलिस से निपटते समय आपके महत्वपूर्ण अधिकार हैं। पुलिस को आपकी FIR दर्ज करनी ही होगी — मना करना दंडनीय अपराध है। गिरफ्तार होने पर आपको कारण बताया जाना चाहिए। आपको फोन कॉल करने का अधिकार है। आपको मजिस्ट्रेट के सामने पेश किए बिना 24 घंटे से अधिक हिरासत में नहीं रखा जा सकता। आप पुलिस दुर्व्यवहार के खिलाफ शिकायत दर्ज कर सकते हैं।",
+        "bn": "পুলিশের সাথে মোকাবেলায় আপনার গুরুত্বপূর্ণ অধিকার আছে। পুলিশকে আপনার FIR করতেই হবে — প্রত্যাখ্যান দণ্ডনীয় অপরাধ। গ্রেপ্তার হলে আপনাকে কারণ জানাতে হবে। আপনার ফোন কল করার অধিকার আছে। ম্যাজিস্ট্রেটের সামনে পেশ না করে ২৪ ঘণ্টার বেশি আটক রাখা যায় না। আপনি পুলিশের অসদাচরণের বিরুদ্ধে অভিযোগ করতে পারেন।"
       },
       "myths": [
         {
           "myth": {
             "en": "\"Police can arrest you without giving a reason.\"",
-            "hi": "\"पुलिस बिना कारण बताए गिरफ्तार कर सकती है।\""
+            "hi": "\"पुलिस बिना कारण बताए गिरफ्तार कर सकती है।\"",
+            "bn": "\"পুলিশ কারণ না বলে গ্রেপ্তার করতে পারে।\""
           },
           "fact": {
             "en": "The police must inform you of the grounds of arrest and your right to bail.",
-            "hi": "पुलिस को आपको गिरफ्तारी के आधार और ज़मानत के आपके अधिकार की जानकारी देनी होगी।"
+            "hi": "पुलिस को आपको गिरफ्तारी के आधार और ज़मानत के आपके अधिकार की जानकारी देनी होगी।",
+            "bn": "পুলিশকে আপনাকে গ্রেপ্তারের কারণ এবং জামিনের অধিকার সম্পর্কে জানাতে হবে।"
           }
         },
         {
           "myth": {
             "en": "\"You can't complain against the police.\"",
-            "hi": "\"आप पुलिस के खिलाफ शिकायत नहीं कर सकते।\""
+            "hi": "\"आप पुलिस के खिलाफ शिकायत नहीं कर सकते।\"",
+            "bn": "\"আপনি পুলিশের বিরুদ্ধে অভিযোগ করতে পারেন না।\""
           },
           "fact": {
             "en": "You can complain to the Superintendent of Police, State Human Rights Commission, or a court.",
-            "hi": "आप पुलिस अधीक्षक, राज्य मानवाधिकार आयोग, या अदालत में शिकायत कर सकते हैं।"
+            "hi": "आप पुलिस अधीक्षक, राज्य मानवाधिकार आयोग, या अदालत में शिकायत कर सकते हैं।",
+            "bn": "আপনি পুলিশ সুপারিন্টেন্ডেন্ট, রাজ্য মানবাধিকার কমিশন, বা আদালতে অভিযোগ করতে পারেন।"
           }
         }
       ],
@@ -618,36 +679,41 @@
       ],
       "timeline": {
         "en": "An FIR must be registered immediately. A person must be produced before a magistrate within 24 hours of arrest. Complaints against police are typically investigated within 30–60 days.",
-        "hi": "FIR तुरंत दर्ज होनी चाहिए। गिरफ्तारी के 24 घंटे के भीतर व्यक्ति को मजिस्ट्रेट के सामने पेश किया जाना चाहिए। पुलिस के खिलाफ शिकायतों की जांच आमतौर पर 30–60 दिनों में होती है।"
+        "hi": "FIR तुरंत दर्ज होनी चाहिए। गिरफ्तारी के 24 घंटे के भीतर व्यक्ति को मजिस्ट्रेट के सामने पेश किया जाना चाहिए। पुलिस के खिलाफ शिकायतों की जांच आमतौर पर 30–60 दिनों में होती है।",
+        "bn": "FIR অবিলম্বে নিবন্ধন করতে হবে। গ্রেপ্তারের ২৪ ঘণ্টার মধ্যে ব্যক্তিকে ম্যাজিস্ট্রেটের সামনে পেশ করতে হবে। পুলিশের বিরুদ্ধে অভিযোগের তদন্ত সাধারণত ৩০–৬০ দিনের মধ্যে হয়।"
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Know your rights", "hi": "अपने अधिकार जानें" },
+        "title": { "en": "Know your rights", "hi": "अपने अधिकार जानें", "bn": "আপনার অধিকার জানুন" },
         "description": {
           "en": "If arrested: ask for the reason, demand to call a family member, and do not sign anything you don't understand.",
-          "hi": "यदि गिरफ्तार हों: कारण पूछें, परिवार के सदस्य को कॉल करने की माँग करें, और जो समझ न आए उस पर हस्ताक्षर न करें।"
+          "hi": "यदि गिरफ्तार हों: कारण पूछें, परिवार के सदस्य को कॉल करने की माँग करें, और जो समझ न आए उस पर हस्ताक्षर न करें।",
+          "bn": "গ্রেপ্তার হলে: কারণ জিজ্ঞেস করুন, পরিবারের কাউকে কল করতে চান, এবং যা বুঝতে পারছেন না তাতে সই করবেন না।"
         }
       },
       {
-        "title": { "en": "File FIR or Zero FIR", "hi": "FIR या ज़ीरो FIR दर्ज करें" },
+        "title": { "en": "File FIR or Zero FIR", "hi": "FIR या ज़ीरो FIR दर्ज करें", "bn": "FIR বা জিরো FIR করুন" },
         "description": {
           "en": "You can file a 'Zero FIR' at any police station regardless of where the incident happened. The police must accept it.",
-          "hi": "आप घटना कहीं भी हुई हो, किसी भी पुलिस स्टेशन में 'ज़ीरो FIR' दर्ज कर सकते हैं। पुलिस को इसे स्वीकार करना होगा।"
+          "hi": "आप घटना कहीं भी हुई हो, किसी भी पुलिस स्टेशन में 'ज़ीरो FIR' दर्ज कर सकते हैं। पुलिस को इसे स्वीकार करना होगा।",
+          "bn": "ঘটনা যেখানেই ঘটুক না কেন, আপনি যেকোনো থানায় 'জিরো FIR' করতে পারেন। পুলিশকে এটি গ্রহণ করতে হবে।"
         }
       },
       {
-        "title": { "en": "Send complaint to senior officer", "hi": "वरिष्ठ अधिकारी को शिकायत भेजें" },
+        "title": { "en": "Send complaint to senior officer", "hi": "वरिष्ठ अधिकारी को शिकायत भेजें", "bn": "বরিষ্ঠ অফিসারকে অভিযোগ পাঠান" },
         "description": {
           "en": "If police refuse to register your FIR, send a written complaint to the Superintendent of Police (SP) by post or email.",
-          "hi": "यदि पुलिस FIR दर्ज करने से मना करती है, तो डाक या ईमेल द्वारा पुलिस अधीक्षक (SP) को लिखित शिकायत भेजें।"
+          "hi": "यदि पुलिस FIR दर्ज करने से मना करती है, तो डाक या ईमेल द्वारा पुलिस अधीक्षक (SP) को लिखित शिकायत भेजें।",
+          "bn": "পুলিশ FIR করতে প্রত্যাখ্যান করলে, ডাক বা ইমেলের মাধ্যমে পুলিশ সুপারিন্টেন্ডেন্টকে (SP) লিখিত অভিযোগ পাঠান।"
         }
       },
       {
-        "title": { "en": "Approach the magistrate", "hi": "मजिस्ट्रेट से संपर्क करें" },
+        "title": { "en": "Approach the magistrate", "hi": "मजिस्ट्रेट से संपर्क करें", "bn": "ম্যাজিস্ট্রেটের কাছে যান" },
         "description": {
           "en": "If the SP also doesn't help, you can approach the local Judicial Magistrate directly to order FIR registration.",
-          "hi": "यदि SP भी मदद नहीं करता, तो आप FIR दर्ज करने का आदेश देने के लिए सीधे स्थानीय न्यायिक मजिस्ट्रेट से संपर्क कर सकते हैं।"
+          "hi": "यदि SP भी मदद नहीं करता, तो आप FIR दर्ज करने का आदेश देने के लिए सीधे स्थानीय न्यायिक मजिस्ट्रेट से संपर्क कर सकते हैं।",
+          "bn": "SP-ও সাহায্য না করলে, FIR নিবন্ধনের আদেশ দিতে আপনি সরাসরি স্থানীয় বিচার বিভাগীয় ম্যাজিস্ট্রেটের কাছে যেতে পারেন।"
         }
       }
     ]

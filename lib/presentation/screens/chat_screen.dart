@@ -4,6 +4,7 @@ import '../../application/providers/app_providers.dart';
 import '../../application/providers/chat_providers.dart';
 import '../../domain/entities/chat_message.dart';
 import '../../l10n/app_strings.dart';
+import '../theme/app_theme.dart';
 
 /// Chat-style intake screen where users describe their problem in natural
 /// language. The backend classifies the input and routes to the correct
@@ -80,7 +81,8 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
 
     // Auto-scroll when messages change
     ref.listen(chatProvider, (prev, next) {
-      if (prev?.messages.length != next.messages.length || prev?.isLoading != next.isLoading) {
+      if (prev?.messages.length != next.messages.length ||
+          prev?.isLoading != next.isLoading) {
         _scrollToBottom();
       }
     });
@@ -89,7 +91,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
       appBar: AppBar(
         title: Text(AppStrings.get(locale, 'chat_title')),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon: const Icon(Icons.arrow_back_rounded),
           onPressed: () {
             ref.read(chatProvider.notifier).resetChat();
             Navigator.of(context).pop();
@@ -111,7 +113,8 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
                     (chatState.isLoading ? 1 : 0),
                 itemBuilder: (context, index) {
                   // Show typing indicator at the end while loading
-                  if (index == chatState.messages.length && chatState.isLoading) {
+                  if (index == chatState.messages.length &&
+                      chatState.isLoading) {
                     return const _TypingIndicator();
                   }
 
@@ -167,31 +170,26 @@ class _ChatBubble extends StatelessWidget {
             constraints: BoxConstraints(
               maxWidth: MediaQuery.of(context).size.width * 0.78,
             ),
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
             decoration: BoxDecoration(
-              color: isUser
-                  ? Theme.of(context).colorScheme.primary
-                  : Colors.grey[100],
+              color: isUser ? AppTheme.controlDark : AppTheme.surface,
               borderRadius: BorderRadius.only(
-                topLeft: const Radius.circular(16),
-                topRight: const Radius.circular(16),
-                bottomLeft: Radius.circular(isUser ? 16 : 4),
-                bottomRight: Radius.circular(isUser ? 4 : 16),
+                topLeft: const Radius.circular(AppTheme.radiusLg),
+                topRight: const Radius.circular(AppTheme.radiusLg),
+                bottomLeft:
+                    Radius.circular(isUser ? AppTheme.radiusLg : 4),
+                bottomRight:
+                    Radius.circular(isUser ? 4 : AppTheme.radiusLg),
               ),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withValues(alpha: 0.05),
-                  blurRadius: 4,
-                  offset: const Offset(0, 2),
-                ),
-              ],
+              boxShadow: AppTheme.shadowSm,
             ),
             child: Text(
               message.text,
               style: TextStyle(
-                fontSize: 16,
-                height: 1.4,
-                color: isUser ? Colors.white : const Color(0xFF333333),
+                fontSize: 15,
+                height: 1.45,
+                color: isUser ? Colors.white : AppTheme.fgPrimary,
+                letterSpacing: -0.1,
               ),
             ),
           ),
@@ -207,18 +205,28 @@ class _ChatBubble extends StatelessWidget {
                 return OutlinedButton(
                   onPressed: () => onQuickReply(reply.value),
                   style: OutlinedButton.styleFrom(
-                    minimumSize: const Size(0, 44),
+                    minimumSize: const Size(0, 40),
                     padding: const EdgeInsets.symmetric(
                       horizontal: 20,
                       vertical: 10,
                     ),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(22),
+                      borderRadius:
+                          BorderRadius.circular(AppTheme.radiusFull),
+                    ),
+                    side: const BorderSide(
+                      color: AppTheme.controlDark,
+                      width: 1.5,
                     ),
                   ),
                   child: Text(
                     reply.label,
-                    style: const TextStyle(fontSize: 14),
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600,
+                      color: AppTheme.controlDark,
+                      letterSpacing: -0.1,
+                    ),
                   ),
                 );
               }).toList(),
@@ -269,13 +277,14 @@ class _TypingIndicatorState extends State<_TypingIndicator>
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
           decoration: BoxDecoration(
-            color: Colors.grey[100],
+            color: AppTheme.surface,
             borderRadius: const BorderRadius.only(
-              topLeft: Radius.circular(16),
-              topRight: Radius.circular(16),
-              bottomRight: Radius.circular(16),
+              topLeft: Radius.circular(AppTheme.radiusLg),
+              topRight: Radius.circular(AppTheme.radiusLg),
+              bottomRight: Radius.circular(AppTheme.radiusLg),
               bottomLeft: Radius.circular(4),
             ),
+            boxShadow: AppTheme.shadowSm,
           ),
           child: AnimatedBuilder(
             animation: _controller,
@@ -294,8 +303,8 @@ class _TypingIndicatorState extends State<_TypingIndicator>
                       child: Container(
                         width: 8,
                         height: 8,
-                        decoration: BoxDecoration(
-                          color: Colors.grey[500],
+                        decoration: const BoxDecoration(
+                          color: AppTheme.fgTertiary,
                           shape: BoxShape.circle,
                         ),
                       ),
@@ -333,15 +342,12 @@ class _ChatInputBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
       decoration: BoxDecoration(
-        color: Colors.white,
-        border: Border(
-          top: BorderSide(color: Colors.grey[200]!),
-        ),
+        color: AppTheme.surface,
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.05),
+            color: const Color(0xFF000000).withValues(alpha: 0.04),
             blurRadius: 8,
             offset: const Offset(0, -2),
           ),
@@ -350,7 +356,7 @@ class _ChatInputBar extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          // Multiline text field
+          // Multiline text field — pill-shaped
           Expanded(
             child: TextField(
               controller: controller,
@@ -362,19 +368,22 @@ class _ChatInputBar extends StatelessWidget {
               textCapitalization: TextCapitalization.sentences,
               decoration: InputDecoration(
                 hintText: AppStrings.get(locale, 'chat_input_hint'),
-                hintStyle: TextStyle(color: Colors.grey[400]),
+                hintStyle: const TextStyle(
+                  color: AppTheme.fgTertiary,
+                  fontSize: 15,
+                ),
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(24),
-                  borderSide: BorderSide(color: Colors.grey[300]!),
+                  borderRadius: BorderRadius.circular(AppTheme.radiusFull),
+                  borderSide: BorderSide.none,
                 ),
                 enabledBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(24),
-                  borderSide: BorderSide(color: Colors.grey[300]!),
+                  borderRadius: BorderRadius.circular(AppTheme.radiusFull),
+                  borderSide: BorderSide.none,
                 ),
                 focusedBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(24),
-                  borderSide: BorderSide(
-                    color: Theme.of(context).colorScheme.primary,
+                  borderRadius: BorderRadius.circular(AppTheme.radiusFull),
+                  borderSide: const BorderSide(
+                    color: AppTheme.controlDark,
                     width: 1.5,
                   ),
                 ),
@@ -383,29 +392,31 @@ class _ChatInputBar extends StatelessWidget {
                   vertical: 12,
                 ),
                 filled: true,
-                fillColor: Colors.grey[50],
+                fillColor: AppTheme.surfaceElevated,
               ),
-              style: const TextStyle(fontSize: 16),
+              style: const TextStyle(
+                fontSize: 15,
+                color: AppTheme.fgPrimary,
+              ),
             ),
           ),
-          const SizedBox(width: 8),
+          const SizedBox(width: 10),
 
-          // Send button — disabled while loading
+          // Send button — dark circle
           Material(
-            color: isLoading
-                ? Colors.grey[300]
-                : Theme.of(context).colorScheme.primary,
-            borderRadius: BorderRadius.circular(24),
+            color:
+                isLoading ? AppTheme.surfaceElevated : AppTheme.controlDark,
+            borderRadius: BorderRadius.circular(AppTheme.radiusFull),
             child: InkWell(
               onTap: isLoading ? null : onSend,
-              borderRadius: BorderRadius.circular(24),
+              borderRadius: BorderRadius.circular(AppTheme.radiusFull),
               child: Container(
-                width: 48,
-                height: 48,
+                width: 46,
+                height: 46,
                 alignment: Alignment.center,
                 child: Icon(
-                  Icons.send_rounded,
-                  color: isLoading ? Colors.grey[500] : Colors.white,
+                  Icons.arrow_upward_rounded,
+                  color: isLoading ? AppTheme.fgTertiary : Colors.white,
                   size: 22,
                 ),
               ),

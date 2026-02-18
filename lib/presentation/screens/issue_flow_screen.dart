@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../application/providers/app_providers.dart';
 import '../../domain/entities/issue.dart';
 import '../../l10n/app_strings.dart';
+import '../theme/app_theme.dart';
 
 /// Displays the step-by-step decision flow for an issue.
 /// Each question shows selectable options with a progress indicator.
@@ -53,7 +54,7 @@ class _IssueFlowScreenState extends ConsumerState<IssueFlowScreen> {
       appBar: AppBar(
         title: Text(widget.issue.titleForLocale(locale)),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon: const Icon(Icons.arrow_back_rounded),
           onPressed: () {
             if (flowState.currentQuestionIndex > 0) {
               ref.read(issueFlowProvider.notifier).goBack();
@@ -85,13 +86,14 @@ class _IssueFlowScreenState extends ConsumerState<IssueFlowScreen> {
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
 
-              const SizedBox(height: 32),
+              const SizedBox(height: 28),
 
               // Options
               Expanded(
                 child: ListView.separated(
                   itemCount: question.options.length,
-                  separatorBuilder: (context, index) => const SizedBox(height: 12),
+                  separatorBuilder: (context, index) =>
+                      const SizedBox(height: 12),
                   itemBuilder: (context, index) {
                     final option = question.options[index];
                     return _OptionCard(
@@ -134,20 +136,16 @@ class _ProgressBar extends StatelessWidget {
             'current': current.toString(),
             'total': total.toString(),
           }),
-          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                fontWeight: FontWeight.w600,
-              ),
+          style: Theme.of(context).textTheme.labelLarge,
         ),
-        const SizedBox(height: 8),
+        const SizedBox(height: 10),
         ClipRRect(
-          borderRadius: BorderRadius.circular(8),
+          borderRadius: BorderRadius.circular(AppTheme.radiusFull),
           child: LinearProgressIndicator(
             value: current / total,
-            minHeight: 8,
-            backgroundColor: Colors.grey[200],
-            valueColor: AlwaysStoppedAnimation(
-              Theme.of(context).colorScheme.primary,
-            ),
+            minHeight: 6,
+            backgroundColor: AppTheme.surfaceElevated,
+            valueColor: const AlwaysStoppedAnimation(AppTheme.controlDark),
           ),
         ),
       ],
@@ -166,23 +164,35 @@ class _OptionCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      margin: EdgeInsets.zero,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(16),
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-          child: Row(
-            children: [
-              Expanded(
-                child: Text(
-                  label,
-                  style: Theme.of(context).textTheme.titleMedium,
+    return Container(
+      decoration: BoxDecoration(
+        color: AppTheme.surface,
+        borderRadius: BorderRadius.circular(AppTheme.radiusLg),
+        boxShadow: AppTheme.shadowSm,
+      ),
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(AppTheme.radiusLg),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(AppTheme.radiusLg),
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    label,
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
                 ),
-              ),
-              Icon(Icons.chevron_right, color: Colors.grey[400]),
-            ],
+                const Icon(
+                  Icons.chevron_right_rounded,
+                  color: AppTheme.fgTertiary,
+                  size: 22,
+                ),
+              ],
+            ),
           ),
         ),
       ),

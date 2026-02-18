@@ -3,16 +3,25 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../application/providers/app_providers.dart';
 import '../../domain/entities/issue.dart';
 import '../../l10n/app_strings.dart';
+import '../theme/app_theme.dart';
 
 /// Maps issue icon strings from JSON to actual Material Icons.
 const Map<String, IconData> _iconMap = {
   'currency_rupee': Icons.currency_rupee,
-  'home': Icons.home,
-  'security': Icons.security,
-  'receipt_long': Icons.receipt_long,
-  'local_police': Icons.local_police,
-  'help_outline': Icons.help_outline,
+  'home': Icons.home_rounded,
+  'security': Icons.security_rounded,
+  'receipt_long': Icons.receipt_long_rounded,
+  'local_police': Icons.local_police_rounded,
+  'help_outline': Icons.help_outline_rounded,
 };
+
+/// Pastel accent colors cycled per card for visual variety.
+const List<Color> _cardAccents = [
+  AppTheme.accentBlue,
+  AppTheme.accentGreen,
+  AppTheme.accentYellow,
+  AppTheme.accentPurple,
+];
 
 /// Home screen: "What happened?" — shows large, accessible issue buttons.
 class HomeScreen extends ConsumerWidget {
@@ -29,7 +38,7 @@ class HomeScreen extends ConsumerWidget {
         actions: [
           // Language switcher shortcut
           IconButton(
-            icon: const Icon(Icons.language),
+            icon: const Icon(Icons.language_rounded),
             tooltip: AppStrings.get(locale, 'select_language'),
             onPressed: () {
               Navigator.of(context).pushNamed('/language');
@@ -44,7 +53,7 @@ class HomeScreen extends ConsumerWidget {
           data: (issues) => _IssueGrid(issues: issues, locale: locale),
         ),
       ),
-      // FAB to launch chat-based problem description
+      // FAB — dark pill
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           Navigator.of(context).pushNamed('/chat');
@@ -65,14 +74,14 @@ class _IssueGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const SizedBox(height: 8),
+          const SizedBox(height: 12),
           Text(
             AppStrings.get(locale, 'home_title'),
-            style: Theme.of(context).textTheme.headlineMedium,
+            style: Theme.of(context).textTheme.headlineLarge,
           ),
           const SizedBox(height: 4),
           Text(
@@ -86,7 +95,11 @@ class _IssueGrid extends StatelessWidget {
               separatorBuilder: (context, index) => const SizedBox(height: 12),
               itemBuilder: (context, index) {
                 final issue = issues[index];
-                return _IssueCard(issue: issue, locale: locale);
+                return _IssueCard(
+                  issue: issue,
+                  locale: locale,
+                  accent: _cardAccents[index % _cardAccents.length],
+                );
               },
             ),
           ),
@@ -99,55 +112,67 @@ class _IssueGrid extends StatelessWidget {
 class _IssueCard extends StatelessWidget {
   final Issue issue;
   final String locale;
+  final Color accent;
 
-  const _IssueCard({required this.issue, required this.locale});
+  const _IssueCard({
+    required this.issue,
+    required this.locale,
+    required this.accent,
+  });
 
   @override
   Widget build(BuildContext context) {
-    final icon = _iconMap[issue.icon] ?? Icons.help_outline;
+    final icon = _iconMap[issue.icon] ?? Icons.help_outline_rounded;
 
-    return Card(
-      margin: EdgeInsets.zero,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(16),
-        onTap: () {
-          Navigator.of(context).pushNamed(
-            '/issue-flow',
-            arguments: issue,
-          );
-        },
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-          child: Row(
-            children: [
-              Container(
-                width: 56,
-                height: 56,
-                decoration: BoxDecoration(
-                  color: Theme.of(context)
-                      .colorScheme
-                      .primary
-                      .withValues(alpha: 0.1),
-                  borderRadius: BorderRadius.circular(12),
+    return Container(
+      decoration: BoxDecoration(
+        color: AppTheme.surface,
+        borderRadius: BorderRadius.circular(AppTheme.radiusLg),
+        boxShadow: AppTheme.shadowSm,
+      ),
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(AppTheme.radiusLg),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(AppTheme.radiusLg),
+          onTap: () {
+            Navigator.of(context).pushNamed(
+              '/issue-flow',
+              arguments: issue,
+            );
+          },
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: Row(
+              children: [
+                // Pastel icon container
+                Container(
+                  width: 52,
+                  height: 52,
+                  decoration: BoxDecoration(
+                    color: accent,
+                    borderRadius: BorderRadius.circular(AppTheme.radiusMd),
+                  ),
+                  child: Icon(
+                    icon,
+                    size: 26,
+                    color: AppTheme.controlDark,
+                  ),
                 ),
-                child: Icon(
-                  icon,
-                  size: 28,
-                  color: Theme.of(context).colorScheme.primary,
+                const SizedBox(width: 16),
+                Expanded(
+                  child: Text(
+                    issue.titleForLocale(locale),
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
                 ),
-              ),
-              const SizedBox(width: 16),
-              Expanded(
-                child: Text(
-                  issue.titleForLocale(locale),
-                  style: Theme.of(context).textTheme.titleMedium,
+                const Icon(
+                  Icons.chevron_right_rounded,
+                  color: AppTheme.fgTertiary,
+                  size: 22,
                 ),
-              ),
-              Icon(
-                Icons.chevron_right,
-                color: Colors.grey[400],
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

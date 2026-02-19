@@ -12,6 +12,8 @@ const Map<String, IconData> _iconMap = {
   'security': Icons.security_rounded,
   'receipt_long': Icons.receipt_long_rounded,
   'local_police': Icons.local_police_rounded,
+  'shield': Icons.shield_rounded,
+  'emergency': Icons.emergency_rounded,
   'help_outline': Icons.help_outline_rounded,
 };
 
@@ -91,6 +93,7 @@ class _IssueGrid extends StatelessWidget {
           const SizedBox(height: 24),
           Expanded(
             child: ListView.separated(
+              padding: const EdgeInsets.only(bottom: 88),
               itemCount: issues.length,
               separatorBuilder: (context, index) => const SizedBox(height: 12),
               itemBuilder: (context, index) {

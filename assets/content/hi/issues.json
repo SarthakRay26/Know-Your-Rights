@@ -18,12 +18,20 @@
         "options": [
           {
             "option_id": "formal",
-            "label": { "en": "Formal (with appointment letter)", "hi": "औपचारिक (नियुक्ति पत्र के साथ)", "bn": "আনুষ্ঠানিক (নিয়োগপত্র সহ)" },
+            "label": {
+              "en": "Formal (with appointment letter)",
+              "hi": "औपचारिक (नियुक्ति पत्र के साथ)",
+              "bn": "আনুষ্ঠানিক (নিয়োগপত্র সহ)"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "informal",
-            "label": { "en": "Informal (no written contract)", "hi": "अनौपचारिक (कोई लिखित अनुबंध नहीं)", "bn": "অনানুষ্ঠানিক (কোনো লিখিত চুক্তি নেই)" },
+            "label": {
+              "en": "Informal (no written contract)",
+              "hi": "अनौपचारिक (कोई लिखित अनुबंध नहीं)",
+              "bn": "অনানুষ্ঠানিক (কোনো লিখিত চুক্তি নেই)"
+            },
             "next_question_index": 1
           }
         ]
@@ -38,17 +46,29 @@
         "options": [
           {
             "option_id": "less_than_month",
-            "label": { "en": "Less than 1 month", "hi": "1 महीने से कम", "bn": "১ মাসের কম" },
+            "label": {
+              "en": "Less than 1 month",
+              "hi": "1 महीने से कम",
+              "bn": "১ মাসের কম"
+            },
             "next_question_index": 2
           },
           {
             "option_id": "one_to_three",
-            "label": { "en": "1–3 months", "hi": "1–3 महीने", "bn": "১–৩ মাস" },
+            "label": {
+              "en": "1–3 months",
+              "hi": "1–3 महीने",
+              "bn": "১–৩ মাস"
+            },
             "next_question_index": 2
           },
           {
             "option_id": "more_than_three",
-            "label": { "en": "More than 3 months", "hi": "3 महीने से अधिक", "bn": "৩ মাসের বেশি" },
+            "label": {
+              "en": "More than 3 months",
+              "hi": "3 महीने से अधिक",
+              "bn": "৩ মাসের বেশি"
+            },
             "next_question_index": 2
           }
         ]
@@ -63,17 +83,29 @@
         "options": [
           {
             "option_id": "yes_responded",
-            "label": { "en": "Yes, but no action taken", "hi": "हाँ, लेकिन कोई कार्रवाई नहीं हुई", "bn": "হ্যাঁ, কিন্তু কোনো পদক্ষেপ নেওয়া হয়নি" },
+            "label": {
+              "en": "Yes, but no action taken",
+              "hi": "हाँ, लेकिन कोई कार्रवाई नहीं हुई",
+              "bn": "হ্যাঁ, কিন্তু কোনো পদক্ষেপ নেওয়া হয়নি"
+            },
             "next_question_index": null
           },
           {
             "option_id": "no_response",
-            "label": { "en": "No response at all", "hi": "कोई जवाब नहीं", "bn": "কোনো উত্তর নেই" },
+            "label": {
+              "en": "No response at all",
+              "hi": "कोई जवाब नहीं",
+              "bn": "কোনো উত্তর নেই"
+            },
             "next_question_index": null
           },
           {
             "option_id": "threatened",
-            "label": { "en": "Threatened or harassed me", "hi": "मुझे धमकाया या परेशान किया", "bn": "আমাকে ধমক দিয়েছে বা হয়রানি করেছে" },
+            "label": {
+              "en": "Threatened or harassed me",
+              "hi": "मुझे धमकाया या परेशान किया",
+              "bn": "আমাকে ধমক দিয়েছে বা হয়রানি করেছে"
+            },
             "next_question_index": null
           }
         ]
@@ -81,7 +113,7 @@
     ],
     "content": {
       "explanation": {
-        "en": "Every worker in India has the right to be paid for their work. The law requires employers to pay wages on time — usually within 7 to 10 days after the pay period ends. If your employer doesn't pay you, you can file a complaint with the Labour Commissioner's office. You don't need a lawyer for this.",
+        "en": "Every worker in India has the right to be paid for their work. The law generally requires employers to pay wages on time — usually within 7 to 10 days after the pay period ends. If your employer doesn't pay you, you can file a complaint with the Labour Commissioner's office. In most situations, you don't need a lawyer for this.",
         "hi": "भारत में हर कामगार को अपने काम के लिए भुगतान पाने का अधिकार है। कानून के अनुसार नियोक्ता को समय पर वेतन देना होता है — आमतौर पर वेतन अवधि समाप्त होने के 7 से 10 दिनों के भीतर। यदि आपका नियोक्ता आपको भुगतान नहीं करता है, तो आप श्रम आयुक्त कार्यालय में शिकायत दर्ज कर सकते हैं। इसके लिए आपको वकील की आवश्यकता नहीं है।",
         "bn": "ভারতে প্রতিটি শ্রমিকের তাদের কাজের জন্য বেতন পাওয়ার অধিকার আছে। আইন অনুযায়ী নিয়োগকর্তাকে সময়মতো বেতন দিতে হবে — সাধারণত বেতনকাল শেষ হওয়ার ৭ থেকে ১০ দিনের মধ্যে। যদি আপনার নিয়োগকর্তা আপনাকে বেতন না দেন, তাহলে আপনি শ্রম কমিশনারের কার্যালয়ে অভিযোগ দায়ের করতে পারেন। এর জন্য আপনার উকিলের প্রয়োজন নেই।"
       },
@@ -120,11 +152,71 @@
         "en": "Labour complaints are usually heard within 30–90 days. Resolution can take 3–6 months depending on the case.",
         "hi": "श्रम शिकायतों की सुनवाई आमतौर पर 30–90 दिनों के भीतर होती है। समाधान में मामले के आधार पर 3–6 महीने लग सकते हैं।",
         "bn": "শ্রম অভিযোগের শুনানি সাধারণত ৩০–৯০ দিনের মধ্যে হয়। মামলার উপর নির্ভর করে সমাধানে ৩–৬ মাস লাগতে পারে।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may file a complaint with the Labour Commissioner's office.",
+          "hi": "आप श्रम आयुक्त कार्यालय में शिकायत दर्ज कर सकते हैं।",
+          "bn": "আপনি শ্রম কমিশনারের কার্যালয়ে অভিযোগ দায়ের করতে পারেন।"
+        },
+        {
+          "en": "You may send a written demand notice to your employer.",
+          "hi": "आप अपने नियोक्ता को लिखित माँग नोटिस भेज सकते हैं।",
+          "bn": "আপনি আপনার নিয়োগকর্তাকে লিখিত দাবি নোটিশ পাঠাতে পারেন।"
+        },
+        {
+          "en": "You may approach a labour court if the matter is not resolved.",
+          "hi": "यदि मामला हल नहीं होता तो आप श्रम अदालत में जा सकते हैं।",
+          "bn": "বিষয়টি সমাধান না হলে আপনি শ্রম আদালতে যেতে পারেন।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "The law generally expects employees to fulfill their agreed job duties and follow workplace policies.",
+          "hi": "कानून आमतौर पर कर्मचारियों से उनके सहमत कर्तव्यों को पूरा करने और कार्यस्थल नीतियों का पालन करने की अपेक्षा करता है।",
+          "bn": "আইন সাধারণত কর্মচারীদের কাছ থেকে তাদের সম্মত দায়িত্ব পালন এবং কর্মক্ষেত্রের নীতি মেনে চলা আশা করে।"
+        },
+        {
+          "en": "You should not abandon your position without giving proper notice, as this may weaken your claim.",
+          "hi": "आपको उचित नोटिस दिए बिना अपना पद नहीं छोड़ना चाहिए, क्योंकि इससे आपका दावा कमज़ोर हो सकता है।",
+          "bn": "আপনার উচিত নয় যথাযথ নোটিশ না দিয়ে আপনার পদ ত্যাগ করা, কারণ এতে আপনার দাবি দুর্বল হতে পারে।"
+        },
+        {
+          "en": "You should attempt to resolve the matter through internal HR or grievance channels before escalating.",
+          "hi": "बढ़ाने से पहले आंतरिक HR या शिकायत चैनल के माध्यम से मामला सुलझाने का प्रयास करना चाहिए।",
+          "bn": "বাড়ানোর আগে অভ্যন্তরীণ HR বা অভিযোগ মাধ্যমে বিষয়টি সমাধানের চেষ্টা করা উচিত।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "Employers also have certain rights under the law. An employer may legally delay salary if the company is facing genuine financial distress, provided they communicate this. Employers may deduct salary for unauthorized absences or policy violations, as long as the deduction follows legal limits. In some situations, an employer may withhold final settlement if the employee has not returned company property or completed the notice period.",
+        "hi": "कानून के तहत नियोक्ताओं के भी कुछ अधिकार हैं। यदि कंपनी वास्तविक वित्तीय संकट में है तो नियोक्ता कानूनी रूप से वेतन में देरी कर सकता है, बशर्ते वे इसकी सूचना दें। नियोक्ता अनधिकृत अनुपस्थिति या नीति उल्लंघन के लिए वेतन काट सकते हैं, जब तक कटौती कानूनी सीमाओं के भीतर हो। कुछ स्थितियों में, नियोक्ता अंतिम निपटान रोक सकता है यदि कर्मचारी ने कंपनी की संपत्ति नहीं लौटाई है या नोटिस अवधि पूरी नहीं की है।",
+        "bn": "আইনের অধীনে নিয়োগকর্তাদেরও কিছু অধিকার আছে। কোম্পানি প্রকৃত আর্থিক সংকটে থাকলে নিয়োগকর্তা আইনগতভাবে বেতন বিলম্বিত করতে পারেন, তবে তাদের এটি জানাতে হবে। নিয়োগকর্তা অননুমোদিত অনুপস্থিতি বা নীতি লঙ্ঘনের জন্য বেতন কাটতে পারেন, যতক্ষণ কর্তন আইনি সীমার মধ্যে থাকে। কিছু পরিস্থিতিতে, কর্মচারী কোম্পানির সম্পত্তি ফেরত না দিলে বা নোটিশ পিরিয়ড সম্পূর্ণ না করলে নিয়োগকর্তা চূড়ান্ত নিষ্পত্তি আটকে রাখতে পারেন।"
+      },
+      "misuse_warning": {
+        "en": "Filing false or exaggerated wage complaints may lead to legal consequences, including penalties and counterclaims by the employer. The law protects genuine claims and discourages misuse.",
+        "hi": "झूठी या बढ़ा-चढ़ाकर वेतन शिकायत दर्ज करने से कानूनी परिणाम हो सकते हैं, जिसमें जुर्माना और नियोक्ता द्वारा प्रति-दावे शामिल हैं। कानून वास्तविक दावों की रक्षा करता है और दुरुपयोग को हतोत्साहित करता है।",
+        "bn": "মিথ্যা বা অতিরঞ্জিত বেতন অভিযোগ দায়ের করলে আইনি পরিণতি হতে পারে, যেমন জরিমানা এবং নিয়োগকর্তার পাল্টা দাবি। আইন প্রকৃত দাবি রক্ষা করে এবং অপব্যবহার নিরুৎসাহিত করে।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is generally reasonable when your employer has not responded to written requests, or when salary has been delayed beyond the legal limit without explanation.",
+          "hi": "बढ़ोतरी आमतौर पर तब उचित होती है जब आपके नियोक्ता ने लिखित अनुरोधों का जवाब नहीं दिया है, या जब बिना स्पष्टीकरण के वेतन कानूनी सीमा से अधिक देरी से दिया गया है।",
+          "bn": "আপনার নিয়োগকর্তা লিখিত অনুরোধের উত্তর না দিলে, বা ব্যাখ্যা ছাড়াই বেতন আইনি সীমার বাইরে বিলম্বিত হলে উচ্চতর পদক্ষেপ সাধারণত যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "Escalation may backfire if you have not first attempted internal resolution, if you resigned without serving notice, or if there are pending disciplinary issues. In such cases, consider getting independent advice first.",
+          "hi": "यदि आपने पहले आंतरिक समाधान का प्रयास नहीं किया है, यदि आपने बिना नोटिस दिए इस्तीफा दिया, या यदि अनुशासनात्मक मामले लंबित हैं, तो बढ़ोतरी उलटा पड़ सकती है। ऐसे मामलों में पहले स्वतंत्र सलाह लें।",
+          "bn": "আপনি যদি প্রথমে অভ্যন্তরীণ সমাধানের চেষ্টা না করে থাকেন, নোটিশ না দিয়ে পদত্যাগ করে থাকেন, বা শৃঙ্খলামূলক বিষয় মুলতুবি থাকে, তাহলে উচ্চতর পদক্ষেপ বিপরীত হতে পারে। এই ক্ষেত্রে প্রথমে স্বাধীন পরামর্শ নেওয়া বিবেচনা করুন।"
+        }
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Collect evidence", "hi": "सबूत इकट्ठा करें", "bn": "প্রমাণ সংগ্রহ করুন" },
+        "title": {
+          "en": "Collect evidence",
+          "hi": "सबूत इकट्ठा करें",
+          "bn": "প্রমাণ সংগ্রহ করুন"
+        },
         "description": {
           "en": "Gather your appointment letter, salary slips, bank statements, and any messages from your employer about payment.",
           "hi": "अपना नियुक्ति पत्र, वेतन पर्ची, बैंक स्टेटमेंट, और भुगतान के बारे में नियोक्ता के कोई संदेश इकट्ठा करें।",
@@ -132,7 +224,11 @@
         }
       },
       {
-        "title": { "en": "Send a written notice", "hi": "लिखित नोटिस भेजें", "bn": "লিখিত নোটিশ পাঠান" },
+        "title": {
+          "en": "Send a written notice",
+          "hi": "लिखित नोटिस भेजें",
+          "bn": "লিখিত নোটিশ পাঠান"
+        },
         "description": {
           "en": "Write a formal letter or email to your employer asking for your pending salary. Keep a copy for your records.",
           "hi": "अपने नियोक्ता को लंबित वेतन माँगते हुए एक औपचारिक पत्र या ईमेल लिखें। अपने रिकॉर्ड के लिए एक प्रति रखें।",
@@ -140,7 +236,11 @@
         }
       },
       {
-        "title": { "en": "File a complaint", "hi": "शिकायत दर्ज करें", "bn": "অভিযোগ দায়ের করুন" },
+        "title": {
+          "en": "File a complaint",
+          "hi": "शिकायत दर्ज करें",
+          "bn": "অভিযোগ দায়ের করুন"
+        },
         "description": {
           "en": "Visit or write to your nearest Labour Commissioner's office. You can also file a complaint on the SHRAM Suvidha Portal (labour.gov.in).",
           "hi": "अपने निकटतम श्रम आयुक्त कार्यालय में जाएँ या लिखें। आप श्रम सुविधा पोर्टल (labour.gov.in) पर भी शिकायत दर्ज कर सकते हैं।",
@@ -148,14 +248,56 @@
         }
       },
       {
-        "title": { "en": "Follow up", "hi": "फॉलो अप करें", "bn": "ফলো-আপ করুন" },
+        "title": {
+          "en": "Follow up",
+          "hi": "फॉलो अप करें",
+          "bn": "ফলো-আপ করুন"
+        },
         "description": {
           "en": "Keep your complaint reference number. Follow up regularly. The office will call both parties for a hearing.",
           "hi": "अपना शिकायत संदर्भ नंबर रखें। नियमित रूप से फॉलो अप करें। कार्यालय दोनों पक्षों को सुनवाई के लिए बुलाएगा।",
           "bn": "আপনার অভিযোগ রেফারেন্স নম্বর রাখুন। নিয়মিত ফলো-আপ করুন। কার্যালয় উভয় পক্ষকে শুনানির জন্য ডাকবে।"
         }
       }
-    ]
+    ],
+    "self_check": {
+      "question": {
+        "en": "Are you currently fulfilling your agreed job duties?",
+        "hi": "क्या आप वर्तमान में अपने सहमत कार्य कर्तव्यों को पूरा कर रहे हैं?",
+        "bn": "আপনি কি বর্তমানে আপনার সম্মত কাজের দায়িত্ব পালন করছেন?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, I am",
+            "hi": "हाँ, कर रहा/रही हूँ",
+            "bn": "হ্যাঁ, করছি"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, there are issues on my side too",
+            "hi": "नहीं, मेरी तरफ से भी कुछ समस्याएं हैं",
+            "bn": "না, আমার দিক থেকেও কিছু সমস্যা আছে"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "I'm not sure",
+            "hi": "मुझे पक्का पता नहीं",
+            "bn": "আমি নিশ্চিত নই"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "Even if there are issues on your side, you still have the right to be paid for work already done. However, the law also expects employees to fulfill their agreed duties. Understanding both sides helps you make informed decisions.",
+        "hi": "भले ही आपकी तरफ से कुछ समस्याएं हों, आपको पहले से किए गए काम का भुगतान पाने का अधिकार है। हालांकि, कानून कर्मचारियों से भी उनके सहमत कर्तव्यों को पूरा करने की अपेक्षा करता है। दोनों पक्षों को समझना आपको सूचित निर्णय लेने में मदद करता है।",
+        "bn": "আপনার দিক থেকে কিছু সমস্যা থাকলেও, ইতিমধ্যে করা কাজের জন্য বেতন পাওয়ার অধিকার আপনার আছে। তবে, আইন কর্মচারীদের কাছ থেকেও তাদের সম্মত দায়িত্ব পালন করা আশা করে। উভয় পক্ষ বোঝা আপনাকে সচেতন সিদ্ধান্ত নিতে সাহায্য করে।"
+      }
+    }
   },
   {
     "issue_id": "landlord_dispute",
@@ -176,22 +318,38 @@
         "options": [
           {
             "option_id": "illegal_eviction",
-            "label": { "en": "Trying to evict me illegally", "hi": "गैरकानूनी तरीके से बेदखल करने की कोशिश", "bn": "আমাকে অবৈধভাবে উচ্ছেদ করার চেষ্টা করছে" },
+            "label": {
+              "en": "Trying to evict me illegally",
+              "hi": "गैरकानूनी तरीके से बेदखल करने की कोशिश",
+              "bn": "আমাকে অবৈধভাবে উচ্ছেদ করার চেষ্টা করছে"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "security_deposit",
-            "label": { "en": "Not returning security deposit", "hi": "सुरक्षा जमा वापस नहीं कर रहा", "bn": "জামানতের টাকা ফেরত দিচ্ছে না" },
+            "label": {
+              "en": "Not returning security deposit",
+              "hi": "सुरक्षा जमा वापस नहीं कर रहा",
+              "bn": "জামানতের টাকা ফেরত দিচ্ছে না"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "rent_increase",
-            "label": { "en": "Unfair rent increase", "hi": "अनुचित किराया वृद्धि", "bn": "অন্যায় ভাড়া বৃদ্ধি" },
+            "label": {
+              "en": "Unfair rent increase",
+              "hi": "अनुचित किराया वृद्धि",
+              "bn": "অন্যায় ভাড়া বৃদ্ধি"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "basic_amenities",
-            "label": { "en": "Not providing basic amenities", "hi": "बुनियादी सुविधाएं नहीं दे रहा", "bn": "মৌলিক সুবিধা দিচ্ছে না" },
+            "label": {
+              "en": "Not providing basic amenities",
+              "hi": "बुनियादी सुविधाएं नहीं दे रहा",
+              "bn": "মৌলিক সুবিধা দিচ্ছে না"
+            },
             "next_question_index": 1
           }
         ]
@@ -206,12 +364,20 @@
         "options": [
           {
             "option_id": "yes_agreement",
-            "label": { "en": "Yes, I have a rental agreement", "hi": "हाँ, मेरे पास किराया समझौता है", "bn": "হ্যাঁ, আমার ভাড়া চুক্তি আছে" },
+            "label": {
+              "en": "Yes, I have a rental agreement",
+              "hi": "हाँ, मेरे पास किराया समझौता है",
+              "bn": "হ্যাঁ, আমার ভাড়া চুক্তি আছে"
+            },
             "next_question_index": null
           },
           {
             "option_id": "no_agreement",
-            "label": { "en": "No written agreement", "hi": "कोई लिखित समझौता नहीं", "bn": "কোনো লিখিত চুক্তি নেই" },
+            "label": {
+              "en": "No written agreement",
+              "hi": "कोई लिखित समझौता नहीं",
+              "bn": "কোনো লিখিত চুক্তি নেই"
+            },
             "next_question_index": null
           }
         ]
@@ -219,7 +385,7 @@
     ],
     "content": {
       "explanation": {
-        "en": "Tenants in India have legal protections even without a written agreement. A landlord cannot forcibly evict you — they must follow a legal process through the courts. Rent control laws in most states limit how much rent can be increased. Your security deposit must be returned when you vacate, minus any legitimate deductions for damage.",
+        "en": "Tenants in India generally have legal protections even without a written agreement. A landlord cannot forcibly evict you — they must follow a legal process through the courts. Rent control laws in most states limit how much rent can be increased. Your security deposit must typically be returned when you vacate, minus any legitimate deductions for damage.",
         "hi": "भारत में किरायेदारों को बिना लिखित समझौते के भी कानूनी सुरक्षा प्राप्त है। मकान मालिक आपको जबरन बेदखल नहीं कर सकता — उसे अदालत के माध्यम से कानूनी प्रक्रिया का पालन करना होगा। अधिकांश राज्यों में किराया नियंत्रण कानून किराया वृद्धि को सीमित करते हैं। जब आप मकान खाली करते हैं तो आपकी सुरक्षा जमा वापस की जानी चाहिए, नुकसान के लिए वैध कटौती को छोड़कर।",
         "bn": "ভারতে ভাড়াটেদের লিখিত চুক্তি ছাড়াই আইনি সুরক্ষা আছে। বাড়িওয়ালা জোর করে আপনাকে উচ্ছেদ করতে পারেন না — তাকে আদালতের মাধ্যমে বৈধ প্রক্রিয়া অনুসরণ করতে হবে। বেশিরভাগ রাজ্যে ভাড়া নিয়ন্ত্রণ আইন ভাড়া বৃদ্ধি সীমিত করে। বাড়ি ছাড়ার সময় আপনার জামানত ফেরত দেওয়া উচিত, ক্ষতির জন্য বৈধ কর্তন বাদ দিয়ে।"
       },
@@ -258,11 +424,71 @@
         "en": "Rent disputes through courts can take 6 months to 2 years. Mediation through rent authorities may be faster (1–3 months).",
         "hi": "अदालत के माध्यम से किराया विवादों में 6 महीने से 2 साल लग सकते हैं। किराया प्राधिकरण के माध्यम से मध्यस्थता तेज़ हो सकती है (1–3 महीने)।",
         "bn": "আদালতের মাধ্যমে ভাড়া বিরোধে ৬ মাস থেকে ২ বছর লাগতে পারে। ভাড়া কর্তৃপক্ষের মাধ্যমে মধ্যস্থতা দ্রুত হতে পারে (১–৩ মাস)।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may file a complaint with the local Rent Controller or Rent Authority.",
+          "hi": "आप स्थानीय किराया नियंत्रक या किराया प्राधिकरण में शिकायत दर्ज कर सकते हैं।",
+          "bn": "আপনি স্থানীয় ভাড়া নিয়ন্ত্রক বা ভাড়া কর্তৃপক্ষে অভিযোগ দায়ের করতে পারেন।"
+        },
+        {
+          "en": "You may withhold rent payments through the Rent Authority if basic amenities are denied.",
+          "hi": "यदि बुनियादी सुविधाएं नहीं दी जा रही हैं तो आप किराया प्राधिकरण के माध्यम से किराये का भुगतान रोक सकते हैं।",
+          "bn": "মৌলিক সুবিধা অস্বীকার করলে আপনি ভাড়া কর্তৃপক্ষের মাধ্যমে ভাড়া প্রদান আটকে রাখতে পারেন।"
+        },
+        {
+          "en": "You may file a police complaint if the landlord threatens or harasses you.",
+          "hi": "यदि मकान मालिक धमकाता या परेशान करता है तो आप पुलिस शिकायत दर्ज कर सकते हैं।",
+          "bn": "বাড়িওয়ালা হুমকি দিলে বা হয়রানি করলে আপনি পুলিশে অভিযোগ করতে পারেন।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "Tenants are generally expected to pay rent on time as agreed in the arrangement.",
+          "hi": "किरायेदारों से आमतौर पर व्यवस्था के अनुसार समय पर किराया भुगतान करने की अपेक्षा की जाती है।",
+          "bn": "ভাড়াটেদের কাছ থেকে সাধারণত চুক্তি অনুযায়ী সময়মতো ভাড়া প্রদান আশা করা হয়।"
+        },
+        {
+          "en": "You should not make unauthorized structural changes to the property.",
+          "hi": "आपको संपत्ति में बिना अनुमति संरचनात्मक परिवर्तन नहीं करने चाहिए।",
+          "bn": "আপনার অনুমতি ছাড়া সম্পত্তিতে কাঠামোগত পরিবর্তন করা উচিত নয়।"
+        },
+        {
+          "en": "You should give proper notice before vacating, as specified in your agreement or local law.",
+          "hi": "खाली करने से पहले, अपने समझौते या स्थानीय कानून में निर्दिष्ट अनुसार उचित नोटिस देना चाहिए।",
+          "bn": "খালি করার আগে, আপনার চুক্তি বা স্থানীয় আইনে নির্দিষ্ট অনুযায়ী যথাযথ নোটিশ দেওয়া উচিত।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "Landlords also have rights under the law. A landlord may legally seek eviction if the tenant defaults on rent for a prolonged period, causes damage to the property, or uses it for illegal purposes. Landlords are entitled to reasonable rent increases as per local rent control regulations. They may also deduct from the security deposit for genuine damages beyond normal wear and tear.",
+        "hi": "कानून के तहत मकान मालिकों के भी अधिकार हैं। यदि किरायेदार लंबे समय तक किराया नहीं देता, संपत्ति को नुकसान पहुँचाता है, या इसे अवैध उद्देश्यों के लिए उपयोग करता है तो मकान मालिक कानूनी रूप से बेदखली की माँग कर सकता है। मकान मालिक स्थानीय किराया नियंत्रण नियमों के अनुसार उचित किराया वृद्धि के हकदार हैं। वे सामान्य टूट-फूट से अधिक वास्तविक नुकसान के लिए सुरक्षा जमा से कटौती कर सकते हैं।",
+        "bn": "আইনের অধীনে বাড়িওয়ালাদেরও অধিকার আছে। ভাড়াটে দীর্ঘ সময় ভাড়া না দিলে, সম্পত্তির ক্ষতি করলে, বা অবৈধ উদ্দেশ্যে ব্যবহার করলে বাড়িওয়ালা আইনগতভাবে উচ্ছেদ চাইতে পারেন। বাড়িওয়ালারা স্থানীয় ভাড়া নিয়ন্ত্রণ বিধি অনুযায়ী যুক্তিসঙ্গত ভাড়া বৃদ্ধির অধিকারী। তারা স্বাভাবিক ক্ষয়-ক্ষতির বাইরে প্রকৃত ক্ষতির জন্য জামানত থেকে কর্তন করতে পারেন।"
+      },
+      "misuse_warning": {
+        "en": "Knowingly making false claims against a landlord — such as fabricating harassment or misrepresenting the terms of a rental agreement — can lead to legal consequences including dismissal of your case and potential counterclaims.",
+        "hi": "मकान मालिक के खिलाफ जानबूझकर झूठे दावे करना — जैसे उत्पीड़न का झूठा आरोप या किराया समझौते की शर्तों को गलत तरीके से प्रस्तुत करना — आपके मामले की खारिजी और संभावित प्रति-दावों सहित कानूनी परिणाम हो सकते हैं।",
+        "bn": "বাড়িওয়ালার বিরুদ্ধে জেনেশুনে মিথ্যা দাবি করা — যেমন হয়রানি বানোয়াট করা বা ভাড়া চুক্তির শর্ত ভুলভাবে উপস্থাপন করা — আপনার মামলা খারিজ এবং সম্ভাব্য পাল্টা দাবি সহ আইনি পরিণতি হতে পারে।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is generally reasonable when the landlord has threatened illegal eviction, refused to return your deposit without valid reason, or cut essential services like water or electricity.",
+          "hi": "बढ़ोतरी आमतौर पर तब उचित होती है जब मकान मालिक ने गैरकानूनी बेदखली की धमकी दी हो, बिना वैध कारण जमा वापस करने से मना किया हो, या पानी-बिजली जैसी आवश्यक सेवाएं काट दी हों।",
+          "bn": "বাড়িওয়ালা অবৈধ উচ্ছেদের হুমকি দিলে, যথাযথ কারণ ছাড়া জামানত ফেরত দিতে অস্বীকার করলে, বা জল-বিদ্যুতের মতো অপরিহার্য পরিষেবা বন্ধ করলে উচ্চতর পদক্ষেপ সাধারণত যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "Escalation may not be productive if you have significantly defaulted on rent, caused substantial damage to the property, or violated the terms of your agreement. Consider seeking mediation first.",
+          "hi": "यदि आपने किराये में काफी चूक की है, संपत्ति को काफी नुकसान पहुँचाया है, या अपने समझौते की शर्तों का उल्लंघन किया है तो बढ़ोतरी उत्पादक नहीं हो सकती। पहले मध्यस्थता पर विचार करें।",
+          "bn": "আপনি যদি ভাড়ায় উল্লেখযোগ্যভাবে খেলাপি করে থাকেন, সম্পত্তির উল্লেখযোগ্য ক্ষতি করে থাকেন, বা চুক্তির শর্ত লঙ্ঘন করে থাকেন, তাহলে উচ্চতর পদক্ষেপ ফলপ্রসূ নাও হতে পারে। প্রথমে মধ্যস্থতা বিবেচনা করুন।"
+        }
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Document everything", "hi": "सब कुछ दस्तावेज़ करें", "bn": "সবকিছু ডকুমেন্ট করুন" },
+        "title": {
+          "en": "Document everything",
+          "hi": "सब कुछ दस्तावेज़ करें",
+          "bn": "সবকিছু ডকুমেন্ট করুন"
+        },
         "description": {
           "en": "Keep copies of your rental agreement, rent receipts, bank transfers, and any messages or notices from your landlord.",
           "hi": "अपने किराया समझौते, किराये की रसीदें, बैंक ट्रांसफर, और मकान मालिक से कोई संदेश या नोटिस की प्रतियाँ रखें।",
@@ -270,7 +496,11 @@
         }
       },
       {
-        "title": { "en": "Send a written notice", "hi": "लिखित नोटिस भेजें", "bn": "লিখিত নোটিশ পাঠান" },
+        "title": {
+          "en": "Send a written notice",
+          "hi": "लिखित नोटिस भेजें",
+          "bn": "লিখিত নোটিশ পাঠান"
+        },
         "description": {
           "en": "Send a formal notice to your landlord stating your grievance. Use registered post or email so you have proof.",
           "hi": "अपने मकान मालिक को अपनी शिकायत बताते हुए औपचारिक नोटिस भेजें। रजिस्टर्ड डाक या ईमेल का उपयोग करें ताकि आपके पास प्रमाण हो।",
@@ -278,7 +508,11 @@
         }
       },
       {
-        "title": { "en": "Approach rent authority", "hi": "किराया प्राधिकरण से संपर्क करें", "bn": "ভাড়া কর্তৃপক্ষে যোগাযোগ করুন" },
+        "title": {
+          "en": "Approach rent authority",
+          "hi": "किराया प्राधिकरण से संपर्क करें",
+          "bn": "ভাড়া কর্তৃপক্ষে যোগাযোগ করুন"
+        },
         "description": {
           "en": "Visit your local Rent Controller or Rent Authority office to file a complaint. Carry your documents.",
           "hi": "शिकायत दर्ज करने के लिए अपने स्थानीय किराया नियंत्रक या किराया प्राधिकरण कार्यालय में जाएँ। अपने दस्तावेज़ साथ ले जाएँ।",
@@ -286,14 +520,56 @@
         }
       },
       {
-        "title": { "en": "File a police complaint if threatened", "hi": "धमकी मिलने पर पुलिस शिकायत दर्ज करें", "bn": "ধমকি পেলে পুলিশে অভিযোগ করুন" },
+        "title": {
+          "en": "File a police complaint if threatened",
+          "hi": "धमकी मिलने पर पुलिस शिकायत दर्ज करें",
+          "bn": "ধমকি পেলে পুলিশে অভিযোগ করুন"
+        },
         "description": {
           "en": "If your landlord threatens you, cuts off water/electricity, or tries to forcibly enter, file an FIR at your nearest police station.",
           "hi": "यदि आपका मकान मालिक आपको धमकाता है, पानी/बिजली काटता है, या जबरन प्रवेश करने की कोशिश करता है, तो अपने नज़दीकी पुलिस स्टेशन में FIR दर्ज करें।",
           "bn": "যদি আপনার বাড়িওয়ালা আপনাকে ধমক দেন, জল/বিদ্যুৎ জল বন্ধ করেন, বা জোর করে প্রবেশ করতে চান, তাহলে আপনার নিকটতম থানায় FIR করুন।"
         }
       }
-    ]
+    ],
+    "self_check": {
+      "question": {
+        "en": "Is rent being paid as agreed in your arrangement?",
+        "hi": "क्या किराया आपकी व्यवस्था के अनुसार भुगतान किया जा रहा है?",
+        "bn": "ভাড়া কি আপনার চুক্তি অনুযায়ী পরিশোধ করা হচ্ছে?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, rent is up to date",
+            "hi": "हाँ, किराया अद्यतित है",
+            "bn": "হ্যাঁ, ভাড়া আপ টু ডেট"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, there are pending payments",
+            "hi": "नहीं, कुछ भुगतान लंबित हैं",
+            "bn": "না, কিছু বকেয়া পেমেন্ট আছে"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "There's a dispute about the amount",
+            "hi": "राशि को लेकर विवाद है",
+            "bn": "পরিমাণ নিয়ে বিবাদ আছে"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "Even if rent is delayed, a landlord cannot take the law into their own hands. However, tenants are also expected to honor their rental commitments. Understanding both perspectives helps resolve disputes more effectively.",
+        "hi": "किराया देर से होने पर भी मकान मालिक कानून अपने हाथ में नहीं ले सकता। हालाँकि, किरायेदारों से भी अपनी किराया प्रतिबद्धताओं का सम्मान करने की अपेक्षा की जाती है। दोनों दृष्टिकोणों को समझने से विवाद अधिक प्रभावी ढंग से सुलझाने में मदद मिलती है।",
+        "bn": "ভাড়া বিলম্বিত হলেও, বাড়িওয়ালা আইন নিজের হাতে তুলে নিতে পারেন না। তবে, ভাড়াটেদের কাছ থেকেও তাদের ভাড়া প্রতিশ্রুতি সম্মান করা আশা করা হয়। উভয় দৃষ্টিভঙ্গি বোঝা বিরোধ আরও কার্যকরভাবে সমাধান করতে সাহায্য করে।"
+      }
+    }
   },
   {
     "issue_id": "online_fraud",
@@ -314,22 +590,38 @@
         "options": [
           {
             "option_id": "banking_fraud",
-            "label": { "en": "Unauthorized bank/UPI transaction", "hi": "अनधिकृत बैंक/UPI लेनदेन", "bn": "অনধিকৃত ব্যাংক/UPI লেনদেন" },
+            "label": {
+              "en": "Unauthorized bank/UPI transaction",
+              "hi": "अनधिकृत बैंक/UPI लेनदेन",
+              "bn": "অনধিকৃত ব্যাংক/UPI লেনদেন"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "shopping_fraud",
-            "label": { "en": "Online shopping scam", "hi": "ऑनलाइन शॉपिंग घोटाला", "bn": "অনলাইন শপিং কেলেঙ্কারি" },
+            "label": {
+              "en": "Online shopping scam",
+              "hi": "ऑनलाइन शॉपिंग घोटाला",
+              "bn": "অনলাইন শপিং কেলেঙ্কারি"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "phishing",
-            "label": { "en": "Phishing / fake website", "hi": "फ़िशिंग / नकली वेबसाइट", "bn": "ফিশিং / ভুয়া ওয়েবসাইট" },
+            "label": {
+              "en": "Phishing / fake website",
+              "hi": "फ़िशिंग / नकली वेबसाइट",
+              "bn": "ফিশিং / ভুয়া ওয়েবসাইট"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "social_media",
-            "label": { "en": "Social media scam", "hi": "सोशल मीडिया घोटाला", "bn": "সোশ্যাল মিডিয়া কেলেঙ্কারি" },
+            "label": {
+              "en": "Social media scam",
+              "hi": "सोशल मीडिया घोटाला",
+              "bn": "সোশ্যাল মিডিয়া কেলেঙ্কারি"
+            },
             "next_question_index": 1
           }
         ]
@@ -344,12 +636,20 @@
         "options": [
           {
             "option_id": "yes_money",
-            "label": { "en": "Yes, money was taken from my account", "hi": "हाँ, मेरे खाते से पैसा निकला", "bn": "হ্যাঁ, আমার অ্যাকাউন্ট থেকে টাকা কেটে নেওয়া হয়েছে" },
+            "label": {
+              "en": "Yes, money was taken from my account",
+              "hi": "हाँ, मेरे खाते से पैसा निकला",
+              "bn": "হ্যাঁ, আমার অ্যাকাউন্ট থেকে টাকা কেটে নেওয়া হয়েছে"
+            },
             "next_question_index": null
           },
           {
             "option_id": "no_money",
-            "label": { "en": "No financial loss yet", "hi": "अभी तक कोई आर्थिक नुकसान नहीं", "bn": "এখনও কোনো আর্থিক ক্ষতি হয়নি" },
+            "label": {
+              "en": "No financial loss yet",
+              "hi": "अभी तक कोई आर्थिक नुकसान नहीं",
+              "bn": "এখনও কোনো আর্থিক ক্ষতি হয়নি"
+            },
             "next_question_index": null
           }
         ]
@@ -357,7 +657,7 @@
     ],
     "content": {
       "explanation": {
-        "en": "If you've been a victim of online fraud, you have legal options. India has strong cyber crime laws that protect victims. The most important thing is to report the fraud quickly — the sooner you report, the better the chance of recovering your money. You can report online fraud on the national cybercrime portal without visiting a police station.",
+        "en": "If you've been a victim of online fraud, you have legal options. India has strong cyber crime laws that protect victims. The most important thing is to report the fraud quickly — in most situations, the sooner you report, the better the chance of recovering your money. You can report on the national cybercrime portal without visiting a police station.",
         "hi": "यदि आप ऑनलाइन धोखाधড়ी के शिकार हुए हैं, तो आपके पास कानूनी विकल्प हैं। भारत में मजबूत साइबर अपराध कानून हैं जो पीड़ितों की रक्षा करते हैं। सबसे महत्वपूर्ण बात यह है कि धोखाधড়ी की जल्द से जल्द रिपोर्ट करें — जितनी जल्दी रिपोर्ट करेंगे, पैसे वापस मिलने की संभावना उतनी बेहतर होगी। आप पुलिस स्टेशन जाए बिना राष्ट्रीय साइबर अपराध पोर्टल पर ऑनलाइन धोखाधড়ी की रिपोर्ट कर सकते हैं।",
         "bn": "আপনি যদি অনলাইন প্রতারণার শিকার হন, তাহলে আপনার আইনি বিকল্প আছে। ভারতে শক্তিশালী সাইবার ক্রাইম আইন আছে যা ভুক্তভোগীদের রক্ষা করে। সবচেয়ে গুরুত্বপূর্ণ হল দ্রুত রিপোর্ট করা — যত তাড়াতাড়ি রিপোর্ট করবেন, টাকা ফেরত পাওয়ার সম্ভাবনা তত বেশি। আপনি থানায় না গিয়ে জাতীয় সাইবার ক্রাইম পোর্টালে অনলাইন প্রতারণা রিপোর্ট করতে পারেন।"
       },
@@ -396,11 +696,71 @@
         "en": "Report within 3 days for the best chance of a refund from your bank. Cyber crime investigations typically take 1–6 months.",
         "hi": "अपने बैंक से रिफंड की सबसे अच्छी संभावना के लिए 3 दिनों के भीतर रिपोर्ट करें। साइबर अपराध जांच में आमतौर पर 1–6 महीने लगते हैं।",
         "bn": "ব্যাংক থেকে রিফান্ড পাওয়ার সেরা সম্ভাবনার জন্য ৩ দিনের মধ্যে রিপোর্ট করুন। সাইবার ক্রাইম তদন্তে সাধারণত ১–৬ মাস লাগে।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may report the fraud to your bank and request a reversal of the transaction.",
+          "hi": "आप अपने बैंक को धोखाधड़ी की रिपोर्ट कर सकते हैं और लेनदेन को उलटने का अनुरोध कर सकते हैं।",
+          "bn": "আপনি আপনার ব্যাংকে প্রতারণা রিপোর্ট করতে এবং লেনদেন উল্টানোর অনুরোধ করতে পারেন।"
+        },
+        {
+          "en": "You may file a complaint on the national cybercrime portal (cybercrime.gov.in).",
+          "hi": "आप राष्ट्रीय साइबर अपराध पोर्टल (cybercrime.gov.in) पर शिकायत दर्ज कर सकते हैं।",
+          "bn": "আপনি জাতীয় সাইবার ক্রাইম পোর্টালে (cybercrime.gov.in) অভিযোগ দায়ের করতে পারেন।"
+        },
+        {
+          "en": "You may file an FIR at your local police station or cyber crime cell.",
+          "hi": "आप अपने स्थानीय पुलिस स्टेशन या साइबर अपराध सेल में FIR दर्ज कर सकते हैं।",
+          "bn": "আপনি আপনার স্থানীয় থানায় বা সাইবার ক্রাইম সেলে FIR করতে পারেন।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "You are expected to take reasonable care of your financial credentials (passwords, PINs, OTPs).",
+          "hi": "आपसे अपनी वित्तीय साख (पासवर्ड, पिन, OTP) का उचित ध्यान रखने की अपेक्षा की जाती है।",
+          "bn": "আপনার আর্থিক তথ্য (পাসওয়ার্ড, পিন, OTP) যুক্তিসঙ্গতভাবে সুরক্ষিত রাখা আপনার কাছ থেকে আশা করা হয়।"
+        },
+        {
+          "en": "You should report the fraud to your bank within 3 days to protect your right to a refund under RBI guidelines.",
+          "hi": "RBI दिशानिर्देशों के तहत रिफंड के अपने अधिकार की रक्षा के लिए आपको 3 दिनों के भीतर बैंक को धोखाधड़ी की रिपोर्ट करनी चाहिए।",
+          "bn": "RBI নির্দেশিকা অনুযায়ী রিফান্ডের অধিকার রক্ষার জন্য আপনাকে ৩ দিনের মধ্যে ব্যাংকে প্রতারণা রিপোর্ট করা উচিত।"
+        },
+        {
+          "en": "You should not delete any evidence related to the fraud — messages, emails, transaction records.",
+          "hi": "आपको धोखाधड़ी से संबंधित कोई भी सबूत — संदेश, ईमेल, लेनदेन रिकॉर्ड — नहीं हटाना चाहिए।",
+          "bn": "আপনার প্রতারণা সম্পর্কিত কোনো প্রমাণ — বার্তা, ইমেল, লেনদেন রেকর্ড — মুছে ফেলা উচিত নয়।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "In some situations, what appears to be fraud may be a legitimate dispute. For example, a seller may have delayed delivery rather than committed fraud, or a payment may have failed due to a technical issue. Banks and payment providers investigate claims thoroughly and may find that the transaction was authorized. If a complaint is filed against an innocent party, they have the right to defend themselves.",
+        "hi": "कुछ स्थितियों में, धोखाधड़ी जैसा लगने वाला मामला वैध विवाद हो सकता है। उदाहरण के लिए, विक्रेता ने धोखाधड़ी करने के बजाय डिलीवरी में देरी की हो, या तकनीकी समस्या के कारण भुगतान विफल हो गया हो। बैंक और भुगतान प्रदाता दावों की गहन जाँच करते हैं और पा सकते हैं कि लेनदेन अधिकृत था। यदि निर्दोष पक्ष के खिलाफ शिकायत दर्ज की जाती है, तो उन्हें अपना बचाव करने का अधिकार है।",
+        "bn": "কিছু পরিস্থিতিতে, যা প্রতারণা মনে হচ্ছে তা বৈধ বিবাদ হতে পারে। উদাহরণস্বরূপ, বিক্রেতা প্রতারণার বদলে ডেলিভারি বিলম্বিত করে থাকতে পারে, বা প্রযুক্তিগত সমস্যায় পেমেন্ট ব্যর্থ হতে পারে। ব্যাংক এবং পেমেন্ট প্রদানকারীরা দাবি পুঙ্খানুপুঙ্খভাবে তদন্ত করে এবং দেখতে পারে যে লেনদেন অনুমোদিত ছিল। নির্দোষ পক্ষের বিরুদ্ধে অভিযোগ হলে তাদের নিজেদের রক্ষা করার অধিকার আছে।"
+      },
+      "misuse_warning": {
+        "en": "Filing a false cyber crime complaint is itself a criminal offense. Making false fraud claims to reverse legitimate transactions can result in penalties and criminal prosecution.",
+        "hi": "झूठी साइबर अपराध शिकायत दर्ज करना स्वयं एक आपराधिक अपराध है। वैध लेनदेन को उलटने के लिए झूठे धोखाधड़ी दावे करने पर जुर्माना और आपराधिक मुकदमा हो सकता है।",
+        "bn": "মিথ্যা সাইবার ক্রাইম অভিযোগ দায়ের করা নিজেই একটি ফৌজদারি অপরাধ। বৈধ লেনদেন উল্টাতে মিথ্যা প্রতারণার দাবি করলে জরিমানা এবং ফৌজদারি মামলা হতে পারে।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is generally reasonable when money has been taken without your authorization and the bank or platform has not resolved the matter.",
+          "hi": "बढ़ोतरी आमतौर पर तब उचित होती है जब आपकी अनुमति के बिना पैसा लिया गया हो और बैंक या प्लेटफॉर्म ने मामला हल नहीं किया हो।",
+          "bn": "আপনার অনুমোদন ছাড়া টাকা কেটে নেওয়া হলে এবং ব্যাংক বা প্ল্যাটফর্ম বিষয়টি সমাধান না করলে উচ্চতর পদক্ষেপ সাধারণত যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "Escalation may not be appropriate if the transaction was a legitimate purchase you later regretted, or if you have not yet contacted the seller or platform for resolution.",
+          "hi": "यदि लेनदेन एक वैध खरीदारी थी जिसके बाद आपको पछतावा हुआ, या यदि आपने अभी तक समाधान के लिए विक्रेता या प्लेटफॉर्म से संपर्क नहीं किया है, तो बढ़ोतरी उचित नहीं हो सकती।",
+          "bn": "লেনদেন যদি বৈধ ক্রয় হয় যা পরে অনুতাপ করেছেন, বা সমাধানের জন্য এখনও বিক্রেতা বা প্ল্যাটফর্মে যোগাযোগ না করে থাকেন, তাহলে উচ্চতর পদক্ষেপ উপযুক্ত নাও হতে পারে।"
+        }
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Report to your bank immediately", "hi": "तुरंत अपने बैंक को रिपोर्ट करें", "bn": "অবিলম্বে আপনার ব্যাংকে রিপোর্ট করুন" },
+        "title": {
+          "en": "Report to your bank immediately",
+          "hi": "तुरंत अपने बैंक को रिपोर्ट करें",
+          "bn": "অবিলম্বে আপনার ব্যাংকে রিপোর্ট করুন"
+        },
         "description": {
           "en": "Call your bank's customer care and report the unauthorized transaction. Ask them to block your card/account. Note the complaint reference number.",
           "hi": "अपने बैंक की कस्टमर केयर पर कॉल करें और अनधिकृत लेनदेन की रिपोर्ट करें। उनसे अपना कार्ड/खाता ब्लॉक करने को कहें। शिकायत संदर्भ नंबर नोट करें।",
@@ -408,7 +768,11 @@
         }
       },
       {
-        "title": { "en": "File complaint on cybercrime.gov.in", "hi": "cybercrime.gov.in पर शिकायत दर्ज करें", "bn": "cybercrime.gov.in-এ অভিযোগ করুন" },
+        "title": {
+          "en": "File complaint on cybercrime.gov.in",
+          "hi": "cybercrime.gov.in पर शिकायत दर्ज करें",
+          "bn": "cybercrime.gov.in-এ অভিযোগ করুন"
+        },
         "description": {
           "en": "Visit the National Cyber Crime Reporting Portal (cybercrime.gov.in). Select 'Financial Fraud' and fill in the details. You'll get a complaint number.",
           "hi": "राष्ट्रीय साइबर अपराध रिपोर्टिंग पोर्टल (cybercrime.gov.in) पर जाएँ। 'वित्तीय धोखाधড়ी' चुनें और विवरण भरें। आपको शिकायत नंबर मिलेगा।",
@@ -416,7 +780,11 @@
         }
       },
       {
-        "title": { "en": "Call 1930 (Cyber Crime Helpline)", "hi": "1930 पर कॉल करें (साइबर अपराध हेल्पलाइन)", "bn": "1930-এ কল করুন (সাইবার ক্রাইম হেল্পলাইন)" },
+        "title": {
+          "en": "Call 1930 (Cyber Crime Helpline)",
+          "hi": "1930 पर कॉल करें (साइबर अपराध हेल्पलाइन)",
+          "bn": "1930-এ কল করুন (সাইবার ক্রাইম হেল্পলাইন)"
+        },
         "description": {
           "en": "Call the national cyber crime helpline 1930. They can help freeze the fraudster's account and speed up the process.",
           "hi": "राष्ट्रीय साइबर अपराध हेल्पलाइन 1930 पर कॉल करें। वे धोखेबाज़ का खाता फ्रीज़ करने और प्रक्रिया तेज़ करने में मदद कर सकते हैं।",
@@ -424,14 +792,56 @@
         }
       },
       {
-        "title": { "en": "Save all evidence", "hi": "सभी सबूत सहेजें", "bn": "সব প্রমাণ সংরক্ষণ করুন" },
+        "title": {
+          "en": "Save all evidence",
+          "hi": "सभी सबूत सहेजें",
+          "bn": "সব প্রমাণ সংরক্ষণ করুন"
+        },
         "description": {
           "en": "Take screenshots of transaction messages, emails, fake websites, and chat conversations. Do not delete anything.",
           "hi": "लेनदेन संदेशों, ईमेल, नकली वेबसाइटों और चैट वार्तालापों के स्क्रीनशॉट लें। कुछ भी न हटाएँ।",
           "bn": "লেনদেনের বার্তা, ইমেল, ভুয়া ওয়েবসাইট এবং চ্যাট কথোপকথনের স্ক্রিনশট নিন। কিছু মুছে ফেলবেন না।"
         }
       }
-    ]
+    ],
+    "self_check": {
+      "question": {
+        "en": "Did you share any personal information (such as OTP, password, or bank details) during the transaction?",
+        "hi": "क्या आपने लेनदेन के दौरान कोई व्यक्तिगत जानकारी (जैसे OTP, पासवर्ड, या बैंक विवरण) साझा की?",
+        "bn": "আপনি কি লেনদেনের সময় কোনো ব্যক্তিগত তথ্য (যেমন OTP, পাসওয়ার্ড, বা ব্যাংক বিবরণ) শেয়ার করেছেন?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, I was deceived into sharing",
+            "hi": "हाँ, मुझे धोखे से शेयर कराया गया",
+            "bn": "হ্যাঁ, আমাকে প্রতারণা করে শেয়ার করানো হয়েছে"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, the transaction happened without my knowledge",
+            "hi": "नहीं, लेनदेन मेरी जानकारी के बिना हुआ",
+            "bn": "না, লেনদেন আমার অজান্তে হয়েছে"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "I'm not sure what happened",
+            "hi": "मुझे पक्का नहीं पता क्या हुआ",
+            "bn": "আমি নিশ্চিত নই কী হয়েছে"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "Even if you shared information under deception, you still have the right to report the fraud. The law recognizes that scammers use sophisticated methods. However, banks may consider the extent of negligence when deciding liability. Regardless, reporting quickly improves your chances.",
+        "hi": "भले ही आपने धोखे में जानकारी साझा की हो, आपको अभी भी धोखाधड़ी की रिपोर्ट करने का अधिकार है। कानून मानता है कि ठग परिष्कृत तरीकों का उपयोग करते हैं। हालाँकि, बैंक दायित्व तय करते समय लापरवाही की सीमा पर विचार कर सकते हैं। फिर भी, जल्दी रिपोर्ट करने से आपकी संभावनाएं बेहतर होती हैं।",
+        "bn": "প্রতারণায় তথ্য শেয়ার করলেও, প্রতারণা রিপোর্ট করার অধিকার আপনার আছে। আইন স্বীকার করে যে প্রতারকরা পরিশীলিত পদ্ধতি ব্যবহার করে। তবে, দায় নির্ধারণে ব্যাংক অবহেলার মাত্রা বিবেচনা করতে পারে। যাই হোক, দ্রুত রিপোর্ট করলে আপনার সম্ভাবনা বাড়ে।"
+      }
+    }
   },
   {
     "issue_id": "consumer_complaint",
@@ -452,22 +862,38 @@
         "options": [
           {
             "option_id": "defective_product",
-            "label": { "en": "Defective product", "hi": "दोषपूर्ण उत्पाद", "bn": "ত্রুটিপূর্ণ পণ্য" },
+            "label": {
+              "en": "Defective product",
+              "hi": "दोषपूर्ण उत्पाद",
+              "bn": "ত্রুটিপূর্ণ পণ্য"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "poor_service",
-            "label": { "en": "Poor service", "hi": "खराब सेवा", "bn": "খারাপ পরিষেবা" },
+            "label": {
+              "en": "Poor service",
+              "hi": "खराब सेवा",
+              "bn": "খারাপ পরিষেবা"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "overcharging",
-            "label": { "en": "Overcharging / hidden fees", "hi": "अत्यधिक शुल्क / छिपे शुल्क", "bn": "অতিরিক্ত চার্জ / লুকানো ফি" },
+            "label": {
+              "en": "Overcharging / hidden fees",
+              "hi": "अत्यधिक शुल्क / छिपे शुल्क",
+              "bn": "অতিরিক্ত চার্জ / লুকানো ফি"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "false_advertising",
-            "label": { "en": "False advertising", "hi": "झूठा विज्ञापन", "bn": "মিথ্যা বিজ্ঞাপন" },
+            "label": {
+              "en": "False advertising",
+              "hi": "झूठा विज्ञापन",
+              "bn": "মিথ্যা বিজ্ঞাপন"
+            },
             "next_question_index": 1
           }
         ]
@@ -482,17 +908,29 @@
         "options": [
           {
             "option_id": "under_1_lakh",
-            "label": { "en": "Under ₹1 lakh", "hi": "₹1 लाख से कम", "bn": "₹১ লক্ষের কম" },
+            "label": {
+              "en": "Under ₹1 lakh",
+              "hi": "₹1 लाख से कम",
+              "bn": "₹১ লক্ষের কম"
+            },
             "next_question_index": null
           },
           {
             "option_id": "1_to_10_lakh",
-            "label": { "en": "₹1 lakh – ₹10 lakh", "hi": "₹1 लाख – ₹10 लाख", "bn": "₹১ লক্ষ – ₹১০ লক্ষ" },
+            "label": {
+              "en": "₹1 lakh – ₹10 lakh",
+              "hi": "₹1 लाख – ₹10 लाख",
+              "bn": "₹১ লক্ষ – ₹১০ লক্ষ"
+            },
             "next_question_index": null
           },
           {
             "option_id": "above_10_lakh",
-            "label": { "en": "Above ₹10 lakh", "hi": "₹10 लाख से ऊपर", "bn": "₹১০ লক্ষের বেশি" },
+            "label": {
+              "en": "Above ₹10 lakh",
+              "hi": "₹10 लाख से ऊपर",
+              "bn": "₹১০ লক্ষের বেশি"
+            },
             "next_question_index": null
           }
         ]
@@ -500,7 +938,7 @@
     ],
     "content": {
       "explanation": {
-        "en": "As a consumer in India, you have the right to be protected against defective goods, unfair trade practices, and misleading advertisements. Consumer courts are designed to be simple and quick. You can file a complaint yourself — a lawyer is not required. Cases under ₹5 lakh have no court fee.",
+        "en": "As a consumer in India, you have the right to be protected against defective goods, unfair trade practices, and misleading advertisements. Consumer courts are designed to be simple and quick. In most situations, you can file a complaint yourself — a lawyer is generally not required. Cases under ₹5 lakh have no court fee.",
         "hi": "भारत में एक उपभोक्ता के रूप में, आपको दोषपूर्ण सामान, अनुचित व्यापार प्रथाओं और भ्रामक विज्ञापनों से संरक्षित होने का अधिकार है। उपभोक्ता अदालतें सरल और त्वरित होने के लिए बनाई गई हैं। आप स्वयं शिकायत दर्ज कर सकते हैं — वकील आवश्यक नहीं है। ₹5 लाख से कम के मामलों में कोई कोर्ट फीस नहीं है।",
         "bn": "ভারতে একজন ভোক্তা হিসেবে, আপনার ত্রুটিপূর্ণ পণ্য, অন্যায় বাণিজ্য প্রথা এবং বিভ্রান্তিকর বিজ্ঞাপন থেকে সুরক্ষিত হওয়ার অধিকার আছে। ভোক্তা আদালত সহজ এবং দ্রুত হওয়ার জন্য তৈরি। আপনি নিজেই অভিযোগ করতে পারেন — উকিলের প্রয়োজন নেই। ₹৫ লক্ষের কম মামলায় কোর্ট ফি নেই।"
       },
@@ -538,11 +976,71 @@
         "en": "Consumer courts must resolve complaints within 3–5 months. E-filing on consumerhelpline.gov.in is available 24/7.",
         "hi": "उपभोक्ता अदालतों को 3–5 महीने के भीतर शिकायतों का समाधान करना होता है। consumerhelpline.gov.in पर ई-फाइलिंग 24/7 उपलब्ध है।",
         "bn": "ভোক্তা আদালতকে ৩–৫ মাসের মধ্যে অভিযোগ নিষ্পত্তি করতে হবে। consumerhelpline.gov.in-এ ই-ফাইলিং ২৪/৭ উপলব্ধ।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may demand a replacement, repair, or refund for defective products.",
+          "hi": "आप दोषपूर्ण उत्पादों के लिए प्रतिस्थापन, मरम्मत, या रिफंड की माँग कर सकते हैं।",
+          "bn": "আপনি ত্রুটিপূর্ণ পণ্যের জন্য প্রতিস্থাপন, মেরামত বা ফেরত দাবি করতে পারেন।"
+        },
+        {
+          "en": "You may file a complaint with the National Consumer Helpline (1800-11-4000).",
+          "hi": "आप राष्ट्रीय उपभोक्ता हेल्पलाइन (1800-11-4000) में शिकायत दर्ज कर सकते हैं।",
+          "bn": "আপনি জাতীয় ভোক্তা হেল্পলাইনে (1800-11-4000) অভিযোগ করতে পারেন।"
+        },
+        {
+          "en": "You may file a case in the District Consumer Forum for compensation.",
+          "hi": "आप मुआवज़े के लिए जिला उपभोक्ता फोरम में मामला दर्ज कर सकते हैं।",
+          "bn": "আপনি ক্ষতিপূরণের জন্য জেলা ভোক্তা ফোরামে মামলা দায়ের করতে পারেন।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "You should first attempt to resolve the issue directly with the seller or company before filing a formal complaint.",
+          "hi": "औपचारिक शिकायत दर्ज करने से पहले आपको विक्रेता या कंपनी से सीधे समस्या हल करने का प्रयास करना चाहिए।",
+          "bn": "আনুষ্ঠানিক অভিযোগ দায়ের করার আগে আপনার উচিত সরাসরি বিক্রেতা বা কোম্পানির সাথে সমস্যা সমাধানের চেষ্টা করা।"
+        },
+        {
+          "en": "You should keep the product, packaging, and receipt as evidence until the matter is resolved.",
+          "hi": "मामला हल होने तक आपको उत्पाद, पैकेजिंग, और रसीद को सबूत के रूप में रखना चाहिए।",
+          "bn": "বিষয়টি সমাধান না হওয়া পর্যন্ত আপনার পণ্য, প্যাকেজিং এবং রসিদ প্রমাণ হিসেবে রাখা উচিত।"
+        },
+        {
+          "en": "You should file your complaint within the limitation period (generally 2 years from the date of the issue).",
+          "hi": "आपको सीमा अवधि (आमतौर पर समस्या की तारीख से 2 साल) के भीतर शिकायत दर्ज करनी चाहिए।",
+          "bn": "আপনাকে সীমাবদ্ধতার সময়কালের মধ্যে (সাধারণত সমস্যার তারিখ থেকে ২ বছর) অভিযোগ দায়ের করা উচিত।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "Sellers and service providers also have rights. They may have valid return and refund policies that are clearly stated before purchase. A product that underperformed your expectations may not necessarily be defective under the law. Companies are entitled to investigate claims before issuing refunds. If a product was damaged due to misuse by the consumer, the seller may not be liable.",
+        "hi": "विक्रेताओं और सेवा प्रदाताओं के भी अधिकार हैं। उनके पास वैध वापसी और रिफंड नीतियाँ हो सकती हैं जो खरीदारी से पहले स्पष्ट रूप से बताई गई हैं। आपकी अपेक्षाओं से कम प्रदर्शन करने वाला उत्पाद कानून के तहत दोषपूर्ण नहीं हो सकता। कंपनियों को रिफंड जारी करने से पहले दावों की जाँच करने का अधिकार है। यदि उपभोक्ता के दुरुपयोग से उत्पाद क्षतिग्रस्त हुआ है, तो विक्रेता उत्तरदायी नहीं हो सकता।",
+        "bn": "বিক্রেতা এবং পরিষেবা প্রদানকারীদেরও অধিকার আছে। তাদের বৈধ রিটার্ন এবং রিফান্ড নীতি থাকতে পারে যা কেনার আগে স্পষ্টভাবে বলা আছে। আপনার প্রত্যাশার চেয়ে কম পারফরম করা পণ্য আইনের অধীনে ত্রুটিপূর্ণ নাও হতে পারে। কোম্পানিদের রিফান্ড দেওয়ার আগে দাবি তদন্ত করার অধিকার আছে। ভোক্তার অপব্যবহারে পণ্য ক্ষতিগ্রস্ত হলে বিক্রেতা দায়ী নাও হতে পারেন।"
+      },
+      "misuse_warning": {
+        "en": "Filing frivolous or false consumer complaints can lead to costs being awarded against you by the consumer court. Making fraudulent warranty claims or falsely claiming product defects may also result in criminal liability.",
+        "hi": "तुच्छ या झूठी उपभोक्ता शिकायतें दर्ज करने पर उपभोक्ता अदालत आपके खिलाफ खर्चा दे सकती है। धोखाधड़ी से वारंटी दावे करना या झूठ बोलकर उत्पाद दोष का दावा करना आपराधिक दायित्व का भी कारण बन सकता है।",
+        "bn": "তুচ্ছ বা মিথ্যা ভোক্তা অভিযোগ দায়ের করলে ভোক্তা আদালত আপনার বিরুদ্ধে খরচ ধার্য করতে পারে। প্রতারণামূলক ওয়ারেন্টি দাবি বা মিথ্যা পণ্য ত্রুটির দাবি করলে ফৌজদারি দায়ও হতে পারে।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is generally reasonable when the seller has not responded within 15 days, or when the product is genuinely defective and the company refuses to address it.",
+          "hi": "बढ़ोतरी आमतौर पर तब उचित होती है जब विक्रेता ने 15 दिनों के भीतर जवाब नहीं दिया हो, या जब उत्पाद वास्तव में दोषपूर्ण हो और कंपनी उसे ठीक करने से मना करती हो।",
+          "bn": "বিক্রেতা ১৫ দিনের মধ্যে উত্তর না দিলে, বা পণ্য প্রকৃতপক্ষে ত্রুটিপূর্ণ হলে এবং কোম্পানি সমাধান করতে অস্বীকার করলে উচ্চতর পদক্ষেপ সাধারণত যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "Escalation may not be appropriate if you haven't given the seller a reasonable chance to respond, or if the issue involves buyer's remorse rather than a genuine product defect or service failure.",
+          "hi": "यदि आपने विक्रेता को जवाब देने का उचित मौका नहीं दिया है, या यदि मामला वास्तविक उत्पाद दोष या सेवा विफलता के बजाय खरीदारी के पछतावे से संबंधित है, तो बढ़ोतरी उचित नहीं हो सकती।",
+          "bn": "আপনি যদি বিক্রেতাকে উত্তর দেওয়ার যুক্তিসঙ্গত সুযোগ না দিয়ে থাকেন, বা বিষয়টি প্রকৃত পণ্য ত্রুটি বা পরিষেবা ব্যর্থতার পরিবর্তে ক্রেতার অনুতাপ হলে উচ্চতর পদক্ষেপ উপযুক্ত নাও হতে পারে।"
+        }
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Contact the seller first", "hi": "पहले विक्रेता से संपर्क करें", "bn": "প্রথমে বিক্রেতার সাথে যোগাযোগ করুন" },
+        "title": {
+          "en": "Contact the seller first",
+          "hi": "पहले विक्रेता से संपर्क करें",
+          "bn": "প্রথমে বিক্রেতার সাথে যোগাযোগ করুন"
+        },
         "description": {
           "en": "Write to the seller or company with your complaint. Give them 15 days to respond. Keep a copy of your communication.",
           "hi": "विक्रेता या कंपनी को अपनी शिकायत लिखें। उन्हें जवाब देने के लिए 15 दिन दें। अपने संवाद की प्रति रखें।",
@@ -550,7 +1048,11 @@
         }
       },
       {
-        "title": { "en": "Call 1800-11-4000", "hi": "1800-11-4000 पर कॉल करें", "bn": "1800-11-4000-এ কল করুন" },
+        "title": {
+          "en": "Call 1800-11-4000",
+          "hi": "1800-11-4000 पर कॉल करें",
+          "bn": "1800-11-4000-এ কল করুন"
+        },
         "description": {
           "en": "Call the National Consumer Helpline (toll-free). They can mediate with the company on your behalf.",
           "hi": "राष्ट्रीय उपभोक्ता हेल्पलाइन (टोल-फ्री) पर कॉल करें। वे आपकी ओर से कंपनी के साथ मध्यस्थता कर सकते हैं।",
@@ -558,7 +1060,11 @@
         }
       },
       {
-        "title": { "en": "File on consumer helpline portal", "hi": "उपभोक्ता हेल्पलाइन पोर्टल पर दर्ज करें", "bn": "ভোক্তা হেল্পলাইন পোর্টালে ফাইল করুন" },
+        "title": {
+          "en": "File on consumer helpline portal",
+          "hi": "उपभोक्ता हेल्पलाइन पोर्टल पर दर्ज करें",
+          "bn": "ভোক্তা হেল্পলাইন পোর্টালে ফাইল করুন"
+        },
         "description": {
           "en": "Register your complaint at consumerhelpline.gov.in or through the UMANG app. Upload your bills and evidence.",
           "hi": "consumerhelpline.gov.in पर या UMANG ऐप के माध्यम से अपनी शिकायत दर्ज करें। अपने बिल और सबूत अपलोड करें।",
@@ -566,14 +1072,56 @@
         }
       },
       {
-        "title": { "en": "File in consumer court", "hi": "उपभोक्ता अदालत में दर्ज करें", "bn": "ভোক্তা আদালতে ফাইল করুন" },
+        "title": {
+          "en": "File in consumer court",
+          "hi": "उपभोक्ता अदालत में दर्ज करें",
+          "bn": "ভোক্তা আদালতে ফাইল করুন"
+        },
         "description": {
           "en": "If the company doesn't resolve your issue, file a case in the District Consumer Forum. You can do this online at edaakhil.nic.in.",
           "hi": "यदि कंपनी आपकी समस्या का समाधान नहीं करती, तो जिला उपभोक्ता फोरम में मामला दर्ज करें। आप यह edaakhil.nic.in पर ऑनलाइन कर सकते हैं।",
           "bn": "কোম্পানি আপনার সমস্যা সমাধান না করলে, জেলা ভোক্তা ফোরামে মামলা দায়ের করুন। আপনি edaakhil.nic.in-এ অনলাইনে করতে পারেন।"
         }
       }
-    ]
+    ],
+    "self_check": {
+      "question": {
+        "en": "Has the seller or company already offered any resolution?",
+        "hi": "क्या विक्रेता या कंपनी ने पहले से कोई समाधान पेश किया है?",
+        "bn": "বিক্রেতা বা কোম্পানি কি ইতিমধ্যে কোনো সমাধান দিয়েছে?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, but it's not satisfactory",
+            "hi": "हाँ, लेकिन संतोषजनक नहीं",
+            "bn": "হ্যাঁ, কিন্তু সন্তোষজনক নয়"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, they haven't responded",
+            "hi": "नहीं, उन्होंने जवाब नहीं दिया",
+            "bn": "না, তারা উত্তর দেয়নি"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "I haven't contacted them yet",
+            "hi": "मैंने अभी उनसे संपर्क नहीं किया",
+            "bn": "আমি এখনও তাদের সাথে যোগাযোগ করিনি"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "Consumer law protects your rights, but it also encourages resolution through dialogue first. If you haven't contacted the seller yet, doing so first may lead to a quicker resolution. Many companies have internal grievance mechanisms that can resolve issues within days.",
+        "hi": "उपभोक्ता कानून आपके अधिकारों की रक्षा करता है, लेकिन यह पहले संवाद के माध्यम से समाधान को भी प्रोत्साहित करता है। यदि आपने अभी विक्रेता से संपर्क नहीं किया है, तो पहले ऐसा करना तेज़ समाधान दे सकता है। कई कंपनियों के आंतरिक शिकायत तंत्र दिनों में समस्याएं हल कर सकते हैं।",
+        "bn": "ভোক্তা আইন আপনার অধিকার রক্ষা করে, তবে এটি প্রথমে সংলাপের মাধ্যমে সমাধানকেও উৎসাহিত করে। আপনি যদি এখনও বিক্রেতার সাথে যোগাযোগ না করে থাকেন, তাহলে প্রথমে তা করলে দ্রুত সমাধান হতে পারে। অনেক কোম্পানির অভ্যন্তরীণ অভিযোগ ব্যবস্থা দিনের মধ্যে সমস্যা সমাধান করতে পারে।"
+      }
+    }
   },
   {
     "issue_id": "police_issue",
@@ -594,22 +1142,38 @@
         "options": [
           {
             "option_id": "fir_refused",
-            "label": { "en": "Police refused to file my FIR", "hi": "पुलिस ने मेरी FIR दर्ज करने से मना किया", "bn": "পুলিশ আমার FIR করতে প্রত্যাখ্যান করেছে" },
+            "label": {
+              "en": "Police refused to file my FIR",
+              "hi": "पुलिस ने मेरी FIR दर्ज करने से मना किया",
+              "bn": "পুলিশ আমার FIR করতে প্রত্যাখ্যান করেছে"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "illegal_detention",
-            "label": { "en": "Illegal detention / arrest", "hi": "गैरकानूनी हिरासत / गिरफ्तारी", "bn": "বেআইনি আটক / গ্রেপ্তার" },
+            "label": {
+              "en": "Illegal detention / arrest",
+              "hi": "गैरकानूनी हिरासत / गिरफ्तारी",
+              "bn": "বেআইনি আটক / গ্রেপ্তার"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "harassment",
-            "label": { "en": "Police harassment", "hi": "पुलिस उत्पीড়न", "bn": "পুলিশ হয়রানি" },
+            "label": {
+              "en": "Police harassment",
+              "hi": "पुलिस उत्पीড়न",
+              "bn": "পুলিশ হয়রানি"
+            },
             "next_question_index": 1
           },
           {
             "option_id": "no_action",
-            "label": { "en": "FIR filed but no action taken", "hi": "FIR दर्ज लेकिन कोई कार्रवाई नहीं", "bn": "FIR হয়েছে কিন্তু কোনো পদক্ষেপ নেওয়া হয়নি" },
+            "label": {
+              "en": "FIR filed but no action taken",
+              "hi": "FIR दर्ज लेकिन कोई कार्रवाई नहीं",
+              "bn": "FIR হয়েছে কিন্তু কোনো পদক্ষেপ নেওয়া হয়নি"
+            },
             "next_question_index": 1
           }
         ]
@@ -624,17 +1188,29 @@
         "options": [
           {
             "option_id": "someone_detained",
-            "label": { "en": "Someone is currently detained", "hi": "कोई वर्तमान में हिरासत में है", "bn": "কেউ এই মুহূর্তে আটক আছে" },
+            "label": {
+              "en": "Someone is currently detained",
+              "hi": "कोई वर्तमान में हिरासत में है",
+              "bn": "কেউ এই মুহূর্তে আটক আছে"
+            },
             "next_question_index": null
           },
           {
             "option_id": "ongoing_threat",
-            "label": { "en": "There is an ongoing threat", "hi": "लगातार खतरा बना हुआ है", "bn": "চলমান হুমকি আছে" },
+            "label": {
+              "en": "There is an ongoing threat",
+              "hi": "लगातार खतरा बना हुआ है",
+              "bn": "চলমান হুমকি আছে"
+            },
             "next_question_index": null
           },
           {
             "option_id": "past_incident",
-            "label": { "en": "This is about a past incident", "hi": "यह पिछली घटना के बारे में है", "bn": "এটি অতীতের ঘটনা সম্পর্কে" },
+            "label": {
+              "en": "This is about a past incident",
+              "hi": "यह पिछली घटना के बारे में है",
+              "bn": "এটি অতীতের ঘটনা সম্পর্কে"
+            },
             "next_question_index": null
           }
         ]
@@ -642,7 +1218,7 @@
     ],
     "content": {
       "explanation": {
-        "en": "You have important rights when dealing with the police. The police MUST register your FIR — refusing is a punishable offense. If arrested, you must be told the reason. You have the right to make a phone call. You cannot be detained for more than 24 hours without being produced before a magistrate. You can file a complaint against police misconduct.",
+        "en": "You have important rights when dealing with the police. The police must generally register your FIR — refusing is a punishable offense. If arrested, you must be told the reason. You have the right to make a phone call. In most situations, you cannot be detained for more than 24 hours without being produced before a magistrate. You may file a complaint against police misconduct.",
         "hi": "पुलिस से निपटते समय आपके महत्वपूर्ण अधिकार हैं। पुलिस को आपकी FIR दर्ज करनी ही होगी — मना करना दंडनीय अपराध है। गिरफ्तार होने पर आपको कारण बताया जाना चाहिए। आपको फोन कॉल करने का अधिकार है। आपको मजिस्ट्रेट के सामने पेश किए बिना 24 घंटे से अधिक हिरासत में नहीं रखा जा सकता। आप पुलिस दुर्व्यवहार के खिलाफ शिकायत दर्ज कर सकते हैं।",
         "bn": "পুলিশের সাথে মোকাবেলায় আপনার গুরুত্বপূর্ণ অধিকার আছে। পুলিশকে আপনার FIR করতেই হবে — প্রত্যাখ্যান দণ্ডনীয় অপরাধ। গ্রেপ্তার হলে আপনাকে কারণ জানাতে হবে। আপনার ফোন কল করার অধিকার আছে। ম্যাজিস্ট্রেটের সামনে পেশ না করে ২৪ ঘণ্টার বেশি আটক রাখা যায় না। আপনি পুলিশের অসদাচরণের বিরুদ্ধে অভিযোগ করতে পারেন।"
       },
@@ -681,11 +1257,71 @@
         "en": "An FIR must be registered immediately. A person must be produced before a magistrate within 24 hours of arrest. Complaints against police are typically investigated within 30–60 days.",
         "hi": "FIR तुरंत दर्ज होनी चाहिए। गिरफ्तारी के 24 घंटे के भीतर व्यक्ति को मजिस्ट्रेट के सामने पेश किया जाना चाहिए। पुलिस के खिलाफ शिकायतों की जांच आमतौर पर 30–60 दिनों में होती है।",
         "bn": "FIR অবিলম্বে নিবন্ধন করতে হবে। গ্রেপ্তারের ২৪ ঘণ্টার মধ্যে ব্যক্তিকে ম্যাজিস্ট্রেটের সামনে পেশ করতে হবে। পুলিশের বিরুদ্ধে অভিযোগের তদন্ত সাধারণত ৩০–৬০ দিনের মধ্যে হয়।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may file a Zero FIR at any police station regardless of jurisdiction.",
+          "hi": "आप क्षेत्राधिकार की परवाह किए बिना किसी भी पुलिस स्टेशन में ज़ीरो FIR दर्ज कर सकते हैं।",
+          "bn": "আপনি এখতিয়ার নির্বিশেষে যেকোনো থানায় জিরো FIR করতে পারেন।"
+        },
+        {
+          "en": "You may complain to the Superintendent of Police if an FIR is refused.",
+          "hi": "यदि FIR से मना किया जाता है तो आप पुलिस अधीक्षक से शिकायत कर सकते हैं।",
+          "bn": "FIR প্রত্যাখ্যান করলে আপনি পুলিশ সুপারিন্টেন্ডেন্টের কাছে অভিযোগ করতে পারেন।"
+        },
+        {
+          "en": "You may approach the local Judicial Magistrate to direct FIR registration.",
+          "hi": "आप FIR दर्ज करने का निर्देश देने के लिए स्थानीय न्यायिक मजिस्ट्रेट से संपर्क कर सकते हैं।",
+          "bn": "আপনি FIR নিবন্ধনের নির্দেশ দিতে স্থানীয় বিচার বিভাগীয় ম্যাজিস্ট্রেটের কাছে যেতে পারেন।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "You should cooperate with lawful police procedures and provide accurate information.",
+          "hi": "आपको वैध पुलिस प्रक्रियाओं में सहयोग करना चाहिए और सटीक जानकारी देनी चाहिए।",
+          "bn": "আপনার বৈধ পুলিশ প্রক্রিয়ায় সহযোগিতা করা এবং সঠিক তথ্য দেওয়া উচিত।"
+        },
+        {
+          "en": "You should not resist a lawful arrest, even if you believe it is unjust — challenge it through legal channels afterwards.",
+          "hi": "आपको वैध गिरफ्तारी का विरोध नहीं करना चाहिए, भले ही आप मानते हों कि यह अन्यायपूर्ण है — बाद में कानूनी माध्यमों से चुनौती दें।",
+          "bn": "বৈধ গ্রেপ্তারে বাধা দেওয়া উচিত নয়, এমনকি আপনি মনে করলেও এটি অন্যায় — পরে আইনি মাধ্যমে চ্যালেঞ্জ করুন।"
+        },
+        {
+          "en": "You should not file a false FIR, as this is itself a punishable offense under the law.",
+          "hi": "आपको झूठी FIR दर्ज नहीं करनी चाहिए, क्योंकि यह स्वयं कानून के तहत दंडनीय अपराध है।",
+          "bn": "আপনার মিথ্যা FIR করা উচিত নয়, কারণ এটি নিজেই আইনে দণ্ডনীয় অপরাধ।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "Police officers also operate within a legal framework. They may have legitimate reasons for their actions that may not be immediately apparent. For example, investigation procedures may require time, and not all delays indicate inaction. Police may also detain someone lawfully if there is reasonable suspicion of criminal activity. While your rights must always be respected, understanding the procedural constraints can help you navigate the situation more effectively.",
+        "hi": "पुलिस अधिकारी भी एक कानूनी ढांचे के भीतर काम करते हैं। उनके कार्यों के वैध कारण हो सकते हैं जो तुरंत स्पष्ट नहीं हो सकते। उदाहरण के लिए, जाँच प्रक्रियाओं में समय लग सकता है, और सभी देरी निष्क्रियता का संकेत नहीं देती। यदि आपराधिक गतिविधि का उचित संदेह है तो पुलिस किसी को कानूनी रूप से हिरासत में ले सकती है। जबकि आपके अधिकारों का हमेशा सम्मान होना चाहिए, प्रक्रियागत बाधाओं को समझना स्थिति को अधिक प्रभावी ढंग से संभालने में मदद कर सकता है।",
+        "bn": "পুলিশ অফিসাররাও একটি আইনি কাঠামোর মধ্যে কাজ করেন। তাদের কার্যকলাপের বৈধ কারণ থাকতে পারে যা তাৎক্ষণিকভাবে স্পষ্ট নাও হতে পারে। উদাহরণস্বরূপ, তদন্ত প্রক্রিয়ায় সময় লাগতে পারে, এবং সমস্ত বিলম্ব নিষ্ক্রিয়তা নির্দেশ করে না। অপরাধমূলক কার্যকলাপের যুক্তিসঙ্গত সন্দেহ থাকলে পুলিশ আইনগতভাবে কাউকে আটক করতে পারে। আপনার অধিকার সর্বদা সম্মান করা উচিত, তবে পদ্ধতিগত সীমাবদ্ধতা বোঝা পরিস্থিতি আরও কার্যকরভাবে সামলাতে সাহায্য করতে পারে।"
+      },
+      "misuse_warning": {
+        "en": "Filing a false police complaint (FIR) is a criminal offense under IPC Section 182. Making false accusations against police officers can also lead to criminal proceedings against the complainant.",
+        "hi": "झूठी पुलिस शिकायत (FIR) दर्ज करना IPC धारा 182 के तहत आपराधिक अपराध है। पुलिस अधिकारियों के खिलाफ झूठे आरोप लगाने पर शिकायतकर्ता के खिलाफ भी आपराधिक कार्यवाही हो सकती है।",
+        "bn": "মিথ্যা পুলিশ অভিযোগ (FIR) দায়ের করা IPC ধারা ১৮২ এর অধীনে ফৌজদারি অপরাধ। পুলিশ অফিসারদের বিরুদ্ধে মিথ্যা অভিযোগ আনলে অভিযোগকারীর বিরুদ্ধেও ফৌজদারি কার্যক্রম হতে পারে।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is generally reasonable when the police have refused to register your FIR, when someone is being detained beyond 24 hours without being produced before a magistrate, or when there is physical abuse or threats.",
+          "hi": "बढ़ोतरी आमतौर पर तब उचित होती है जब पुलिस ने FIR दर्ज करने से मना किया हो, जब किसी को मजिस्ट्रेट के सामने पेश किए बिना 24 घंटे से अधिक हिरासत में रखा गया हो, या जब शारीरिक दुर्व्यवहार या धमकी हो।",
+          "bn": "পুলিশ FIR করতে অস্বীকার করলে, কাউকে ম্যাজিস্ট্রেটের সামনে পেশ না করে ২৪ ঘণ্টার বেশি আটক রাখা হলে, বা শারীরিক নির্যাতন বা হুমকি থাকলে উচ্চতর পদক্ষেপ সাধারণত যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "Escalation may backfire if you have provided false information to the police, resisted a lawful procedure, or have pending matters that the police are acting upon legally. Consider seeking legal counsel before escalating.",
+          "hi": "यदि आपने पुलिस को गलत जानकारी दी है, वैध प्रक्रिया का विरोध किया है, या ऐसे लंबित मामले हैं जिन पर पुलिस कानूनी रूप से कार्रवाई कर रही है तो बढ़ोतरी उलटा पड़ सकती है। बढ़ाने से पहले कानूनी सलाह लेने पर विचार करें।",
+          "bn": "আপনি যদি পুলিশকে ভুল তথ্য দিয়ে থাকেন, বৈধ প্রক্রিয়ায় বাধা দিয়ে থাকেন, বা মুলতুবি বিষয় থাকে যেগুলোতে পুলিশ আইনগতভাবে কাজ করছে, তাহলে উচ্চতর পদক্ষেপ বিপরীত হতে পারে। বাড়ানোর আগে আইনি পরামর্শ নেওয়া বিবেচনা করুন।"
+        }
       }
     },
     "action_steps": [
       {
-        "title": { "en": "Know your rights", "hi": "अपने अधिकार जानें", "bn": "আপনার অধিকার জানুন" },
+        "title": {
+          "en": "Know your rights",
+          "hi": "अपने अधिकार जानें",
+          "bn": "আপনার অধিকার জানুন"
+        },
         "description": {
           "en": "If arrested: ask for the reason, demand to call a family member, and do not sign anything you don't understand.",
           "hi": "यदि गिरफ्तार हों: कारण पूछें, परिवार के सदस्य को कॉल करने की माँग करें, और जो समझ न आए उस पर हस्ताक्षर न करें।",
@@ -693,7 +1329,11 @@
         }
       },
       {
-        "title": { "en": "File FIR or Zero FIR", "hi": "FIR या ज़ीरो FIR दर्ज करें", "bn": "FIR বা জিরো FIR করুন" },
+        "title": {
+          "en": "File FIR or Zero FIR",
+          "hi": "FIR या ज़ीरो FIR दर्ज करें",
+          "bn": "FIR বা জিরো FIR করুন"
+        },
         "description": {
           "en": "You can file a 'Zero FIR' at any police station regardless of where the incident happened. The police must accept it.",
           "hi": "आप घटना कहीं भी हुई हो, किसी भी पुलिस स्टेशन में 'ज़ीरो FIR' दर्ज कर सकते हैं। पुलिस को इसे स्वीकार करना होगा।",
@@ -701,7 +1341,11 @@
         }
       },
       {
-        "title": { "en": "Send complaint to senior officer", "hi": "वरिष्ठ अधिकारी को शिकायत भेजें", "bn": "বরিষ্ঠ অফিসারকে অভিযোগ পাঠান" },
+        "title": {
+          "en": "Send complaint to senior officer",
+          "hi": "वरिष्ठ अधिकारी को शिकायत भेजें",
+          "bn": "বরিষ্ঠ অফিসারকে অভিযোগ পাঠান"
+        },
         "description": {
           "en": "If police refuse to register your FIR, send a written complaint to the Superintendent of Police (SP) by post or email.",
           "hi": "यदि पुलिस FIR दर्ज करने से मना करती है, तो डाक या ईमेल द्वारा पुलिस अधीक्षक (SP) को लिखित शिकायत भेजें।",
@@ -709,11 +1353,694 @@
         }
       },
       {
-        "title": { "en": "Approach the magistrate", "hi": "मजिस्ट्रेट से संपर्क करें", "bn": "ম্যাজিস্ট্রেটের কাছে যান" },
+        "title": {
+          "en": "Approach the magistrate",
+          "hi": "मजिस्ट्रेट से संपर्क करें",
+          "bn": "ম্যাজিস্ট্রেটের কাছে যান"
+        },
         "description": {
           "en": "If the SP also doesn't help, you can approach the local Judicial Magistrate directly to order FIR registration.",
           "hi": "यदि SP भी मदद नहीं करता, तो आप FIR दर्ज करने का आदेश देने के लिए सीधे स्थानीय न्यायिक मजिस्ट्रेट से संपर्क कर सकते हैं।",
           "bn": "SP-ও সাহায্য না করলে, FIR নিবন্ধনের আদেশ দিতে আপনি সরাসরি স্থানীয় বিচার বিভাগীয় ম্যাজিস্ট্রেটের কাছে যেতে পারেন।"
+        }
+      }
+    ],
+    "self_check": {
+      "question": {
+        "en": "Are there any pending legal matters or warrants against you that you are aware of?",
+        "hi": "क्या आपके खिलाफ कोई लंबित कानूनी मामले या वारंट हैं जिनकी आपको जानकारी है?",
+        "bn": "আপনার বিরুদ্ধে কোনো মুলতুবি আইনি বিষয় বা ওয়ারেন্ট আছে যা আপনি জানেন?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, there are pending matters",
+            "hi": "हाँ, कुछ लंबित मामले हैं",
+            "bn": "হ্যাঁ, কিছু মুলতুবি বিষয় আছে"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, nothing that I know of",
+            "hi": "नहीं, मुझे किसी बात की जानकारी नहीं",
+            "bn": "না, আমার জানামতে কিছু নেই"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "I'm not sure",
+            "hi": "मुझे पक्का पता नहीं",
+            "bn": "আমি নিশ্চিত নই"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "Even if there are pending matters, your fundamental rights during police interactions remain the same. However, being aware of your own legal status helps you make informed decisions. If there is an active warrant, the police may have the legal authority to detain you, but even then, specific procedures must be followed.",
+        "hi": "लंबित मामले होने पर भी पुलिस बातचीत के दौरान आपके मूलभूत अधिकार वही रहते हैं। हालाँकि, अपनी कानूनी स्थिति की जानकारी होने से आपको सूचित निर्णय लेने में मदद मिलती है। यदि सक्रिय वारंट है, तो पुलिस के पास आपको हिरासत में लेने का कानूनी अधिकार हो सकता है, लेकिन तब भी विशिष्ट प्रक्रियाओं का पालन करना होगा।",
+        "bn": "মুলতুবি বিষয় থাকলেও পুলিশের সাথে আলাপকালে আপনার মৌলিক অধিকার একই থাকে। তবে, আপনার নিজের আইনি অবস্থা সম্পর্কে সচেতন থাকা সচেতন সিদ্ধান্ত নিতে সাহায্য করে। সক্রিয় ওয়ারেন্ট থাকলে পুলিশের আপনাকে আটক করার আইনি ক্ষমতা থাকতে পারে, তবে তখনও নির্দিষ্ট পদ্ধতি অনুসরণ করতে হবে।"
+      }
+    }
+  },
+  {
+    "issue_id": "theft_robbery",
+    "icon": "shield",
+    "titles": {
+      "en": "Theft / Robbery",
+      "hi": "चोरी / डकैती",
+      "bn": "চুরি / ডাকাতি"
+    },
+    "self_check": {
+      "question": {
+        "en": "Are you currently in a safe location?",
+        "hi": "क्या आप अभी सुरक्षित जगह पर हैं?",
+        "bn": "আপনি কি এখন নিরাপদ জায়গায় আছেন?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, I am safe now",
+            "hi": "हाँ, मैं अभी सुरक्षित हूँ",
+            "bn": "হ্যাঁ, আমি এখন নিরাপদ"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, I may still be at risk",
+            "hi": "नहीं, मुझे अभी भी खतरा हो सकता है",
+            "bn": "না, আমি এখনও ঝুঁকিতে থাকতে পারি"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "I'm not sure",
+            "hi": "मुझे पक्का पता नहीं",
+            "bn": "আমি নিশ্চিত নই"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "If you are not safe, please call 100 (Police) or 112 (Emergency) immediately. Your safety is the top priority. The legal steps described here can be taken once you are in a safe situation.",
+        "hi": "यदि आप सुरक्षित नहीं हैं, तो कृपया तुरंत 100 (पुलिस) या 112 (आपातकालीन) पर कॉल करें। आपकी सुरक्षा सबसे पहले है। यहाँ बताए गए कानूनी कदम सुरक्षित होने के बाद उठाए जा सकते हैं।",
+        "bn": "আপনি নিরাপদ না থাকলে, অনুগ্রহ করে অবিলম্বে 100 (পুলিশ) বা 112 (জরুরি) এ কল করুন। আপনার নিরাপত্তা সর্বোচ্চ অগ্রাধিকার। এখানে বর্ণিত আইনি পদক্ষেপগুলো নিরাপদ হওয়ার পর নেওয়া যেতে পারে।"
+      }
+    },
+    "questions": [
+      {
+        "question_id": "crime_type",
+        "text": {
+          "en": "What happened?",
+          "hi": "क्या हुआ?",
+          "bn": "কী হয়েছে?"
+        },
+        "options": [
+          {
+            "option_id": "theft",
+            "label": {
+              "en": "Something was stolen (no one was home / no confrontation)",
+              "hi": "कुछ चोरी हो गया (कोई घर पर नहीं था / कोई सामना नहीं हुआ)",
+              "bn": "কিছু চুরি হয়েছে (কেউ বাড়িতে ছিল না / কোনো সংঘর্ষ হয়নি)"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "robbery",
+            "label": {
+              "en": "I was confronted or threatened during the theft",
+              "hi": "चोरी के दौरान मुझसे सामना हुआ या धमकी दी गई",
+              "bn": "চুরির সময় আমাকে মুখোমুখি করা হয়েছে বা হুমকি দেওয়া হয়েছে"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "vehicle_theft",
+            "label": {
+              "en": "My vehicle was stolen",
+              "hi": "मेरा वाहन चोरी हो गया",
+              "bn": "আমার গাড়ি চুরি হয়েছে"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "pickpocket",
+            "label": {
+              "en": "My belongings were pickpocketed / snatched",
+              "hi": "मेरा सामान जेब से चोरी / छीना गया",
+              "bn": "আমার জিনিসপত্র পকেটমার / ছিনতাই হয়েছে"
+            },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "fir_status",
+        "text": {
+          "en": "Have you reported this to the police?",
+          "hi": "क्या आपने इसकी पुलिस को रिपोर्ट की है?",
+          "bn": "আপনি কি এটি পুলিশে রিপোর্ট করেছেন?"
+        },
+        "options": [
+          {
+            "option_id": "yes_fir",
+            "label": {
+              "en": "Yes, FIR has been filed",
+              "hi": "हाँ, FIR दर्ज हो गई है",
+              "bn": "হ্যাঁ, FIR করা হয়েছে"
+            },
+            "next_question_index": null
+          },
+          {
+            "option_id": "no_fir",
+            "label": {
+              "en": "No, I haven't reported yet",
+              "hi": "नहीं, मैंने अभी रिपोर्ट नहीं की",
+              "bn": "না, আমি এখনও রিপোর্ট করিনি"
+            },
+            "next_question_index": null
+          },
+          {
+            "option_id": "refused",
+            "label": {
+              "en": "Police refused to file the FIR",
+              "hi": "पुलिस ने FIR दर्ज करने से मना किया",
+              "bn": "পুলিশ FIR করতে অস্বীকার করেছে"
+            },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "If your house has been robbed or something has been stolen, you have the right to file an FIR at any police station. The police are legally obligated to register your complaint — refusing to do so is a punishable offense. For robbery (theft with force or intimidation), the law treats it as a more serious offense, and the police must act promptly. In most situations, you can file a Zero FIR at the nearest police station regardless of where the crime happened.",
+        "hi": "यदि आपके घर में डकैती हुई है या कुछ चोरी हुआ है, तो आपको किसी भी पुलिस स्टेशन में FIR दर्ज करने का अधिकार है। पुलिस कानूनी रूप से आपकी शिकायत दर्ज करने के लिए बाध्य है — ऐसा करने से इनकार करना दंडनीय अपराध है। डकैती (बल या धमकी से चोरी) के लिए, कानून इसे अधिक गंभीर अपराध मानता है, और पुलिस को तुरंत कार्रवाई करनी चाहिए। अधिकांश स्थितियों में, आप निकटतम पुलिस स्टेशन में ज़ीरो FIR दर्ज कर सकते हैं, चाहे अपराध कहीं भी हुआ हो।",
+        "bn": "আপনার বাড়িতে ডাকাতি হলে বা কিছু চুরি হলে, আপনার যেকোনো থানায় FIR করার অধিকার আছে। পুলিশ আইনগতভাবে আপনার অভিযোগ নিবন্ধন করতে বাধ্য — এটি করতে অস্বীকার করা শাস্তিযোগ্য অপরাধ। ডাকাতি (বল বা ভয় দেখিয়ে চুরি) হলে আইন এটিকে আরও গুরুতর অপরাধ হিসেবে বিবেচনা করে এবং পুলিশকে দ্রুত পদক্ষেপ নিতে হবে। বেশিরভাগ ক্ষেত্রে, অপরাধ যেখানেই ঘটুক না কেন আপনি নিকটতম থানায় জিরো FIR করতে পারেন।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "I need to go to the specific police station where the crime happened.",
+            "hi": "मुझे उसी पुलिस स्टेशन में जाना होगा जहाँ अपराध हुआ।",
+            "bn": "আমাকে সেই নির্দিষ্ট থানায় যেতে হবে যেখানে অপরাধ ঘটেছে।"
+          },
+          "fact": {
+            "en": "You can file a Zero FIR at any police station. They must accept it and transfer it to the correct station.",
+            "hi": "आप किसी भी पुलिस स्टेशन में ज़ीरो FIR दर्ज कर सकते हैं। उन्हें इसे स्वीकार करना होगा और सही स्टेशन में ट्रांसफर करना होगा।",
+            "bn": "আপনি যেকোনো থানায় জিরো FIR করতে পারেন। তাদের এটি গ্রহণ করতে হবে এবং সঠিক থানায় স্থানান্তর করতে হবে।"
+          }
+        },
+        {
+          "myth": {
+            "en": "If I don't have proof, the police won't help.",
+            "hi": "अगर मेरे पास सबूत नहीं है, तो पुलिस मदद नहीं करेगी।",
+            "bn": "আমার কাছে প্রমাণ না থাকলে পুলিশ সাহায্য করবে না।"
+          },
+          "fact": {
+            "en": "The police must register your FIR regardless of evidence. Investigation and evidence collection is the police's job, not yours.",
+            "hi": "पुलिस को सबूत की परवाह किए बिना आपकी FIR दर्ज करनी होगी। जाँच और सबूत इकट्ठा करना पुलिस का काम है, आपका नहीं।",
+            "bn": "প্রমাণ নির্বিশেষে পুলিশকে আপনার FIR নিবন্ধন করতে হবে। তদন্ত এবং প্রমাণ সংগ্রহ পুলিশের কাজ, আপনার নয়।"
+          }
+        },
+        {
+          "myth": {
+            "en": "Small thefts are not worth reporting.",
+            "hi": "छोटी चोरी की रिपोर्ट करने का कोई फायदा नहीं।",
+            "bn": "ছোট চুরি রিপোর্ট করার মূল্য নেই।"
+          },
+          "fact": {
+            "en": "Every theft should be reported. It creates an official record, helps police track crime patterns, and is required for insurance claims.",
+            "hi": "हर चोरी की रिपोर्ट होनी चाहिए। यह आधिकारिक रिकॉर्ड बनाता है, पुलिस को अपराध पैटर्न ट्रैक करने में मदद करता है, और बीमा दावों के लिए ज़रूरी है।",
+            "bn": "প্রতিটি চুরি রিপোর্ট করা উচিত। এটি একটি সরকারি রেকর্ড তৈরি করে, পুলিশকে অপরাধের ধরন ট্র্যাক করতে সাহায্য করে এবং বীমা দাবির জন্য প্রয়োজন।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "IPC Section 378 (Theft)",
+        "IPC Section 390 (Robbery)",
+        "IPC Section 392 (Punishment for Robbery)",
+        "IPC Section 395 (Dacoity)",
+        "IPC Section 457 (House-breaking by Night)",
+        "CrPC Section 154 (FIR Registration)"
+      ],
+      "timeline": {
+        "en": "File the FIR immediately. Investigation generally begins within 24 hours. For theft, recovery depends on the case. Insurance claims typically require FIR copy within 24-48 hours of the incident.",
+        "hi": "तुरंत FIR दर्ज करें। जाँच आमतौर पर 24 घंटे के भीतर शुरू होती है। चोरी के लिए, वसूली मामले पर निर्भर करती है। बीमा दावों के लिए आमतौर पर घटना के 24-48 घंटे के भीतर FIR कॉपी की आवश्यकता होती है।",
+        "bn": "অবিলম্বে FIR করুন। তদন্ত সাধারণত ২৪ ঘণ্টার মধ্যে শুরু হয়। চুরির ক্ষেত্রে, পুনরুদ্ধার মামলার উপর নির্ভর করে। বীমা দাবির জন্য সাধারণত ঘটনার ২৪-৪৮ ঘণ্টার মধ্যে FIR কপি প্রয়োজন।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may file a Zero FIR at any police station.",
+          "hi": "आप किसी भी पुलिस स्टेशन में ज़ीरो FIR दर्ज कर सकते हैं।",
+          "bn": "আপনি যেকোনো থানায় জিরো FIR করতে পারেন।"
+        },
+        {
+          "en": "You may call 100 (Police) or 112 (Emergency) for immediate assistance.",
+          "hi": "तत्काल सहायता के लिए 100 (पुलिस) या 112 (आपातकालीन) पर कॉल कर सकते हैं।",
+          "bn": "তাৎক্ষণিক সহায়তার জন্য 100 (পুলিশ) বা 112 (জরুরি) এ কল করতে পারেন।"
+        },
+        {
+          "en": "You may complain to the SP or Judicial Magistrate if the police refuse to file an FIR.",
+          "hi": "यदि पुलिस FIR दर्ज करने से मना करे तो आप SP या न्यायिक मजिस्ट्रेट से शिकायत कर सकते हैं।",
+          "bn": "পুলিশ FIR করতে অস্বীকার করলে আপনি SP বা বিচার বিভাগীয় ম্যাজিস্ট্রেটের কাছে অভিযোগ করতে পারেন।"
+        },
+        {
+          "en": "You may request CCTV footage from nearby cameras to support your case.",
+          "hi": "अपने मामले का समर्थन करने के लिए आस-पास के कैमरों से CCTV फुटेज का अनुरोध कर सकते हैं।",
+          "bn": "আপনার মামলায় সহায়তার জন্য কাছাকাছি ক্যামেরা থেকে CCTV ফুটেজ অনুরোধ করতে পারেন।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "You should not tamper with or clean the crime scene before the police arrive — preserve all evidence.",
+          "hi": "पुलिस आने से पहले अपराध स्थल को छेड़ें या साफ़ न करें — सभी सबूत सुरक्षित रखें।",
+          "bn": "পুলিশ আসার আগে অপরাধের স্থান নষ্ট বা পরিষ্কার করবেন না — সমস্ত প্রমাণ সংরক্ষণ করুন।"
+        },
+        {
+          "en": "You should provide accurate and truthful information in your FIR — exaggerating losses can weaken your case.",
+          "hi": "अपनी FIR में सटीक और सच्ची जानकारी दें — नुकसान बढ़ा-चढ़ाकर बताने से आपका मामला कमज़ोर हो सकता है।",
+          "bn": "আপনার FIR-এ সঠিক এবং সত্য তথ্য দিন — ক্ষতি বাড়িয়ে বলা আপনার মামলা দুর্বল করতে পারে।"
+        },
+        {
+          "en": "You should cooperate with the police investigation and be available for identification procedures if needed.",
+          "hi": "पुलिस जाँच में सहयोग करें और ज़रूरत पड़ने पर पहचान प्रक्रियाओं के लिए उपलब्ध रहें।",
+          "bn": "পুলিশ তদন্তে সহযোগিতা করুন এবং প্রয়োজনে শনাক্তকরণ প্রক্রিয়ার জন্য উপলব্ধ থাকুন।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "In some situations, property disputes may be mistaken for theft. For example, a former tenant, business partner, or family member may have taken items they believe belong to them. The police will investigate all sides of the story. If there is a legitimate ownership dispute, the matter may be treated as a civil dispute rather than a criminal offense. Making false theft accusations against someone is itself a criminal offense.",
+        "hi": "कुछ स्थितियों में, संपत्ति विवाद को चोरी समझा जा सकता है। उदाहरण के लिए, कोई पूर्व किरायेदार, व्यापार साझेदार, या परिवार का सदस्य ऐसी चीज़ें ले गया हो जो उन्हें लगता है कि उनकी हैं। पुलिस कहानी के सभी पक्षों की जाँच करेगी। यदि वैध स्वामित्व विवाद है, तो मामले को आपराधिक अपराध के बजाय सिविल विवाद माना जा सकता है। किसी पर झूठा चोरी का आरोप लगाना स्वयं आपराधिक अपराध है।",
+        "bn": "কিছু পরিস্থিতিতে, সম্পত্তি বিবাদ চুরি বলে ভুল হতে পারে। উদাহরণস্বরূপ, কোনো প্রাক্তন ভাড়াটে, ব্যবসায়িক অংশীদার, বা পরিবারের সদস্য তাদের মনে হওয়া জিনিস নিয়ে থাকতে পারে। পুলিশ ঘটনার সব দিক তদন্ত করবে। বৈধ মালিকানা বিবাদ থাকলে, বিষয়টি ফৌজদারি অপরাধের বদলে দেওয়ানি বিবাদ হিসেবে বিবেচিত হতে পারে। কারো বিরুদ্ধে মিথ্যা চুরির অভিযোগ করা নিজেই ফৌজদারি অপরাধ।"
+      },
+      "misuse_warning": {
+        "en": "Filing a false theft or robbery complaint is a criminal offense under IPC Section 182 and 211. Exaggerating the value of stolen items for insurance fraud can lead to serious criminal charges. The law protects genuine victims and punishes false claims.",
+        "hi": "झूठी चोरी या डकैती शिकायत दर्ज करना IPC धारा 182 और 211 के तहत आपराधिक अपराध है। बीमा धोखाधड़ी के लिए चोरी हुई वस्तुओं का मूल्य बढ़ा-चढ़ाकर बताना गंभीर आपराधिक आरोपों का कारण बन सकता है। कानून वास्तविक पीड़ितों की रक्षा करता है और झूठे दावों को दंडित करता है।",
+        "bn": "মিথ্যা চুরি বা ডাকাতির অভিযোগ দায়ের করা IPC ধারা ১৮২ এবং ২১১ এর অধীনে ফৌজদারি অপরাধ। বীমা জালিয়াতির জন্য চুরি হওয়া জিনিসের মূল্য বাড়িয়ে বলা গুরুতর ফৌজদারি অভিযোগের কারণ হতে পারে। আইন প্রকৃত ভুক্তভোগীদের রক্ষা করে এবং মিথ্যা দাবি শাস্তি দেয়।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is generally reasonable when the police refuse to register your FIR, when there is no progress in the investigation after filing, or when the stolen property has been identified but not recovered.",
+          "hi": "बढ़ोतरी आमतौर पर तब उचित होती है जब पुलिस FIR दर्ज करने से मना करे, दर्ज करने के बाद जाँच में कोई प्रगति न हो, या चोरी की संपत्ति की पहचान हो गई हो लेकिन वसूली न हुई हो।",
+          "bn": "পুলিশ FIR করতে অস্বীকার করলে, দায়ের করার পর তদন্তে কোনো অগ্রগতি না হলে, বা চুরি হওয়া সম্পত্তি চিহ্নিত হলেও পুনরুদ্ধার না হলে উচ্চতর পদক্ষেপ সাধারণত যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "Escalation may not be appropriate if the matter involves a genuine ownership or property dispute with someone known to you. In such cases, consider seeking legal advice or mediation before filing criminal complaints.",
+          "hi": "यदि मामला किसी परिचित के साथ वास्तविक स्वामित्व या संपत्ति विवाद से जुड़ा है तो बढ़ोतरी उचित नहीं हो सकती। ऐसे मामलों में, आपराधिक शिकायत दर्ज करने से पहले कानूनी सलाह या मध्यस्थता पर विचार करें।",
+          "bn": "বিষয়টি পরিচিত কারো সাথে প্রকৃত মালিকানা বা সম্পত্তি বিবাদ হলে উচ্চতর পদক্ষেপ উপযুক্ত নাও হতে পারে। এই ক্ষেত্রে, ফৌজদারি অভিযোগ দায়ের করার আগে আইনি পরামর্শ বা মধ্যস্থতা বিবেচনা করুন।"
+        }
+      }
+    },
+    "action_steps": [
+      {
+        "title": {
+          "en": "Ensure your safety first",
+          "hi": "पहले अपनी सुरक्षा सुनिश्चित करें",
+          "bn": "প্রথমে আপনার নিরাপত্তা নিশ্চিত করুন"
+        },
+        "description": {
+          "en": "If the intruder may still be nearby, do not confront them. Move to a safe location and call 100 (Police) or 112 (Emergency) immediately.",
+          "hi": "यदि घुसपैठिया अभी भी पास हो सकता है, तो उसका सामना न करें। सुरक्षित जगह जाएं और तुरंत 100 (पुलिस) या 112 (आपातकालीन) पर कॉल करें।",
+          "bn": "অনুপ্রবেশকারী এখনও কাছে থাকতে পারলে, তার মুখোমুখি হবেন না। নিরাপদ স্থানে যান এবং অবিলম্বে 100 (পুলিশ) বা 112 (জরুরি) এ কল করুন।"
+        }
+      },
+      {
+        "title": {
+          "en": "Do not disturb the crime scene",
+          "hi": "अपराध स्थल को न छेड़ें",
+          "bn": "অপরাধের স্থান নষ্ট করবেন না"
+        },
+        "description": {
+          "en": "Do not clean, rearrange, or touch anything at the crime scene. Do not wash or remove any items the intruder may have touched. This preserves evidence for the police.",
+          "hi": "अपराध स्थल पर कुछ भी साफ, व्यवस्थित या छुएं नहीं। घुसपैठिया ने जो छुआ हो उसे न धोएं या हटाएं। यह पुलिस के लिए सबूत सुरक्षित रखता है।",
+          "bn": "অপরাধের স্থানে কিছু পরিষ্কার, সাজানো বা স্পর্শ করবেন না। অনুপ্রবেশকারী স্পর্শ করে থাকতে পারে এমন কিছু ধুবেন বা সরাবেন না। এটি পুলিশের জন্য প্রমাণ সংরক্ষণ করে।"
+        }
+      },
+      {
+        "title": {
+          "en": "File an FIR immediately",
+          "hi": "तुरंत FIR दर्ज करें",
+          "bn": "অবিলম্বে FIR করুন"
+        },
+        "description": {
+          "en": "Go to the nearest police station and file an FIR. You can file a Zero FIR at any police station — they will transfer it to the correct jurisdiction. Provide a detailed list of stolen items with approximate values.",
+          "hi": "निकटतम पुलिस स्टेशन जाएं और FIR दर्ज करें। आप किसी भी पुलिस स्टेशन में ज़ीरो FIR दर्ज कर सकते हैं — वे इसे सही क्षेत्राधिकार में ट्रांसफर करेंगे। चोरी हुई वस्तुओं की अनुमानित मूल्य के साथ विस्तृत सूची दें।",
+          "bn": "নিকটতম থানায় যান এবং FIR করুন। আপনি যেকোনো থানায় জিরো FIR করতে পারেন — তারা এটি সঠিক এখতিয়ারে স্থানান্তর করবে। আনুমানিক মূল্য সহ চুরি হওয়া জিনিসের বিস্তারিত তালিকা দিন।"
+        }
+      },
+      {
+        "title": {
+          "en": "Collect and preserve evidence",
+          "hi": "सबूत इकट्ठा करें और सुरक्षित रखें",
+          "bn": "প্রমাণ সংগ্রহ করুন এবং সংরক্ষণ করুন"
+        },
+        "description": {
+          "en": "Take photos of any damage (broken locks, windows, etc.). Request CCTV footage from neighbors or nearby shops. Note down any witness details. Keep your FIR copy safe — you'll need it for insurance claims.",
+          "hi": "किसी भी नुकसान (टूटे ताले, खिड़कियां आदि) की तस्वीरें लें। पड़ोसियों या आस-पास की दुकानों से CCTV फुटेज का अनुरोध करें। किसी भी गवाह का विवरण नोट करें। अपनी FIR कॉपी सुरक्षित रखें — बीमा दावों के लिए इसकी ज़रूरत होगी।",
+          "bn": "যেকোনো ক্ষতির (ভাঙা তালা, জানালা ইত্যাদি) ছবি তুলুন। প্রতিবেশী বা কাছের দোকান থেকে CCTV ফুটেজ অনুরোধ করুন। কোনো সাক্ষীর বিবরণ নোট করুন। আপনার FIR কপি নিরাপদে রাখুন — বীমা দাবির জন্য এটি লাগবে।"
+        }
+      },
+      {
+        "title": {
+          "en": "Inform your insurance company",
+          "hi": "अपनी बीमा कंपनी को सूचित करें",
+          "bn": "আপনার বীমা কোম্পানিকে জানান"
+        },
+        "description": {
+          "en": "If you have home or vehicle insurance, notify your insurance company within 24-48 hours. They will need a copy of the FIR and a list of stolen items.",
+          "hi": "यदि आपके पास गृह या वाहन बीमा है, तो 24-48 घंटों के भीतर बीमा कंपनी को सूचित करें। उन्हें FIR की प्रति और चोरी हुई वस्तुओं की सूची की आवश्यकता होगी।",
+          "bn": "আপনার গৃহ বা যানবাহন বীমা থাকলে, ২৪-৪৮ ঘণ্টার মধ্যে বীমা কোম্পানিকে জানান। তাদের FIR কপি এবং চুরি হওয়া জিনিসের তালিকা লাগবে।"
+        }
+      }
+    ]
+  },
+  {
+    "issue_id": "violent_crime",
+    "icon": "emergency",
+    "titles": {
+      "en": "Violent Crime / Assault",
+      "hi": "हिंसक अपराध / हमला",
+      "bn": "সহিংস অপরাধ / আক্রমণ"
+    },
+    "self_check": {
+      "question": {
+        "en": "Do you or someone near you need immediate medical help?",
+        "hi": "क्या आपको या आपके पास किसी को तत्काल चिकित्सा सहायता की आवश्यकता है?",
+        "bn": "আপনার বা আপনার কাছের কারো কি তাৎক্ষণিক চিকিৎসা সহায়তা প্রয়োজন?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, medical help is needed",
+            "hi": "हाँ, चिकित्सा सहायता चाहिए",
+            "bn": "হ্যাঁ, চিকিৎসা সহায়তা প্রয়োজন"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, we are safe for now",
+            "hi": "नहीं, हम अभी सुरक्षित हैं",
+            "bn": "না, আমরা আপাতত নিরাপদ"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "I'm not sure",
+            "hi": "मुझे पक्का पता नहीं",
+            "bn": "আমি নিশ্চিত নই"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "If anyone is injured, call 108 (Ambulance) or 112 (Emergency) IMMEDIATELY. Getting medical help is the absolute first priority. Do not hesitate. The legal process can begin after everyone is safe. If you witness a crime in progress, call 100 (Police) immediately.",
+        "hi": "यदि कोई घायल है, तो तुरंत 108 (एम्बुलेंस) या 112 (आपातकालीन) पर कॉल करें। चिकित्सा सहायता प्राप्त करना सर्वोच्च प्राथमिकता है। संकोच न करें। सभी सुरक्षित होने के बाद कानूनी प्रक्रिया शुरू हो सकती है। यदि आप किसी अपराध को होते हुए देख रहे हैं, तो तुरंत 100 (पुलिस) पर कॉल करें।",
+        "bn": "কেউ আহত হলে, অবিলম্বে 108 (অ্যাম্বুলেন্স) বা 112 (জরুরি) এ কল করুন। চিকিৎসা সহায়তা পাওয়া সর্বোচ্চ অগ্রাধিকার। দ্বিধা করবেন না। সবাই নিরাপদ হওয়ার পর আইনি প্রক্রিয়া শুরু হতে পারে। চলমান অপরাধ প্রত্যক্ষ করলে, অবিলম্বে 100 (পুলিশ) এ কল করুন।"
+      }
+    },
+    "questions": [
+      {
+        "question_id": "crime_nature",
+        "text": {
+          "en": "What is the nature of the incident?",
+          "hi": "घटना की प्रकृति क्या है?",
+          "bn": "ঘটনার প্রকৃতি কী?"
+        },
+        "options": [
+          {
+            "option_id": "physical_assault",
+            "label": {
+              "en": "Physical assault / beating",
+              "hi": "शारीरिक हमला / मारपीट",
+              "bn": "শারীরিক আক্রমণ / মারধর"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "murder_attempt",
+            "label": {
+              "en": "Murder or attempt to murder",
+              "hi": "हत्या या हत्या का प्रयास",
+              "bn": "হত্যা বা হত্যার চেষ্টা"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "domestic_violence",
+            "label": {
+              "en": "Domestic violence",
+              "hi": "घरेलू हिंसा",
+              "bn": "গার্হস্থ্য সহিংসতা"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "acid_attack",
+            "label": {
+              "en": "Acid attack",
+              "hi": "तेज़ाब हमला",
+              "bn": "অ্যাসিড আক্রমণ"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "threat",
+            "label": {
+              "en": "Death threats or intimidation",
+              "hi": "जान से मारने की धमकी या डराना",
+              "bn": "মৃত্যু হুমকি বা ভয় দেখানো"
+            },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "reported",
+        "text": {
+          "en": "Has this been reported to the police?",
+          "hi": "क्या इसकी पुलिस को रिपोर्ट की गई है?",
+          "bn": "এটি কি পুলিশে রিপোর্ট করা হয়েছে?"
+        },
+        "options": [
+          {
+            "option_id": "yes",
+            "label": {
+              "en": "Yes, an FIR has been filed",
+              "hi": "हाँ, FIR दर्ज हो गई है",
+              "bn": "হ্যাঁ, FIR করা হয়েছে"
+            },
+            "next_question_index": null
+          },
+          {
+            "option_id": "no",
+            "label": {
+              "en": "No, not yet reported",
+              "hi": "नहीं, अभी रिपोर्ट नहीं हुई",
+              "bn": "না, এখনও রিপোর্ট হয়নি"
+            },
+            "next_question_index": null
+          },
+          {
+            "option_id": "refused",
+            "label": {
+              "en": "Police refused to register the case",
+              "hi": "पुलिस ने मामला दर्ज करने से मना किया",
+              "bn": "পুলিশ মামলা নিবন্ধন করতে অস্বীকার করেছে"
+            },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "If you or someone you know has been a victim of a violent crime, the law provides strong protections and avenues for justice. The police must register an FIR for cognizable offenses like assault, murder, and domestic violence — no preliminary inquiry is needed. Victims of violent crimes are entitled to free medical treatment at any hospital, whether government or private. In most situations, the police must begin investigation immediately for serious offenses.",
+        "hi": "यदि आप या आपका कोई परिचित हिंसक अपराध का शिकार हुआ है, तो कानून न्याय के लिए मज़बूत सुरक्षा और रास्ते प्रदान करता है। पुलिस को हमला, हत्या और घरेलू हिंसा जैसे संज्ञेय अपराधों के लिए FIR दर्ज करनी होगी — किसी प्रारंभिक जाँच की आवश्यकता नहीं है। हिंसक अपराधों के पीड़ित किसी भी अस्पताल में मुफ्त चिकित्सा उपचार के हकदार हैं, चाहे सरकारी हो या निजी। अधिकांश स्थितियों में, पुलिस को गंभीर अपराधों के लिए तुरंत जाँच शुरू करनी होगी।",
+        "bn": "আপনি বা পরিচিত কেউ সহিংস অপরাধের শিকার হলে, আইন ন্যায়বিচারের জন্য শক্তিশালী সুরক্ষা এবং পথ প্রদান করে। আক্রমণ, হত্যা এবং গার্হস্থ্য সহিংসতার মতো আমলযোগ্য অপরাধের জন্য পুলিশকে FIR নিবন্ধন করতে হবে — কোনো প্রাথমিক তদন্তের প্রয়োজন নেই। সহিংস অপরাধের শিকাররা সরকারি বা বেসরকারি যেকোনো হাসপাতালে বিনামূল্যে চিকিৎসা পাওয়ার অধিকারী। বেশিরভাগ ক্ষেত্রে, পুলিশকে গুরুতর অপরাধের জন্য অবিলম্বে তদন্ত শুরু করতে হবে।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "I need a lawyer before I can file an FIR.",
+            "hi": "FIR दर्ज करने से पहले मुझे वकील की ज़रूरत है।",
+            "bn": "FIR করার আগে আমার উকিলের প্রয়োজন।"
+          },
+          "fact": {
+            "en": "You do not need a lawyer to file an FIR. The police are legally obligated to register it immediately. You can get legal help later.",
+            "hi": "FIR दर्ज करने के लिए वकील की ज़रूरत नहीं। पुलिस कानूनी रूप से तुरंत इसे दर्ज करने के लिए बाध्य है। बाद में कानूनी मदद ले सकते हैं।",
+            "bn": "FIR করতে উকিল লাগে না। পুলিশ আইনগতভাবে এটি অবিলম্বে নিবন্ধন করতে বাধ্য। পরে আইনি সাহায্য নিতে পারেন।"
+          }
+        },
+        {
+          "myth": {
+            "en": "Domestic violence is a private family matter.",
+            "hi": "घरेलू हिंसा पारिवारिक मामला है।",
+            "bn": "গার্হস্থ্য সহিংসতা পারিবারিক ব্যাপার।"
+          },
+          "fact": {
+            "en": "Domestic violence is a criminal offense. The Protection of Women from Domestic Violence Act provides immediate protection orders, residence rights, and monetary relief.",
+            "hi": "घरेलू हिंसा आपराधिक अपराध है। घरेलू हिंसा से महिलाओं का संरक्षण अधिनियम तत्काल सुरक्षा आदेश, निवास अधिकार और मौद्रिक राहत प्रदान करता है।",
+            "bn": "গার্হস্থ্য সহিংসতা ফৌজদারি অপরাধ। পারিবারিক সহিংসতা থেকে নারী সুরক্ষা আইন তাৎক্ষণিক সুরক্ষা আদেশ, বাসস্থানের অধিকার এবং আর্থিক ত্রাণ প্রদান করে।"
+          }
+        },
+        {
+          "myth": {
+            "en": "If I go to the hospital first, I can't file an FIR.",
+            "hi": "अगर मैं पहले अस्पताल जाऊं, तो FIR नहीं कर सकता।",
+            "bn": "আমি প্রথমে হাসপাতালে গেলে FIR করতে পারব না।"
+          },
+          "fact": {
+            "en": "You can get medical treatment first and file the FIR later. Hospitals are required to inform the police in cases of serious injuries. The MLC (Medico-Legal Case) report from the hospital also serves as evidence.",
+            "hi": "पहले चिकित्सा उपचार ले सकते हैं और बाद में FIR दर्ज कर सकते हैं। गंभीर चोटों के मामलों में अस्पतालों को पुलिस को सूचित करना ज़रूरी है। अस्पताल की MLC (मेडिको-लीगल केस) रिपोर्ट भी सबूत के रूप में काम करती है।",
+            "bn": "প্রথমে চিকিৎসা নিতে পারেন এবং পরে FIR করতে পারেন। গুরুতর আঘাতের ক্ষেত্রে হাসপাতালকে পুলিশকে জানাতে হয়। হাসপাতালের MLC (মেডিকো-লিগ্যাল কেস) রিপোর্টও প্রমাণ হিসেবে কাজ করে।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "IPC Section 302 (Murder)",
+        "IPC Section 307 (Attempt to Murder)",
+        "IPC Section 323/324/325 (Assault)",
+        "IPC Section 326A/326B (Acid Attack)",
+        "IPC Section 506 (Criminal Intimidation)",
+        "Protection of Women from Domestic Violence Act, 2005",
+        "Victim Compensation Scheme (CrPC Section 357A)"
+      ],
+      "timeline": {
+        "en": "Call emergency services (100/108/112) immediately. File the FIR as soon as possible — there is no time limit, but earlier is better for investigation. For domestic violence protection orders, courts generally act within days. Victim compensation applications can be filed at any time.",
+        "hi": "तुरंत आपातकालीन सेवाओं (100/108/112) को कॉल करें। जल्द से जल्द FIR दर्ज करें — कोई समय सीमा नहीं है, लेकिन जाँच के लिए जल्दी बेहतर है। घरेलू हिंसा सुरक्षा आदेशों के लिए, अदालतें आमतौर पर दिनों में कार्रवाई करती हैं। पीड़ित मुआवज़ा आवेदन कभी भी दाखिल किए जा सकते हैं।",
+        "bn": "অবিলম্বে জরুরি পরিষেবা (100/108/112) কল করুন। যত তাড়াতাড়ি সম্ভব FIR করুন — কোনো সময়সীমা নেই, তবে তদন্তের জন্য যত আগে তত ভালো। গার্হস্থ্য সহিংসতা সুরক্ষা আদেশের জন্য, আদালত সাধারণত দিনের মধ্যে পদক্ষেপ নেয়। ভুক্তভোগী ক্ষতিপূরণ আবেদন যেকোনো সময় দায়ের করা যেতে পারে।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may call 100 (Police), 108 (Ambulance), or 112 (Emergency) for immediate help.",
+          "hi": "तत्काल सहायता के लिए 100 (पुलिस), 108 (एम्बुलेंस), या 112 (आपातकालीन) पर कॉल कर सकते हैं।",
+          "bn": "তাৎক্ষণিক সাহায্যের জন্য 100 (পুলিশ), 108 (অ্যাম্বুলেন্স), বা 112 (জরুরি) এ কল করতে পারেন।"
+        },
+        {
+          "en": "You may file an FIR at any police station — the police must register it.",
+          "hi": "किसी भी पुलिस स्टेशन में FIR दर्ज कर सकते हैं — पुलिस को इसे दर्ज करना होगा।",
+          "bn": "যেকোনো থানায় FIR করতে পারেন — পুলিশকে এটি নিবন্ধন করতে হবে।"
+        },
+        {
+          "en": "You may get free medical treatment at any hospital for injuries from violent crimes.",
+          "hi": "हिंसक अपराधों से लगी चोटों का किसी भी अस्पताल में मुफ्त इलाज करा सकते हैं।",
+          "bn": "সহিংস অপরাধে আঘাতের জন্য যেকোনো হাসপাতালে বিনামূল্যে চিকিৎসা নিতে পারেন।"
+        },
+        {
+          "en": "You may apply for victim compensation under the Victim Compensation Scheme.",
+          "hi": "पीड़ित मुआवज़ा योजना के तहत मुआवज़े के लिए आवेदन कर सकते हैं।",
+          "bn": "ভুক্তভোগী ক্ষতিপূরণ প্রকল্পের অধীনে ক্ষতিপূরণের জন্য আবেদন করতে পারেন।"
+        },
+        {
+          "en": "For domestic violence, you may seek Protection Orders from the court.",
+          "hi": "घरेलू हिंसा के लिए, अदालत से सुरक्षा आदेश माँग सकते हैं।",
+          "bn": "গার্হস্থ্য সহিংসতার জন্য, আদালত থেকে সুরক্ষা আদেশ চাইতে পারেন।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "You should cooperate with the police investigation and provide truthful information.",
+          "hi": "आपको पुलिस जाँच में सहयोग करना चाहिए और सच्ची जानकारी देनी चाहिए।",
+          "bn": "আপনার পুলিশ তদন্তে সহযোগিতা করা এবং সত্য তথ্য দেওয়া উচিত।"
+        },
+        {
+          "en": "You should get a medical examination done as soon as possible — the medical report is crucial evidence.",
+          "hi": "जल्द से जल्द चिकित्सा जाँच कराएं — मेडिकल रिपोर्ट महत्वपूर्ण सबूत है।",
+          "bn": "যত তাড়াতাড়ি সম্ভব চিকিৎসা পরীক্ষা করান — মেডিকেল রিপোর্ট গুরুত্বপূর্ণ প্রমাণ।"
+        },
+        {
+          "en": "You should not take the law into your own hands — retaliatory violence can lead to criminal charges against you.",
+          "hi": "कानून अपने हाथ में न लें — प्रतिशोधात्मक हिंसा से आपके खिलाफ आपराधिक आरोप लग सकते हैं।",
+          "bn": "আইন নিজের হাতে তুলে নেবেন না — প্রতিশোধমূলক সহিংসতায় আপনার বিরুদ্ধে ফৌজদারি অভিযোগ হতে পারে।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "In cases involving mutual altercations, both parties may have claims and counter-claims. The police investigate all sides. In domestic situations, mediation and counseling may be attempted before criminal proceedings. A person accused of violence has the right to defend themselves in court and is presumed innocent until proven guilty. However, this does not diminish the victim's right to protection, medical care, and justice.",
+        "hi": "आपसी झगड़े के मामलों में, दोनों पक्षों के दावे और प्रति-दावे हो सकते हैं। पुलिस सभी पक्षों की जाँच करती है। पारिवारिक स्थितियों में, आपराधिक कार्यवाही से पहले मध्यस्थता और परामर्श का प्रयास किया जा सकता है। हिंसा के आरोपी व्यक्ति को अदालत में अपना बचाव करने का अधिकार है और दोषसिद्ध होने तक निर्दोष माना जाता है। हालाँकि, इससे पीड़ित के सुरक्षा, चिकित्सा देखभाल और न्याय के अधिकार कम नहीं होते।",
+        "bn": "পারস্পরিক মারামারির ক্ষেত্রে, উভয় পক্ষের দাবি এবং পাল্টা দাবি থাকতে পারে। পুলিশ সব দিক তদন্ত করে। পারিবারিক পরিস্থিতিতে, ফৌজদারি কার্যক্রমের আগে মধ্যস্থতা এবং পরামর্শের চেষ্টা করা হতে পারে। সহিংসতায় অভিযুক্ত ব্যক্তির আদালতে নিজের পক্ষে কথা বলার অধিকার আছে এবং দোষ প্রমাণিত না হওয়া পর্যন্ত নির্দোষ বলে ধরে নেওয়া হয়। তবে, এটি ভুক্তভোগীর সুরক্ষা, চিকিৎসা সেবা এবং ন্যায়বিচারের অধিকার কমায় না।"
+      },
+      "misuse_warning": {
+        "en": "Filing a false complaint of assault or violence is a serious criminal offense. False accusations can lead to imprisonment and fines under IPC Section 182 and 211. The law severely punishes those who misuse criminal provisions to settle personal scores.",
+        "hi": "हमले या हिंसा की झूठी शिकायत दर्ज करना गंभीर आपराधिक अपराध है। झूठे आरोपों से IPC धारा 182 और 211 के तहत कारावास और जुर्माना हो सकता है। कानून उन लोगों को कड़ी सज़ा देता है जो व्यक्तिगत बदले निपटाने के लिए आपराधिक प्रावधानों का दुरुपयोग करते हैं।",
+        "bn": "আক্রমণ বা সহিংসতার মিথ্যা অভিযোগ দায়ের করা গুরুতর ফৌজদারি অপরাধ। মিথ্যা অভিযোগে IPC ধারা ১৮২ এবং ২১১ এর অধীনে কারাদণ্ড এবং জরিমানা হতে পারে। ব্যক্তিগত হিসাব নিষ্পত্তির জন্য ফৌজদারি বিধান অপব্যবহারকারীদের আইন কঠোরভাবে শাস্তি দেয়।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is always reasonable when there is an immediate threat to life, when the police refuse to file an FIR for a violent crime, or when the accused continues to threaten or harm the victim after an FIR is filed.",
+          "hi": "बढ़ोतरी हमेशा उचित होती है जब जीवन को तत्काल खतरा हो, जब पुलिस हिंसक अपराध के लिए FIR दर्ज करने से मना करे, या जब FIR दर्ज होने के बाद भी आरोपी पीड़ित को धमकाता या नुकसान पहुँचाता रहे।",
+          "bn": "জীবনের তাৎক্ষণিক হুমকি থাকলে, পুলিশ সহিংস অপরাধের FIR করতে অস্বীকার করলে, বা FIR হওয়ার পরেও অভিযুক্ত ভুক্তভোগীকে হুমকি বা ক্ষতি করতে থাকলে উচ্চতর পদক্ষেপ সর্বদা যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "In cases of mutual altercations where both parties caused harm, consider that escalation may lead to counter-complaints. If there are overlapping property or family disputes, legal counsel can help determine the best approach.",
+          "hi": "आपसी झगड़ों में जहाँ दोनों पक्षों ने नुकसान पहुँचाया, ध्यान रखें कि बढ़ोतरी से प्रति-शिकायतें हो सकती हैं। यदि संपत्ति या पारिवारिक विवाद ओवरलैप कर रहे हैं, तो कानूनी सलाहकार सर्वोत्तम दृष्टिकोण निर्धारित करने में मदद कर सकते हैं।",
+          "bn": "পারস্পরিক মারামারিতে যেখানে উভয় পক্ষ ক্ষতি করেছে, মনে রাখবেন উচ্চতর পদক্ষেপে পাল্টা অভিযোগ হতে পারে। সম্পত্তি বা পারিবারিক বিবাদ থাকলে, আইনি পরামর্শদাতা সর্বোত্তম পদ্ধতি নির্ধারণে সাহায্য করতে পারেন।"
+        }
+      }
+    },
+    "action_steps": [
+      {
+        "title": {
+          "en": "Call emergency services immediately",
+          "hi": "तुरंत आपातकालीन सेवाओं को कॉल करें",
+          "bn": "অবিলম্বে জরুরি পরিষেবায় কল করুন"
+        },
+        "description": {
+          "en": "Call 100 (Police), 108 (Ambulance), or 112 (All Emergency) right away. If anyone is injured, getting medical help is the top priority. Do not delay.",
+          "hi": "तुरंत 100 (पुलिस), 108 (एम्बुलेंस), या 112 (सभी आपातकालीन) पर कॉल करें। यदि कोई घायल है, तो चिकित्सा सहायता सर्वोच्च प्राथमिकता है। देर न करें।",
+          "bn": "এখনই 100 (পুলিশ), 108 (অ্যাম্বুলেন্স), বা 112 (সকল জরুরি) এ কল করুন। কেউ আহত হলে, চিকিৎসা সহায়তা সর্বোচ্চ অগ্রাধিকার। বিলম্ব করবেন না।"
+        }
+      },
+      {
+        "title": {
+          "en": "Get medical treatment",
+          "hi": "चिकित्सा उपचार करवाएं",
+          "bn": "চিকিৎসা নিন"
+        },
+        "description": {
+          "en": "Go to the nearest hospital. Any hospital — government or private — must provide free first-aid for injuries from violent crimes. Ask for an MLC (Medico-Legal Case) report — this is an important piece of evidence.",
+          "hi": "निकटतम अस्पताल जाएं। कोई भी अस्पताल — सरकारी या निजी — हिंसक अपराधों से लगी चोटों का मुफ्त प्राथमिक उपचार देना ज़रूरी है। MLC (मेडिको-लीगल केस) रिपोर्ट माँगें — यह एक महत्वपूर्ण सबूत है।",
+          "bn": "নিকটতম হাসপাতালে যান। যেকোনো হাসপাতাল — সরকারি বা বেসরকারি — সহিংস অপরাধে আঘাতের জন্য বিনামূল্যে প্রাথমিক চিকিৎসা দিতে হবে। MLC (মেডিকো-লিগ্যাল কেস) রিপোর্ট চান — এটি একটি গুরুত্বপূর্ণ প্রমাণ।"
+        }
+      },
+      {
+        "title": {
+          "en": "File an FIR at the nearest police station",
+          "hi": "निकटतम पुलिस स्टेशन में FIR दर्ज करें",
+          "bn": "নিকটতম থানায় FIR করুন"
+        },
+        "description": {
+          "en": "File an FIR at any police station. Describe the incident in detail — who attacked, when, where, and how. If you cannot go to the station, the police can come to you. Ask for a copy of your FIR.",
+          "hi": "किसी भी पुलिस स्टेशन में FIR दर्ज करें। घटना का विस्तार से वर्णन करें — किसने हमला किया, कब, कहाँ और कैसे। यदि आप स्टेशन नहीं जा सकते, तो पुलिस आपके पास आ सकती है। अपनी FIR की कॉपी माँगें।",
+          "bn": "যেকোনো থানায় FIR করুন। ঘটনা বিস্তারিত বর্ণনা করুন — কে আক্রমণ করেছে, কখন, কোথায় এবং কীভাবে। আপনি থানায় যেতে না পারলে, পুলিশ আপনার কাছে আসতে পারে। আপনার FIR কপি চান।"
+        }
+      },
+      {
+        "title": {
+          "en": "Document everything",
+          "hi": "सब कुछ दस्तावेज़ करें",
+          "bn": "সবকিছু নথিভুক্ত করুন"
+        },
+        "description": {
+          "en": "Take photos of injuries, damaged property, and the scene. Save any relevant messages, call records, or CCTV footage. Note the names and contact details of any witnesses.",
+          "hi": "चोटों, क्षतिग्रस्त संपत्ति और घटनास्थल की तस्वीरें लें। कोई भी संबंधित संदेश, कॉल रिकॉर्ड, या CCTV फुटेज सहेजें। किसी भी गवाह का नाम और संपर्क विवरण नोट करें।",
+          "bn": "আঘাত, ক্ষতিগ্রস্ত সম্পত্তি এবং ঘটনাস্থলের ছবি তুলুন। যেকোনো প্রাসঙ্গিক বার্তা, কল রেকর্ড, বা CCTV ফুটেজ সংরক্ষণ করুন। কোনো সাক্ষীর নাম ও যোগাযোগের বিবরণ নোট করুন।"
+        }
+      },
+      {
+        "title": {
+          "en": "Seek legal aid and victim support",
+          "hi": "कानूनी सहायता और पीड़ित सहायता प्राप्त करें",
+          "bn": "আইনি সহায়তা এবং ভুক্তভোগী সহায়তা নিন"
+        },
+        "description": {
+          "en": "You can get free legal aid from the District Legal Services Authority (DLSA). Victims of violent crimes can apply for compensation under the Victim Compensation Scheme. For domestic violence, you can also contact Women Helpline at 181.",
+          "hi": "जिला कानूनी सेवा प्राधिकरण (DLSA) से मुफ्त कानूनी सहायता प्राप्त कर सकते हैं। हिंसक अपराधों के पीड़ित पीड़ित मुआवज़ा योजना के तहत मुआवज़े के लिए आवेदन कर सकते हैं। घरेलू हिंसा के लिए, महिला हेल्पलाइन 181 पर भी संपर्क कर सकती हैं।",
+          "bn": "জেলা আইনি সেবা কর্তৃপক্ষ (DLSA) থেকে বিনামূল্যে আইনি সহায়তা নিতে পারেন। সহিংস অপরাধের শিকাররা ভুক্তভোগী ক্ষতিপূরণ প্রকল্পের অধীনে ক্ষতিপূরণের জন্য আবেদন করতে পারেন। গার্হস্থ্য সহিংসতার জন্য, মহিলা হেল্পলাইন 181-এও যোগাযোগ করতে পারেন।"
         }
       }
     ]

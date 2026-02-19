@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../data/datasources/classification_service.dart';
 import '../../domain/entities/chat_message.dart';
@@ -68,11 +69,40 @@ class ChatNotifier extends Notifier<ChatState> {
     if (text.trim().isEmpty || state.isLoading) return;
 
     final locale = ref.read(localeProvider);
+    final trimmedText = text.trim();
+
+    // Client-side validation: check minimum length
+    if (trimmedText.length < 15) {
+      // Add user message
+      final userMsg = ChatMessage(
+        id: _nextId(),
+        text: trimmedText,
+        sender: MessageSender.user,
+        timestamp: DateTime.now(),
+      );
+      state = state.copyWith(messages: [...state.messages, userMsg]);
+      
+      // Immediately show error message
+      _addSystemMessage(
+        AppStrings.get(locale, 'chat_too_short'),
+        quickReplies: [
+          QuickReply(
+            value: 'rephrase',
+            label: AppStrings.get(locale, 'chat_try_rephrase'),
+          ),
+          QuickReply(
+            value: 'choose_manual',
+            label: AppStrings.get(locale, 'chat_choose_from_list'),
+          ),
+        ],
+      );
+      return;
+    }
 
     // 1. Add user message immediately (optimistic UI)
     final userMsg = ChatMessage(
       id: _nextId(),
-      text: text.trim(),
+      text: trimmedText,
       sender: MessageSender.user,
       timestamp: DateTime.now(),
     );
@@ -85,7 +115,7 @@ class ChatNotifier extends Notifier<ChatState> {
     // 2. Call classification backend
     try {
       final service = ref.read(classificationServiceProvider);
-      final result = await service.classify(text.trim());
+      final result = await service.classify(trimmedText);
 
       if (result.fallback || result.confidence < _confidenceThreshold) {
         // Low confidence — ask user to rephrase or choose manually
@@ -124,8 +154,10 @@ class ChatNotifier extends Notifier<ChatState> {
       }
 
       state = state.copyWith(isLoading: false, lastResult: result);
-    } catch (_) {
+    } catch (e, stackTrace) {
       // Network error or server failure — always let user proceed manually
+      debugPrint('[ChatNotifier] Error in sendMessage: $e');
+      debugPrint('[ChatNotifier] StackTrace: $stackTrace');
       _addSystemMessage(
         AppStrings.get(locale, 'chat_error'),
         quickReplies: [

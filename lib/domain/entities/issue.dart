@@ -7,6 +7,7 @@ class Issue {
   final List<FlowQuestion> questions;
   final RightsContent content;
   final List<ActionStep> actionSteps;
+  final SelfCheck? selfCheck; // optional self-check before flow
 
   const Issue({
     required this.issueId,
@@ -15,6 +16,7 @@ class Issue {
     required this.questions,
     required this.content,
     required this.actionSteps,
+    this.selfCheck,
   });
 
   /// Returns the title for the given locale, falling back to English.
@@ -66,12 +68,22 @@ class RightsContent {
   final List<Myth> myths;
   final List<String> applicableLaws; // law names only, no section numbers
   final Map<String, String> localizedTimeline;
+  final List<Map<String, String>> allowedActions; // list of localized strings
+  final List<Map<String, String>> obligations; // list of localized strings
+  final Map<String, String> otherSidePerspective; // localized paragraph
+  final Map<String, String> misuseWarning; // localized warning
+  final EscalationBoundaries? escalationBoundaries;
 
   const RightsContent({
     required this.localizedExplanation,
     required this.myths,
     required this.applicableLaws,
     required this.localizedTimeline,
+    this.allowedActions = const [],
+    this.obligations = const [],
+    this.otherSidePerspective = const {},
+    this.misuseWarning = const {},
+    this.escalationBoundaries,
   });
 
   String explanationForLocale(String localeCode) {
@@ -82,6 +94,30 @@ class RightsContent {
 
   String timelineForLocale(String localeCode) {
     return localizedTimeline[localeCode] ?? localizedTimeline['en'] ?? '';
+  }
+
+  List<String> allowedActionsForLocale(String localeCode) {
+    return allowedActions
+        .map((m) => m[localeCode] ?? m['en'] ?? '')
+        .where((s) => s.isNotEmpty)
+        .toList();
+  }
+
+  List<String> obligationsForLocale(String localeCode) {
+    return obligations
+        .map((m) => m[localeCode] ?? m['en'] ?? '')
+        .where((s) => s.isNotEmpty)
+        .toList();
+  }
+
+  String otherSidePerspectiveForLocale(String localeCode) {
+    return otherSidePerspective[localeCode] ??
+        otherSidePerspective['en'] ??
+        '';
+  }
+
+  String misuseWarningForLocale(String localeCode) {
+    return misuseWarning[localeCode] ?? misuseWarning['en'] ?? '';
   }
 }
 
@@ -124,5 +160,65 @@ class ActionStep {
     return localizedDescription[localeCode] ??
         localizedDescription['en'] ??
         '';
+  }
+}
+
+/// A self-check question shown before the decision flow to encourage
+/// the user to reflect on their own situation.
+class SelfCheck {
+  final Map<String, String> localizedQuestion;
+  final List<SelfCheckOption> options;
+  final Map<String, String> localizedBalancedNote;
+
+  const SelfCheck({
+    required this.localizedQuestion,
+    required this.options,
+    required this.localizedBalancedNote,
+  });
+
+  String questionForLocale(String localeCode) {
+    return localizedQuestion[localeCode] ?? localizedQuestion['en'] ?? '';
+  }
+
+  String balancedNoteForLocale(String localeCode) {
+    return localizedBalancedNote[localeCode] ??
+        localizedBalancedNote['en'] ??
+        '';
+  }
+}
+
+/// An option within a self-check question.
+class SelfCheckOption {
+  final String optionId;
+  final Map<String, String> localizedLabel;
+
+  const SelfCheckOption({
+    required this.optionId,
+    required this.localizedLabel,
+  });
+
+  String labelForLocale(String localeCode) {
+    return localizedLabel[localeCode] ?? localizedLabel['en'] ?? '';
+  }
+}
+
+/// Guidelines on when escalation is appropriate vs. risky.
+class EscalationBoundaries {
+  final Map<String, String> localizedReasonable;
+  final Map<String, String> localizedCaution;
+
+  const EscalationBoundaries({
+    required this.localizedReasonable,
+    required this.localizedCaution,
+  });
+
+  String reasonableForLocale(String localeCode) {
+    return localizedReasonable[localeCode] ??
+        localizedReasonable['en'] ??
+        '';
+  }
+
+  String cautionForLocale(String localeCode) {
+    return localizedCaution[localeCode] ?? localizedCaution['en'] ?? '';
   }
 }

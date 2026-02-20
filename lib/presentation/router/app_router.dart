@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/issue.dart';
 import '../screens/action_steps_screen.dart';
+import '../screens/advocate_contact_screen.dart';
 import '../screens/chat_screen.dart';
 import '../screens/home_screen.dart';
 import '../screens/issue_flow_screen.dart';
@@ -49,6 +50,12 @@ class AppRouter {
         final issue = settings.arguments as Issue;
         return MaterialPageRoute(
           builder: (_) => ActionStepsScreen(issue: issue),
+          settings: settings,
+        );
+
+      case '/advocate':
+        return MaterialPageRoute(
+          builder: (_) => const AdvocateContactScreen(),
           settings: settings,
         );
 

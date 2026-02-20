@@ -1,0 +1,129 @@
+You are a senior Flutter engineer integrating two new post-awareness pathways into a legal awareness app called “Know Your Rights”.
+
+CONTEXT:
+- The app already provides balanced legal awareness content.
+- AI is used only for issue classification.
+- The app supports English, Hindi, and Bengali.
+- The app must remain neutral, educational, and non-commercial in tone.
+
+GOAL:
+Integrate two optional pathways at the end of each issue flow:
+
+1. “Learn the Law” → Redirect to Sarthak Law Academy (educational pathway)
+2. “Need Professional Legal Advice?” → Show neutral advocate contact screen
+
+CRITICAL PRINCIPLES:
+- No aggressive sales language.
+- No popups.
+- No urgency.
+- No emotional persuasion.
+- Full transparency.
+- Maintain user trust.
+- These pathways must be optional and clearly separated.
+
+IMPLEMENTATION REQUIREMENTS:
+
+-----------------------------------
+PART 1: Educational Integration
+-----------------------------------
+
+Create a reusable widget:
+
+EducationalExtensionCard
+
+It should include:
+- Title: “Learn the Law in Depth”
+- Short neutral description:
+  “If you would like a structured and detailed understanding of this topic, you may explore it through Sarthak Law Academy.”
+- Button: “Explore Sarthak Law Academy”
+
+On tap:
+- Open academy website in external browser
+- Do NOT auto-redirect without user action
+
+Support localization for English, Hindi, Bengali.
+
+Place this card:
+- At the end of issue explanation screen
+- After escalation boundaries
+- Before legal advice section
+
+-----------------------------------
+PART 2: Legal Advice Integration
+-----------------------------------
+
+Create a new screen:
+
+AdvocateContactScreen
+
+This screen must include:
+
+1. Intro Section:
+“This app provides general legal awareness. Some situations may require case-specific advice from a qualified advocate.”
+
+2. Neutral Reminder:
+“You are free to consult any qualified legal professional of your choice.”
+
+3. Disclosure Section:
+“The following advocate is associated with Sarthak Law Academy.”
+
+4. Advocate Information Card:
+- Name
+- Association
+- Practice areas (optional, neutral wording)
+- Phone / Email
+- No marketing adjectives
+
+5. Optional Acknowledgment Checkbox:
+☐ “I understand this app provides general information and not legal advice.”
+
+Enable contact buttons only if checked.
+
+6. Clear visual separation from academy content.
+
+-----------------------------------
+ARCHITECTURAL REQUIREMENTS:
+-----------------------------------
+
+- Do NOT mix academy and advocate sections.
+- Do NOT auto-suggest legal advice.
+- Do NOT store user data.
+- Do NOT track consultation clicks aggressively.
+- Keep navigation simple.
+
+-----------------------------------
+UI / UX GUIDELINES:
+-----------------------------------
+
+- Calm tone
+- Professional layout
+- No red warning colors
+- No flashing buttons
+- Large readable fonts
+- Accessible tap targets
+
+-----------------------------------
+LOCALIZATION:
+-----------------------------------
+
+All text must support:
+- English
+- Hindi
+- Bengali
+
+No hardcoded strings in widgets.
+
+-----------------------------------
+START BY:
+-----------------------------------
+
+1. Designing EducationalExtensionCard widget
+2. Creating AdvocateContactScreen
+3. Adding navigation integration at end of issue flow
+4. Implementing localization keys
+5. Ensuring clean separation of responsibilities
+
+Do not introduce marketing language.
+Do not redesign the architecture.
+Do not add monetization features.
+Proceed step by step.

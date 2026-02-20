@@ -4,6 +4,7 @@ import '../../application/providers/app_providers.dart';
 import '../../domain/entities/issue.dart';
 import '../../l10n/app_strings.dart';
 import '../theme/app_theme.dart';
+import '../widgets/educational_extension_card.dart';
 
 /// Shows plain-language legal rights, myths, applicable laws, timeline,
 /// obligations, allowed actions, other-side perspective, misuse warnings,
@@ -232,6 +233,23 @@ class _RightsExplanationScreenState
                   const SizedBox(height: 28),
                 ],
               ],
+
+              // ── Educational pathway ──
+              EducationalExtensionCard(locale: locale),
+              const SizedBox(height: 16),
+
+              // ── Legal advice pathway ──
+              SizedBox(
+                width: double.infinity,
+                child: OutlinedButton.icon(
+                  onPressed: () {
+                    Navigator.of(context).pushNamed('/advocate');
+                  },
+                  icon: const Icon(Icons.person_outline_rounded, size: 18),
+                  label: Text(AppStrings.get(locale, 'need_legal_advice')),
+                ),
+              ),
+              const SizedBox(height: 24),
 
               // Navigate to action steps — dark pill button
               ElevatedButton(

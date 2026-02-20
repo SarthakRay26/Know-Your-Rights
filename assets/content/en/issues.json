@@ -2044,5 +2044,673 @@
         }
       }
     ]
+  },
+  {
+    "issue_id": "contract_dispute",
+    "icon": "description",
+    "titles": {
+      "en": "Contract Dispute",
+      "hi": "अनुबंध विवाद",
+      "bn": "চুক্তি বিরোধ"
+    },
+    "questions": [
+      {
+        "question_id": "contract_type",
+        "text": {
+          "en": "What type of agreement was involved?",
+          "hi": "किस प्रकार का समझौता शामिल था?",
+          "bn": "কোন ধরনের চুক্তি জড়িত ছিল?"
+        },
+        "options": [
+          {
+            "option_id": "written",
+            "label": {
+              "en": "Written agreement or contract",
+              "hi": "लिखित समझौता या अनुबंध",
+              "bn": "লিখিত চুক্তি বা চুক্তিপত্র"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "verbal",
+            "label": {
+              "en": "Verbal agreement (no written proof)",
+              "hi": "मौखिक समझौता (कोई लिखित प्रमाण नहीं)",
+              "bn": "মৌখিক চুক্তি (কোনো লিখিত প্রমাণ নেই)"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "partial_written",
+            "label": {
+              "en": "Partially written (messages, emails, etc.)",
+              "hi": "आंशिक रूप से लिखित (संदेश, ईमेल आदि)",
+              "bn": "আংশিক লিখিত (মেসেজ, ইমেইল ইত্যাদি)"
+            },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "dispute_nature",
+        "text": {
+          "en": "What is the main disagreement about?",
+          "hi": "मुख्य असहमति किस बारे में है?",
+          "bn": "প্রধান মতবিরোধ কী নিয়ে?"
+        },
+        "options": [
+          {
+            "option_id": "non_payment",
+            "label": {
+              "en": "Non-payment after service or delivery",
+              "hi": "सेवा या डिलीवरी के बाद भुगतान न करना",
+              "bn": "সেবা বা ডেলিভারির পরে পেমেন্ট না করা"
+            },
+            "next_question_index": 2
+          },
+          {
+            "option_id": "cancellation",
+            "label": {
+              "en": "Unfair cancellation by the other party",
+              "hi": "दूसरे पक्ष द्वारा अनुचित रद्दीकरण",
+              "bn": "অন্য পক্ষের অন্যায়্য বাতিল"
+            },
+            "next_question_index": 2
+          },
+          {
+            "option_id": "partial_performance",
+            "label": {
+              "en": "Work was done partially or poorly",
+              "hi": "काम आंशिक या खराब तरीके से किया गया",
+              "bn": "কাজ আংশিক বা খারাপভাবে করা হয়েছে"
+            },
+            "next_question_index": 2
+          },
+          {
+            "option_id": "advance_refund",
+            "label": {
+              "en": "Advance payment not refunded",
+              "hi": "अग्रिम भुगतान वापस नहीं किया गया",
+              "bn": "অগ্রিম পেমেন্ট ফেরত দেওয়া হয়নি"
+            },
+            "next_question_index": 2
+          }
+        ]
+      },
+      {
+        "question_id": "resolution_attempt",
+        "text": {
+          "en": "Have you tried to resolve this directly with the other party?",
+          "hi": "क्या आपने इसे सीधे दूसरे पक्ष के साथ हल करने की कोशिश की है?",
+          "bn": "আপনি কি সরাসরি অন্য পক্ষের সাথে এটি সমাধান করার চেষ্টা করেছেন?"
+        },
+        "options": [
+          {
+            "option_id": "yes_no_resolution",
+            "label": {
+              "en": "Yes, but we could not reach an agreement",
+              "hi": "हाँ, लेकिन हम किसी समझौते पर नहीं पहुँच सके",
+              "bn": "হ্যাঁ, কিন্তু আমরা কোনো সমাধানে পৌঁছাতে পারিনি"
+            },
+            "next_question_index": null
+          },
+          {
+            "option_id": "no_attempt",
+            "label": {
+              "en": "No, they are not responding",
+              "hi": "नहीं, वे जवाब नहीं दे रहे हैं",
+              "bn": "না, তারা সাড়া দিচ্ছে না"
+            },
+            "next_question_index": null
+          },
+          {
+            "option_id": "threatened",
+            "label": {
+              "en": "They threatened or intimidated me",
+              "hi": "उन्होंने मुझे धमकाया या डराया",
+              "bn": "তারা আমাকে ভয় দেখিয়েছে বা হুমকি দিয়েছে"
+            },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "A contract is an agreement between two or more parties where each side promises to do something. In most situations, the law recognizes both written and verbal agreements, though written ones are easier to prove. If one side does not fulfill their part of the deal, the other side may have the right to seek a remedy. Both parties are expected to act in good faith and honor the terms they agreed upon.",
+        "hi": "अनुबंध दो या अधिक पक्षों के बीच एक समझौता है जहाँ हर पक्ष कुछ करने का वादा करता है। अधिकांश स्थितियों में, कानून लिखित और मौखिक दोनों समझौतों को मान्यता देता है, हालाँकि लिखित समझौतों को साबित करना आसान होता है। यदि एक पक्ष अपना हिस्सा पूरा नहीं करता है, तो दूसरे पक्ष को उपाय माँगने का अधिकार हो सकता है। दोनों पक्षों से अपेक्षा की जाती है कि वे सद्भावना से कार्य करें और सहमत शर्तों का सम्मान करें।",
+        "bn": "চুক্তি হলো দুই বা ততোধিক পক্ষের মধ্যে একটি সম্মতি যেখানে প্রতিটি পক্ষ কিছু করার প্রতিশ্রুতি দেয়। বেশিরভাগ ক্ষেত্রে, আইন লিখিত ও মৌখিক উভয় চুক্তিকেই স্বীকৃতি দেয়, যদিও লিখিত চুক্তি প্রমাণ করা সহজ। যদি একটি পক্ষ তার দায়িত্ব পূরণ না করে, তাহলে অন্য পক্ষের প্রতিকার চাওয়ার অধিকার থাকতে পারে। উভয় পক্ষের কাছ থেকে সদ্ভাবে কাজ করা এবং সম্মত শর্তাবলী মেনে চলার আশা করা হয়।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "\"A verbal agreement has no legal value.\"",
+            "hi": "\"मौखिक समझौते का कोई कानूनी मूल्य नहीं है।\"",
+            "bn": "\"মৌখিক চুক্তির কোনো আইনি মূল্য নেই।\""
+          },
+          "fact": {
+            "en": "Verbal agreements can be legally binding. However, they are harder to prove without witnesses or supporting evidence like messages.",
+            "hi": "मौखिक समझौते कानूनी रूप से बाध्यकारी हो सकते हैं। हालाँकि, गवाहों या संदेशों जैसे सहायक प्रमाणों के बिना इन्हें साबित करना कठिन है।",
+            "bn": "মৌখিক চুক্তি আইনগতভাবে বাধ্যকর হতে পারে। তবে, সাক্ষী বা মেসেজের মতো সহায়ক প্রমাণ ছাড়া এগুলো প্রমাণ করা কঠিন।"
+          }
+        },
+        {
+          "myth": {
+            "en": "\"If you paid an advance, you cannot get it back.\"",
+            "hi": "\"अगर आपने अग्रिम भुगतान किया है, तो आप इसे वापस नहीं पा सकते।\"",
+            "bn": "\"আপনি অগ্রিম দিলে সেটা ফেরত পাবেন না।\""
+          },
+          "fact": {
+            "en": "In most situations, if the service or goods were not delivered as agreed, you may be entitled to a refund of the advance. The outcome depends on the terms and who breached the agreement.",
+            "hi": "अधिकांश स्थितियों में, यदि सेवा या सामान सहमति अनुसार नहीं दिए गए, तो आप अग्रिम भुगतान की वापसी के हकदार हो सकते हैं। परिणाम शर्तों और किसने समझौता तोड़ा इस पर निर्भर करता है।",
+            "bn": "বেশিরভাগ ক্ষেত্রে, যদি সেবা বা পণ্য চুক্তি অনুযায়ী সরবরাহ না করা হয়, তাহলে আপনি অগ্রিমের ফেরত পাওয়ার অধিকারী হতে পারেন। ফলাফল শর্তাবলী এবং কে চুক্তি ভঙ্গ করেছে তার উপর নির্ভর করে।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "Indian Contract Act",
+        "Consumer Protection Act",
+        "Specific Relief Act"
+      ],
+      "timeline": {
+        "en": "Contract disputes resolved through consumer forums may take 3–12 months. Civil court cases can take 1–3 years. Mediation or mutual settlement is usually faster.",
+        "hi": "उपभोक्ता फोरम के माध्यम से अनुबंध विवादों का समाधान 3–12 महीने में हो सकता है। सिविल कोर्ट के मामलों में 1–3 साल लग सकते हैं। मध्यस्थता या आपसी समझौता आमतौर पर तेज़ होता है।",
+        "bn": "ভোক্তা ফোরামের মাধ্যমে চুক্তি বিরোধের সমাধান ৩–১২ মাস সময় নিতে পারে। দেওয়ানি আদালতের মামলা ১–৩ বছর সময় নিতে পারে। মধ্যস্থতা বা পারস্পরিক মীমাংসা সাধারণত দ্রুত।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may send a written demand or reminder to the other party.",
+          "hi": "आप दूसरे पक्ष को लिखित माँग या रिमाइंडर भेज सकते हैं।",
+          "bn": "আপনি অন্য পক্ষকে লিখিত দাবি বা রিমাইন্ডার পাঠাতে পারেন।"
+        },
+        {
+          "en": "You may file a complaint in a consumer forum if it involves goods or services.",
+          "hi": "यदि मामला वस्तुओं या सेवाओं से संबंधित है तो आप उपभोक्ता फोरम में शिकायत दर्ज कर सकते हैं।",
+          "bn": "বিষয়টি পণ্য বা সেবার সাথে সম্পর্কিত হলে আপনি ভোক্তা ফোরামে অভিযোগ করতে পারেন।"
+        },
+        {
+          "en": "You may seek mediation or arbitration to resolve the dispute without going to court.",
+          "hi": "आप अदालत में जाए बिना विवाद सुलझाने के लिए मध्यस्थता या पंचाट माँग सकते हैं।",
+          "bn": "আপনি আদালতে না গিয়ে মধ্যস্থতা বা সালিশের মাধ্যমে বিরোধ সমাধান করতে পারেন।"
+        },
+        {
+          "en": "You may withhold remaining payment if the other party has not fulfilled their obligations, provided you document this clearly.",
+          "hi": "यदि दूसरे पक्ष ने अपनी बाध्यताएं पूरी नहीं की हैं तो आप शेष भुगतान रोक सकते हैं, बशर्ते आप इसे स्पष्ट रूप से प्रमाणित करें।",
+          "bn": "অন্য পক্ষ যদি তাদের বাধ্যবাধকতা পূরণ না করে থাকে তাহলে আপনি অবশিষ্ট পেমেন্ট আটকে রাখতে পারেন, তবে এটি স্পষ্টভাবে নথিভুক্ত করতে হবে।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "The law generally expects you to fulfill your own part of the agreement before claiming the other party has breached it.",
+          "hi": "कानून आमतौर पर आपसे अपेक्षा करता है कि दूसरे पक्ष पर उल्लंघन का दावा करने से पहले आप अपने हिस्से का समझौता पूरा करें।",
+          "bn": "আইন সাধারণত আশা করে যে অন্য পক্ষ চুক্তি ভঙ্গ করেছে বলে দাবি করার আগে আপনি আপনার অংশ পূরণ করবেন।"
+        },
+        {
+          "en": "You should communicate clearly in writing before taking any action against the other party.",
+          "hi": "दूसरे पक्ष के खिलाफ कोई कार्रवाई करने से पहले आपको लिखित रूप में स्पष्ट संवाद करना चाहिए।",
+          "bn": "অন্য পক্ষের বিরুদ্ধে কোনো পদক্ষেপ নেওয়ার আগে আপনার লিখিতভাবে স্পষ্ট যোগাযোগ করা উচিত।"
+        },
+        {
+          "en": "Both parties are expected to attempt a reasonable resolution before escalating to legal channels.",
+          "hi": "दोनों पक्षों से अपेक्षा की जाती है कि कानूनी चैनलों में जाने से पहले एक उचित समाधान का प्रयास करें।",
+          "bn": "উভয় পক্ষের কাছ থেকে আইনি পথে যাওয়ার আগে যুক্তিসঙ্গত সমাধানের চেষ্টা করার আশা করা হয়।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "The other party in a contract dispute also has rights. A service provider may withhold delivery if payment terms were not met. A client may reduce payment if the work delivered was incomplete or below agreed quality. In most situations, both sides share some responsibility. The law looks at who acted in good faith and who breached the terms first. Even if the other party is at fault, they are still entitled to fair treatment and due process.",
+        "hi": "अनुबंध विवाद में दूसरे पक्ष के भी अधिकार हैं। यदि भुगतान शर्तें पूरी नहीं हुई हैं तो सेवा प्रदाता डिलीवरी रोक सकता है। यदि सौंपा गया काम अधूरा या सहमत गुणवत्ता से कम था तो ग्राहक भुगतान कम कर सकता है। अधिकांश स्थितियों में, दोनों पक्ष कुछ ज़िम्मेदारी साझा करते हैं। कानून देखता है कि किसने सद्भावना से काम किया और किसने पहले शर्तें तोड़ीं। भले ही दूसरा पक्ष ग़लत हो, वे अभी भी निष्पक्ष व्यवहार और उचित प्रक्रिया के हकदार हैं।",
+        "bn": "চুক্তি বিরোধে অন্য পক্ষেরও অধিকার আছে। পেমেন্টের শর্ত পূরণ না হলে সেবা প্রদানকারী ডেলিভারি আটকে রাখতে পারে। কাজ অসম্পূর্ণ বা সম্মত মানের নিচে হলে ক্লায়েন্ট পেমেন্ট কমাতে পারে। বেশিরভাগ ক্ষেত্রে, উভয় পক্ষই কিছু দায়িত্ব ভাগ করে নেয়। আইন দেখে কে সদ্ভাবে কাজ করেছে এবং কে প্রথমে শর্ত ভঙ্গ করেছে। অন্য পক্ষ দোষী হলেও, তারা ন্যায়্য আচরণ এবং যথাযথ প্রক্রিয়ার অধিকারী।"
+      },
+      "misuse_warning": {
+        "en": "Making false claims about a contract dispute or deliberately misrepresenting the terms of an agreement may result in legal consequences. Courts may dismiss your claim and impose costs if the complaint is found to be frivolous or made in bad faith.",
+        "hi": "अनुबंध विवाद के बारे में झूठे दावे करना या जानबूझकर समझौते की शर्तों को गलत तरीके से प्रस्तुत करना कानूनी परिणामों का कारण बन सकता है। यदि शिकायत तुच्छ या बदनीयती से की गई पाई जाती है तो अदालतें आपका दावा खारिज कर सकती हैं और लागत लगा सकती हैं।",
+        "bn": "চুক্তি বিরোধ সম্পর্কে মিথ্যা দাবি করা বা ইচ্ছাকৃতভাবে চুক্তির শর্তাবলী ভুলভাবে উপস্থাপন করলে আইনি পরিণতি হতে পারে। অভিযোগ তুচ্ছ বা অসদ্ভাবে করা হয়েছে বলে পাওয়া গেলে আদালত আপনার দাবি খারিজ করতে পারে এবং খরচ ধার্য করতে পারে।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is generally reasonable when the other party has ignored written communications, refused to deliver on agreed terms, or when a significant amount of money is involved and informal resolution has failed.",
+          "hi": "बढ़ोतरी आमतौर पर तब उचित होती है जब दूसरे पक्ष ने लिखित संवाद की अनदेखी की हो, सहमत शर्तों पर काम करने से इनकार किया हो, या जब बड़ी राशि शामिल हो और अनौपचारिक समाधान विफल हो चुका हो।",
+          "bn": "অন্য পক্ষ লিখিত যোগাযোগ উপেক্ষা করলে, সম্মত শর্তে কাজ করতে অস্বীকার করলে, বা যখন বড় অঙ্কের টাকা জড়িত এবং অনানুষ্ঠানিক সমাধান ব্যর্থ হয়েছে তখন উচ্চতর পদক্ষেপ সাধারণত যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "Escalation may backfire if you yourself did not fulfill your part of the agreement, if you have no written proof of the terms, or if you cancelled the agreement without following the agreed process. In such cases, consider getting independent advice first.",
+          "hi": "यदि आपने स्वयं अपने हिस्से का समझौता पूरा नहीं किया, यदि आपके पास शर्तों का कोई लिखित प्रमाण नहीं है, या यदि आपने सहमत प्रक्रिया का पालन किए बिना समझौता रद्द कर दिया, तो बढ़ोतरी उलटा पड़ सकती है। ऐसे मामलों में पहले स्वतंत्र सलाह लें।",
+          "bn": "আপনি নিজে যদি চুক্তির আপনার অংশ পূরণ না করে থাকেন, শর্তাবলীর কোনো লিখিত প্রমাণ না থাকে, বা সম্মত প্রক্রিয়া অনুসরণ না করে চুক্তি বাতিল করে থাকেন, তাহলে উচ্চতর পদক্ষেপ বিপরীত হতে পারে। এই ক্ষেত্রে প্রথমে স্বাধীন পরামর্শ নেওয়া বিবেচনা করুন।"
+        }
+      }
+    },
+    "action_steps": [
+      {
+        "title": {
+          "en": "Document everything",
+          "hi": "सब कुछ दस्तावेज करें",
+          "bn": "সবকিছু নথিভুক্ত করুন"
+        },
+        "description": {
+          "en": "Collect your account statements, loan agreements, EMI receipts, and any communication with the bank. Note down dates, amounts, and reference numbers for all interactions.",
+          "hi": "अपने खाता विवरण, ऋण समझौते, EMI रसीदें, और बैंक के साथ किसी भी संवाद को इकट्ठा करें। सभी बातचीत के लिए तारीखें, राशि और संदर्भ नंबर नोट करें।",
+          "bn": "আপনার অ্যাকাউন্ট স্টেটমেন্ট, লোন চুক্তি, EMI রসিদ, এবং ব্যাংকের সাথে যেকোনো যোগাযোগ সংগ্রহ করুন। সমস্ত ইন্টারঅ্যাকশনের জন্য তারিখ, পরিমাণ এবং রেফারেন্স নম্বর নোট করুন।"
+        }
+      },
+      {
+        "title": {
+          "en": "File a complaint with the bank",
+          "hi": "बैंक में शिकायत दर्ज करें",
+          "bn": "ব্যাংকে অভিযোগ দায়ের করুন"
+        },
+        "description": {
+          "en": "Submit a written complaint to the bank's grievance redressal officer. Ask for an acknowledgment and complaint reference number. The bank should respond within 30 days.",
+          "hi": "बैंक के शिकायत निवारण अधिकारी को लिखित शिकायत जमा करें। पावती और शिकायत संदर्भ संख्या माँगें। बैंक को 30 दिनों में जवाब देना चाहिए।",
+          "bn": "ব্যাংকের অভিযোগ নিষ্পত্তি কর্মকর্তার কাছে লিখিত অভিযোগ জমা দিন। প্রাপ্তি স্বীকার এবং অভিযোগ রেফারেন্স নম্বর চান। ব্যাংককে ৩০ দিনের মধ্যে উত্তর দেওয়া উচিত।"
+        }
+      },
+      {
+        "title": {
+          "en": "Escalate to Banking Ombudsman",
+          "hi": "बैंकिंग लोकपाल में शिकायत बढ़ाएं",
+          "bn": "ব্যাংকিং ন্যায়পালে অভিযোগ করুন"
+        },
+        "description": {
+          "en": "If the bank does not resolve your issue within 30 days, you can file a complaint with the Banking Ombudsman through the RBI's Complaint Management System (cms.rbi.org.in). This is a free service.",
+          "hi": "यदि बैंक 30 दिनों में आपकी समस्या का समाधान नहीं करता, तो आप RBI की शिकायत प्रबंधन प्रणाली (cms.rbi.org.in) के माध्यम से बैंकिंग लोकपाल में शिकायत कर सकते हैं। यह एक निःशुल्क सेवा है।",
+          "bn": "ব্যাংক ৩০ দিনের মধ্যে আপনার সমস্যা সমাধান না করলে, আপনি RBI-এর কমপ্লেইন্ট ম্যানেজমেন্ট সিস্টেমের (cms.rbi.org.in) মাধ্যমে ব্যাংকিং ন্যায়পালে অভিযোগ করতে পারেন। এটি একটি বিনামূল্যে সেবা।"
+        }
+      },
+      {
+        "title": {
+          "en": "Seek further help",
+          "hi": "आगे सहायता लें",
+          "bn": "আরও সহায়তা নিন"
+        },
+        "description": {
+          "en": "If the issue is still unresolved, you may approach a consumer forum or seek legal aid. Many district legal services authorities provide free legal assistance to eligible individuals.",
+          "hi": "यदि मामला अभी भी हल नहीं हुआ है, तो आप उपभोक्ता फोरम में जा सकते हैं या कानूनी सहायता ले सकते हैं। कई जिला कानूनी सेवा प्राधिकरण पात्र व्यक्तियों को मुफ्त कानूनी सहायता प्रदान करते हैं।",
+          "bn": "বিষয়টি এখনও সমাধান না হলে, আপনি ভোক্তা ফোরামে যেতে পারেন বা আইনি সহায়তা নিতে পারেন। অনেক জেলা আইনি সেবা কর্তৃপক্ষ যোগ্য ব্যক্তিদের বিনামূল্যে আইনি সহায়তা প্রদান করে।"
+        }
+      }
+    ],
+    "self_check": {
+      "question": {
+        "en": "Are you up to date with your loan repayments or account obligations?",
+        "hi": "क्या आप अपने ऋण भुगतान या खाते की बाध्यताओं में अप-टू-डेट हैं?",
+        "bn": "আপনি কি আপনার লোন পরিশোধ বা অ্যাকাউন্টের বাধ্যবাধকতায় আপ-টু-ডেট আছেন?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, all payments are current",
+            "hi": "हाँ, सभी भुगतान चालू हैं",
+            "bn": "হ্যাঁ, সমস্ত পেমেন্ট চালু আছে"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, I have missed some payments",
+            "hi": "नहीं, मैंने कुछ भुगतान चूक दिए हैं",
+            "bn": "না, আমি কিছু পেমেন্ট মিস করেছি"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "I'm not sure about the current status",
+            "hi": "मुझे वर्तमान स्थिति के बारे में पक्का पता नहीं",
+            "bn": "আমি বর্তমান অবস্থা সম্পর্কে নিশ্চিত নই"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "Both banks and customers have obligations. If you have missed payments, the bank may have the right to take certain actions within legal limits. However, you still have the right to fair treatment, clear communication, and proper grievance redressal. Understanding both sides helps you navigate the situation more effectively.",
+        "hi": "बैंकों और ग्राहकों दोनों की बाध्यताएं हैं। यदि आपने भुगतान चूके हैं, तो बैंक को कानूनी सीमाओं के भीतर कुछ कार्रवाई करने का अधिकार हो सकता है। हालाँकि, आपको अभी भी निष्पक्ष व्यवहार, स्पष्ट संवाद, और उचित शिकायत निवारण का अधिकार है। दोनों पक्षों को समझना आपको स्थिति को अधिक प्रभावी ढंग से समझने में मदद करता है।",
+        "bn": "ব্যাংক এবং গ্রাহক উভয়েরই বাধ্যবাধকতা আছে। আপনি পেমেন্ট মিস করলে, ব্যাংকের আইনি সীমার মধ্যে কিছু পদক্ষেপ নেওয়ার অধিকার থাকতে পারে। তবে, আপনার এখনও ন্যায়্য আচরণ, স্পষ্ট যোগাযোগ এবং যথাযথ অভিযোগ নিষ্পত্তির অধিকার আছে। উভয় পক্ষ বোঝা আপনাকে পরিস্থিতি আরও কার্যকরভাবে নেভিগেট করতে সাহায্য করে।"
+      }
+    }
+  },
+  {
+    "issue_id": "banking_financial_issue",
+    "icon": "account_balance",
+    "titles": {
+      "en": "Banking & Financial Issue",
+      "hi": "बैंकिंग और वित्तीय समस्या",
+      "bn": "ব্যাংকিং ও আর্থিক সমস্যা"
+    },
+    "questions": [
+      {
+        "question_id": "issue_type",
+        "text": {
+          "en": "What type of banking issue are you facing?",
+          "hi": "आप किस प्रकार की बैंकिंग समस्या का सामना कर रहे हैं?",
+          "bn": "আপনি কী ধরনের ব্যাংকিং সমস্যার সম্মুখীন?"
+        },
+        "options": [
+          {
+            "option_id": "account_freeze",
+            "label": {
+              "en": "Account frozen or blocked",
+              "hi": "खाता फ्रीज या ब्लॉक हो गया",
+              "bn": "অ্যাকাউন্ট ফ্রিজ বা ব্লক হয়ে গেছে"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "wrong_charges",
+            "label": {
+              "en": "Incorrect charges or deductions",
+              "hi": "गलत शुल्क या कटौती",
+              "bn": "ভুল চার্জ বা কর্তন"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "loan_emi",
+            "label": {
+              "en": "Loan or EMI dispute",
+              "hi": "लोन या EMI विवाद",
+              "bn": "লোন বা EMI বিরোধ"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "recovery_agent",
+            "label": {
+              "en": "Recovery agent harassment",
+              "hi": "रिकवरी एजेंट द्वारा उत्पीड़न",
+              "bn": "রিকভারি এজেন্টের হয়রানি"
+            },
+            "next_question_index": 1
+          },
+          {
+            "option_id": "credit_report",
+            "label": {
+              "en": "Credit score / reporting issue",
+              "hi": "क्रेडिट स्कोर / रिपोर्टिंग समस्या",
+              "bn": "ক্রেডিট স্কোর / রিপোর্টিং সমস্যা"
+            },
+            "next_question_index": 1
+          }
+        ]
+      },
+      {
+        "question_id": "communication",
+        "text": {
+          "en": "Have you contacted the bank about this issue?",
+          "hi": "क्या आपने इस समस्या के बारे में बैंक से संपर्क किया है?",
+          "bn": "আপনি কি এই বিষয়ে ব্যাংকের সাথে যোগাযোগ করেছেন?"
+        },
+        "options": [
+          {
+            "option_id": "yes_no_resolution",
+            "label": {
+              "en": "Yes, but no resolution",
+              "hi": "हाँ, लेकिन कोई समाधान नहीं",
+              "bn": "হ্যাঁ, কিন্তু কোনো সমাধান হয়নি"
+            },
+            "next_question_index": 2
+          },
+          {
+            "option_id": "no_contact",
+            "label": {
+              "en": "Not yet contacted",
+              "hi": "अभी तक संपर्क नहीं किया",
+              "bn": "এখনো যোগাযোগ করিনি"
+            },
+            "next_question_index": 2
+          },
+          {
+            "option_id": "complaint_filed",
+            "label": {
+              "en": "Filed a formal complaint with the bank",
+              "hi": "बैंक में औपचारिक शिकायत दर्ज की",
+              "bn": "ব্যাংকে আনুষ্ঠানিক অভিযোগ করেছি"
+            },
+            "next_question_index": 2
+          }
+        ]
+      },
+      {
+        "question_id": "documentation",
+        "text": {
+          "en": "Do you have documentation of your loan or account terms?",
+          "hi": "क्या आपके पास लोन या खाते की शर्तों का दस्तावेज है?",
+          "bn": "আপনার কাছে কি লোন বা অ্যাকাউন্টের শর্তাবলীর নথি আছে?"
+        },
+        "options": [
+          {
+            "option_id": "yes_complete",
+            "label": {
+              "en": "Yes, I have complete records",
+              "hi": "हाँ, मेरे पास पूरे रिकॉर्ड हैं",
+              "bn": "হ্যাঁ, আমার কাছে সম্পূর্ণ রেকর্ড আছে"
+            },
+            "next_question_index": null
+          },
+          {
+            "option_id": "partial",
+            "label": {
+              "en": "I have some documents",
+              "hi": "मेरे पास कुछ दस्तावेज हैं",
+              "bn": "আমার কাছে কিছু নথি আছে"
+            },
+            "next_question_index": null
+          },
+          {
+            "option_id": "no_documents",
+            "label": {
+              "en": "No documentation available",
+              "hi": "कोई दस्तावेज उपलब्ध नहीं",
+              "bn": "কোনো নথি নেই"
+            },
+            "next_question_index": null
+          }
+        ]
+      }
+    ],
+    "content": {
+      "explanation": {
+        "en": "Banks and financial institutions are regulated by the Reserve Bank of India (RBI). In most situations, customers have the right to fair treatment, transparent information, and proper grievance redressal. At the same time, the law expects customers to meet their repayment obligations and keep their documentation updated. When disputes arise, both sides are expected to follow established procedures before escalating.",
+        "hi": "बैंक और वित्तीय संस्थान भारतीय रिजर्व बैंक (RBI) द्वारा विनियमित हैं। अधिकांश स्थितियों में, ग्राहकों को निष्पक्ष व्यवहार, पारदर्शी जानकारी और उचित शिकायत निवारण का अधिकार है। साथ ही, कानून ग्राहकों से अपनी पुनर्भुगतान बाध्यताओं को पूरा करने और अपने दस्तावेज अपडेट रखने की अपेक्षा करता है। जब विवाद उत्पन्न होता है, तो दोनों पक्षों से अपेक्षा की जाती है कि वे बढ़ाने से पहले स्थापित प्रक्रियाओं का पालन करें।",
+        "bn": "ব্যাংক এবং আর্থিক প্রতিষ্ঠানগুলি ভারতীয় রিজার্ভ ব্যাংক (RBI) দ্বারা নিয়ন্ত্রিত। বেশিরভাগ ক্ষেত্রে, গ্রাহকদের ন্যায্য আচরণ, স্বচ্ছ তথ্য এবং যথাযথ অভিযোগ নিষ্পত্তির অধিকার আছে। পাশাপাশি, আইন গ্রাহকদের কাছ থেকে তাদের পরিশোধের বাধ্যবাধকতা পূরণ এবং নথিপত্র হালনাগাদ রাখার আশা করে। বিরোধ দেখা দিলে, উভয় পক্ষের কাছ থেকে উচ্চতর পদক্ষেপের আগে প্রতিষ্ঠিত প্রক্রিয়া অনুসরণ করার আশা করা হয়।"
+      },
+      "myths": [
+        {
+          "myth": {
+            "en": "\"The bank can freeze my account anytime without reason.\"",
+            "hi": "\"बैंक बिना कारण कभी भी मेरा खाता फ्रीज कर सकता है।\"",
+            "bn": "\"ব্যাংক কারণ ছাড়াই যেকোনো সময় আমার অ্যাকাউন্ট ফ্রিজ করতে পারে।\""
+          },
+          "fact": {
+            "en": "Banks can only freeze accounts under specific legal circumstances, such as court orders, suspicion of fraud, or regulatory directions. They are generally required to inform you of the reason.",
+            "hi": "बैंक केवल विशिष्ट कानूनी परिस्थितियों में खाते फ्रीज कर सकते हैं, जैसे कि अदालत के आदेश, धोखाधड़ी का संदेह, या नियामक निर्देश। उन्हें आमतौर पर आपको कारण बताना होता है।",
+            "bn": "ব্যাংক শুধুমাত্র নির্দিষ্ট আইনি পরিস্থিতিতে অ্যাকাউন্ট ফ্রিজ করতে পারে, যেমন আদালতের আদেশ, জালিয়াতির সন্দেহ, বা নিয়ন্ত্রক নির্দেশনা। তাদের সাধারণত আপনাকে কারণ জানাতে হয়।"
+          }
+        },
+        {
+          "myth": {
+            "en": "\"Recovery agents can come to my home and threaten me.\"",
+            "hi": "\"रिकवरी एजेंट मेरे घर आकर मुझे धमका सकते हैं।\"",
+            "bn": "\"রিকভারি এজেন্টরা আমার বাড়িতে এসে আমাকে ভয় দেখাতে পারে।\""
+          },
+          "fact": {
+            "en": "RBI guidelines strictly prohibit recovery agents from using threats, intimidation, or visiting at odd hours. You can report such behavior to the bank and RBI directly.",
+            "hi": "RBI दिशानिर्देश सख्ती से रिकवरी एजेंटों को धमकी, डराने-धमकाने, या असामान्य समय पर आने से रोकते हैं। आप ऐसे व्यवहार की शिकायत बैंक और RBI को सीधे कर सकते हैं।",
+            "bn": "RBI নির্দেশিকা কঠোরভাবে রিকভারি এজেন্টদের হুমকি, ভয় দেখানো, বা অসময়ে দেখা করা নিষিদ্ধ করে। আপনি এই ধরনের আচরণের বিষয়ে ব্যাংক এবং RBI-তে সরাসরি অভিযোগ করতে পারেন।"
+          }
+        },
+        {
+          "myth": {
+            "en": "\"If I miss one EMI, the bank can seize my property.\"",
+            "hi": "\"अगर मैं एक EMI चूक जाता हूँ, तो बैंक मेरी संपत्ति जब्त कर सकता है।\"",
+            "bn": "\"আমি একটা EMI মিস করলেই ব্যাংক আমার সম্পত্তি বাজেয়াপ্ত করতে পারে।\""
+          },
+          "fact": {
+            "en": "Banks must follow proper legal procedures before any asset seizure. In most situations, they must first send multiple notices and offer an opportunity to clear dues. A single missed payment usually does not lead to immediate action.",
+            "hi": "किसी भी संपत्ति जब्ती से पहले बैंकों को उचित कानूनी प्रक्रिया का पालन करना होता है। अधिकांश स्थितियों में, उन्हें पहले कई नोटिस भेजने और बकाया चुकाने का अवसर देना होता है। एक भुगतान चूकने से आमतौर पर तत्काल कार्रवाई नहीं होती।",
+            "bn": "কোনো সম্পদ বাজেয়াপ্ত করার আগে ব্যাংকগুলিকে যথাযথ আইনি প্রক্রিয়া অনুসরণ করতে হবে। বেশিরভাগ ক্ষেত্রে, তাদের প্রথমে একাধিক নোটিশ পাঠাতে হবে এবং বকেয়া পরিশোধের সুযোগ দিতে হবে। একটি পেমেন্ট মিস করলে সাধারণত তাৎক্ষণিক পদক্ষেপ নেওয়া হয় না।"
+          }
+        }
+      ],
+      "applicable_laws": [
+        "RBI Guidelines on Fair Practices",
+        "Banking Ombudsman Scheme",
+        "Consumer Protection Act",
+        "SARFAESI Act"
+      ],
+      "timeline": {
+        "en": "Bank grievance resolution should happen within 30 days as per RBI norms. Banking Ombudsman complaints are typically resolved in 30–60 days. Consumer forum cases may take 3–12 months.",
+        "hi": "RBI मानदंडों के अनुसार बैंक शिकायत समाधान 30 दिनों के भीतर होना चाहिए। बैंकिंग लोकपाल शिकायतों का समाधान आमतौर पर 30–60 दिनों में होता है। उपभोक्ता फोरम के मामलों में 3–12 महीने लग सकते हैं।",
+        "bn": "RBI নিয়ম অনুযায়ী ব্যাংক অভিযোগ সমাধান ৩০ দিনের মধ্যে হওয়া উচিত। ব্যাংকিং ন্যায়পাল অভিযোগ সাধারণত ৩০–৬০ দিনে সমাধান হয়। ভোক্তা ফোরামের মামলা ৩–১২ মাস সময় নিতে পারে।"
+      },
+      "allowed_actions": [
+        {
+          "en": "You may file a written complaint with the bank's grievance redressal officer.",
+          "hi": "आप बैंक के शिकायत निवारण अधिकारी को लिखित शिकायत दर्ज कर सकते हैं।",
+          "bn": "আপনি ব্যাংকের অভিযোগ নিষ্পত্তি কর্মকর্তার কাছে লিখিত অভিযোগ করতে পারেন।"
+        },
+        {
+          "en": "You may escalate to the Banking Ombudsman if the bank does not resolve within 30 days.",
+          "hi": "यदि बैंक 30 दिनों में समाधान नहीं करता तो आप बैंकिंग लोकपाल में शिकायत बढ़ा सकते हैं।",
+          "bn": "ব্যাংক ৩০ দিনের মধ্যে সমাধান না করলে আপনি ব্যাংকিং ন্যায়পালের কাছে অভিযোগ করতে পারেন।"
+        },
+        {
+          "en": "You may request a detailed statement of all charges and transactions from the bank.",
+          "hi": "आप बैंक से सभी शुल्कों और लेनदेन का विस्तृत विवरण माँग सकते हैं।",
+          "bn": "আপনি ব্যাংক থেকে সমস্ত চার্জ ও লেনদেনের বিশদ বিবরণী চাইতে পারেন।"
+        },
+        {
+          "en": "You may report recovery agent misconduct directly to the RBI.",
+          "hi": "आप रिकवरी एजेंट के दुर्व्यवहार की शिकायत सीधे RBI को कर सकते हैं।",
+          "bn": "আপনি রিকভারি এজেন্টের অসদাচরণের বিষয়ে সরাসরি RBI-তে অভিযোগ করতে পারেন।"
+        }
+      ],
+      "obligations": [
+        {
+          "en": "The law generally expects customers to make loan repayments on time as per the agreed schedule.",
+          "hi": "कानून आमतौर पर ग्राहकों से सहमत कार्यक्रम के अनुसार समय पर लोन भुगतान करने की अपेक्षा करता है।",
+          "bn": "আইন সাধারণত গ্রাহকদের কাছ থেকে সম্মত সময়সূচি অনুযায়ী সময়মতো লোন পরিশোধ করার আশা করে।"
+        },
+        {
+          "en": "You should keep your KYC (Know Your Customer) documents and contact details updated with the bank.",
+          "hi": "आपको बैंक के साथ अपने KYC दस्तावेज और संपर्क विवरण अपडेट रखने चाहिए।",
+          "bn": "আপনার ব্যাংকের সাথে আপনার KYC নথি এবং যোগাযোগের বিবরণ আপডেট রাখা উচিত।"
+        },
+        {
+          "en": "You should inform the bank proactively if you are facing difficulty in making repayments, rather than defaulting silently.",
+          "hi": "यदि आपको भुगतान करने में कठिनाई हो रही है तो आपको चुपचाप डिफ़ॉल्ट करने के बजाय बैंक को सक्रिय रूप से सूचित करना चाहिए।",
+          "bn": "আপনি যদি পরিশোধে অসুবিধার সম্মুখীন হন, তাহলে নীরবে খেলাপি হওয়ার পরিবর্তে ব্যাংককে সক্রিয়ভাবে জানানো উচিত।"
+        }
+      ],
+      "other_side_perspective": {
+        "en": "Banks also have legitimate interests and responsibilities. A bank may freeze an account if there is a court order or suspicion of fraudulent activity. Banks may charge penalties for late payments as specified in the loan agreement. Recovery actions are permitted within legal limits when borrowers default on their obligations. At the same time, banks are expected to treat customers fairly, provide clear information about charges, and follow RBI guidelines on recovery practices.",
+        "hi": "बैंकों के भी वैध हित और जिम्मेदारियां हैं। यदि अदालत का आदेश है या धोखाधड़ी का संदेह है तो बैंक खाता फ्रीज कर सकता है। बैंक ऋण समझौते में निर्दिष्ट अनुसार देर से भुगतान पर जुर्माना लगा सकते हैं। जब कर्जदार अपनी बाध्यताओं में चूक करते हैं तो कानूनी सीमाओं के भीतर वसूली कार्रवाई की अनुमति है। साथ ही, बैंकों से अपेक्षा की जाती है कि वे ग्राहकों के साथ निष्पक्ष व्यवहार करें, शुल्कों के बारे में स्पष्ट जानकारी दें, और वसूली प्रथाओं पर RBI दिशानिर्देशों का पालन करें।",
+        "bn": "ব্যাংকগুলিরও বৈধ স্বার্থ এবং দায়িত্ব আছে। আদালতের আদেশ থাকলে বা প্রতারণামূলক কার্যকলাপের সন্দেহ থাকলে ব্যাংক অ্যাকাউন্ট ফ্রিজ করতে পারে। লোন চুক্তিতে উল্লেখিত অনুযায়ী ব্যাংক দেরিতে পেমেন্টের জন্য জরিমানা ধার্য করতে পারে। ঋণগ্রহীতারা তাদের বাধ্যবাধকতায় খেলাপি হলে আইনি সীমার মধ্যে রিকভারি পদক্ষেপ অনুমোদিত। একই সাথে, ব্যাংকগুলির কাছ থেকে গ্রাহকদের সাথে ন্যায্য আচরণ, চার্জ সম্পর্কে স্পষ্ট তথ্য প্রদান এবং রিকভারি চর্চায় RBI নির্দেশিকা অনুসরণ করার আশা করা হয়।"
+      },
+      "misuse_warning": {
+        "en": "Deliberately defaulting on loan repayments while having the means to pay, or making false claims against a bank to avoid obligations, may lead to legal consequences. The law protects genuine grievances and discourages misuse of consumer protection mechanisms.",
+        "hi": "भुगतान करने के साधन होने के बावजूद जानबूझकर ऋण भुगतान में चूक करना, या बाध्यताओं से बचने के लिए बैंक के खिलाफ झूठे दावे करना, कानूनी परिणामों का कारण बन सकता है। कानून वास्तविक शिकायतों की रक्षा करता है और उपभोक्ता संरक्षण तंत्र के दुरुपयोग को हतोत्साहित करता है।",
+        "bn": "পরিশোধের সামর্থ্য থাকা সত্ত্বেও ইচ্ছাকৃতভাবে লোন পরিশোধে খেলাপি হওয়া, বা বাধ্যবাধকতা এড়াতে ব্যাংকের বিরুদ্ধে মিথ্যা দাবি করা, আইনি পরিণতি হতে পারে। আইন প্রকৃত অভিযোগ রক্ষা করে এবং ভোক্তা সুরক্ষা ব্যবস্থার অপব্যবহার নিরুৎসাহিত করে।"
+      },
+      "escalation_boundaries": {
+        "reasonable": {
+          "en": "Escalation is generally reasonable when the bank has not responded to your written complaint within 30 days, when unauthorized charges appear on your account, or when recovery agents violate RBI guidelines on conduct.",
+          "hi": "बढ़ोतरी आमतौर पर तब उचित होती है जब बैंक ने 30 दिनों में आपकी लिखित शिकायत का जवाब नहीं दिया हो, जब आपके खाते में अनधिकृत शुल्क दिखाई दें, या जब रिकवरी एजेंट आचरण पर RBI दिशानिर्देशों का उल्लंघन करें।",
+          "bn": "ব্যাংক ৩০ দিনের মধ্যে আপনার লিখিত অভিযোগের উত্তর না দিলে, আপনার অ্যাকাউন্টে অননুমোদিত চার্জ দেখা দিলে, বা রিকভারি এজেন্ট আচরণে RBI নির্দেশিকা লঙ্ঘন করলে উচ্চতর পদক্ষেপ সাধারণত যুক্তিসঙ্গত।"
+        },
+        "caution": {
+          "en": "Escalation may be premature if you have not first filed a complaint with the bank's internal grievance system, if you have outstanding dues that you have not acknowledged, or if you have not reviewed the terms of your agreement. In such cases, address these steps first.",
+          "hi": "यदि आपने पहले बैंक की आंतरिक शिकायत प्रणाली में शिकायत दर्ज नहीं की है, यदि आपके बकाया हैं जिन्हें आपने स्वीकार नहीं किया है, या यदि आपने अपने समझौते की शर्तों की समीक्षा नहीं की है, तो बढ़ोतरी जल्दबाजी हो सकती है। ऐसे मामलों में पहले इन चरणों को पूरा करें।",
+          "bn": "আপনি যদি প্রথমে ব্যাংকের অভ্যন্তরীণ অভিযোগ ব্যবস্থায় অভিযোগ করেননি, স্বীকার না করা বকেয়া থাকে, বা আপনার চুক্তির শর্তাবলী পর্যালোচনা না করে থাকেন, তাহলে উচ্চতর পদক্ষেপ অকালোচিত হতে পারে। এই ক্ষেত্রে প্রথমে এই পদক্ষেপগুলি সম্পন্ন করুন।"
+        }
+      }
+    },
+    "action_steps": [
+      {
+        "title": {
+          "en": "Document everything",
+          "hi": "सब कुछ दस्तावेज करें",
+          "bn": "সবকিছু নথিভুক্ত করুন"
+        },
+        "description": {
+          "en": "Collect your account statements, loan agreements, EMI receipts, and any communication with the bank. Note down dates, amounts, and reference numbers for all interactions.",
+          "hi": "अपने खाता विवरण, ऋण समझौते, EMI रसीदें, और बैंक के साथ किसी भी संवाद को इकट्ठा करें। सभी बातचीत के लिए तारीखें, राशि और संदर्भ नंबर नोट करें।",
+          "bn": "আপনার অ্যাকাউন্ট স্টেটমেন্ট, লোন চুক্তি, EMI রসিদ, এবং ব্যাংকের সাথে যেকোনো যোগাযোগ সংগ্রহ করুন। সমস্ত ইন্টারঅ্যাকশনের জন্য তারিখ, পরিমাণ এবং রেফারেন্স নম্বর নোট করুন।"
+        }
+      },
+      {
+        "title": {
+          "en": "File a complaint with the bank",
+          "hi": "बैंक में शिकायत दर्ज करें",
+          "bn": "ব্যাংকে অভিযোগ দায়ের করুন"
+        },
+        "description": {
+          "en": "Submit a written complaint to the bank's grievance redressal officer. Ask for an acknowledgment and complaint reference number. The bank should respond within 30 days.",
+          "hi": "बैंक के शिकायत निवारण अधिकारी को लिखित शिकायत जमा करें। पावती और शिकायत संदर्भ संख्या माँगें। बैंक को 30 दिनों में जवाब देना चाहिए।",
+          "bn": "ব্যাংকের অভিযোগ নিষ্পত্তি কর্মকর্তার কাছে লিখিত অভিযোগ জমা দিন। প্রাপ্তি স্বীকার এবং অভিযোগ রেফারেন্স নম্বর চান। ব্যাংককে ৩০ দিনের মধ্যে উত্তর দেওয়া উচিত।"
+        }
+      },
+      {
+        "title": {
+          "en": "Escalate to Banking Ombudsman",
+          "hi": "बैंकिंग लोकपाल में शिकायत बढ़ाएं",
+          "bn": "ব্যাংকিং ন্যায়পালে অভিযোগ করুন"
+        },
+        "description": {
+          "en": "If the bank does not resolve your issue within 30 days, you can file a complaint with the Banking Ombudsman through the RBI's Complaint Management System (cms.rbi.org.in). This is a free service.",
+          "hi": "यदि बैंक 30 दिनों में आपकी समस्या का समाधान नहीं करता, तो आप RBI की शिकायत प्रबंधन प्रणाली (cms.rbi.org.in) के माध्यम से बैंकिंग लोकपाल में शिकायत कर सकते हैं। यह एक निःशुल्क सेवा है।",
+          "bn": "ব্যাংক ৩০ দিনের মধ্যে আপনার সমস্যা সমাধান না করলে, আপনি RBI-এর কমপ্লেইন্ট ম্যানেজমেন্ট সিস্টেমের (cms.rbi.org.in) মাধ্যমে ব্যাংকিং ন্যায়পালে অভিযোগ করতে পারেন। এটি একটি বিনামূল্যে সেবা।"
+        }
+      },
+      {
+        "title": {
+          "en": "Seek further help",
+          "hi": "आगे सहायता लें",
+          "bn": "আরও সহায়তা নিন"
+        },
+        "description": {
+          "en": "If the issue is still unresolved, you may approach a consumer forum or seek legal aid. Many district legal services authorities provide free legal assistance to eligible individuals.",
+          "hi": "यदि मामला अभी भी हल नहीं हुआ है, तो आप उपभोक्ता फोरम में जा सकते हैं या कानूनी सहायता ले सकते हैं। कई जिला कानूनी सेवा प्राधिकरण पात्र व्यक्तियों को मुफ्त कानूनी सहायता प्रदान करते हैं।",
+          "bn": "বিষয়টি এখনও সমাধান না হলে, আপনি ভোক্তা ফোরামে যেতে পারেন বা আইনি সহায়তা নিতে পারেন। অনেক জেলা আইনি সেবা কর্তৃপক্ষ যোগ্য ব্যক্তিদের বিনামূল্যে আইনি সহায়তা প্রদান করে।"
+        }
+      }
+    ],
+    "self_check": {
+      "question": {
+        "en": "Are you up to date with your loan repayments or account obligations?",
+        "hi": "क्या आप अपने ऋण भुगतान या खाते की बाध्यताओं में अप-टू-डेट हैं?",
+        "bn": "আপনি কি আপনার লোন পরিশোধ বা অ্যাকাউন্টের বাধ্যবাধকতায় আপ-টু-ডেট আছেন?"
+      },
+      "options": [
+        {
+          "option_id": "yes",
+          "label": {
+            "en": "Yes, all payments are current",
+            "hi": "हाँ, सभी भुगतान चालू हैं",
+            "bn": "হ্যাঁ, সমস্ত পেমেন্ট চালু আছে"
+          }
+        },
+        {
+          "option_id": "no",
+          "label": {
+            "en": "No, I have missed some payments",
+            "hi": "नहीं, मैंने कुछ भुगतान चूक दिए हैं",
+            "bn": "না, আমি কিছু পেমেন্ট মিস করেছি"
+          }
+        },
+        {
+          "option_id": "unsure",
+          "label": {
+            "en": "I'm not sure about the current status",
+            "hi": "मुझे वर्तमान स्थिति के बारे में पक्का पता नहीं",
+            "bn": "আমি বর্তমান অবস্থা সম্পর্কে নিশ্চিত নই"
+          }
+        }
+      ],
+      "balanced_note": {
+        "en": "Both banks and customers have obligations. If you have missed payments, the bank may have the right to take certain actions within legal limits. However, you still have the right to fair treatment, clear communication, and proper grievance redressal. Understanding both sides helps you navigate the situation more effectively.",
+        "hi": "बैंकों और ग्राहकों दोनों की बाध्यताएं हैं। यदि आपने भुगतान चूके हैं, तो बैंक को कानूनी सीमाओं के भीतर कुछ कार्रवाई करने का अधिकार हो सकता है। हालाँकि, आपको अभी भी निष्पक्ष व्यवहार, स्पष्ट संवाद, और उचित शिकायत निवारण का अधिकार है। दोनों पक्षों को समझना आपको स्थिति को अधिक प्रभावी ढंग से समझने में मदद करता है।",
+        "bn": "ব্যাংক এবং গ্রাহক উভয়েরই বাধ্যবাধকতা আছে। আপনি পেমেন্ট মিস করলে, ব্যাংকের আইনি সীমার মধ্যে কিছু পদক্ষেপ নেওয়ার অধিকার থাকতে পারে। তবে, আপনার এখনও ন্যায্য আচরণ, স্পষ্ট যোগাযোগ এবং যথাযথ অভিযোগ নিষ্পত্তির অধিকার আছে। উভয় পক্ষ বোঝা আপনাকে পরিস্থিতি আরও কার্যকরভাবে নেভিগেট করতে সাহায্য করে।"
+      }
+    }
   }
 ]

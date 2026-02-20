@@ -14,6 +14,8 @@ const Map<String, IconData> _iconMap = {
   'local_police': Icons.local_police_rounded,
   'shield': Icons.shield_rounded,
   'emergency': Icons.emergency_rounded,
+  'description': Icons.description_rounded,
+  'account_balance': Icons.account_balance_rounded,
   'help_outline': Icons.help_outline_rounded,
 };
 
